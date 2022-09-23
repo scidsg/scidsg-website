@@ -1,0 +1,99 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="Glenn Sorrentino">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>📡 Turn your phone into a Tor hotspot with CalyxOS and Orbot - Product Design Portfolio of Glenn Sorrentino</title>
+
+	<link rel="stylesheet" href="../design-system/css/style.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<script src="design-system/js/jquery-min.js"></script>
+	<script src="design-system/components/header/js/header.js"></script>
+	<script src="design-system/components/hint/js/hint.js"></script>
+	<script src="design-system/components/footer/js/footer.js"></script>
+</head>
+
+<body>
+
+	<!-- HEADER -->
+
+	<header>
+		<div class="wrapper">
+			<div class="logoMark emptyLogo"></div>
+			<h1 class="logo"><a href="/">Glenn Sorrentino</a></h1>
+			<nav>
+				<a role="button" class="navButton" tabindex="0">
+					<div class="menu"></div>
+				</a>
+				<ul>
+					<li><a href="#recent">Recent Work</a></li>
+					<li><a href="#patents">Patents</a></li>
+					<li><a href="#speaking">Speaking</a></li>
+					<li><a href="#articles">Articles</a></li>
+					<li><a href="#collaboration">Collaboration</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a class="btn primaryBtn" href="#contact">Let's Work Together</a></li>
+				</ul>
+			</nav>
+			<nav class="staged">
+				<a role="button" class="navButton closeButton" tabindex="0">
+					<div class="close"></div>
+				</a>
+				<ul>
+					<li><a href="#recent">Recent Work</a></li>
+					<li><a href="#patents">Patents</a></li>
+					<li><a href="#speaking">Speaking</a></li>
+					<li><a href="#articles">Articles</a></li>
+					<li><a href="#collaboration">Collaboration</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a class="btn primaryBtn" href="#contact">Let's Work Together</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<!-- INTRO -->
+
+	<section class="intro secondaryIntro">
+		<div class="wrapper">
+			<h1>Turn your phone into a Tor hotspot with CalyxOS and Orbot</h1>
+			<p>📡 Share your Tor connection with other devices without requiring them to download any software.</p>
+			<p class="meta">June 27, 2021</p>
+		</div>
+	</section>
+
+	<!-- PROJECTS -->
+
+	<section class="content articleSection wrapper">
+		<article>
+			<p>I like to tinker with <a href="https://www.raspberrypi.org/products/raspberry-pi-4-model-b/" target="_blank" rel="noopener noreferrer nofollow">Raspberry Pis</a> - small, inexpensive, and powerful computers that run Linux. One of my favorite projects is from Adafruit, written in the wake of the Snowden disclosures in 2013: <a href="https://learn.adafruit.com/onion-pi" target="_blank" rel="noopener noreferrer nofollow">a Tor-powered wifi hotspot</a>. Since then, the teams at <a href="https://guardianproject.info/" target="_blank" rel="noopener noreferrer nofollow">The Guardian Project</a> &amp; <a href="https://calyxinstitute.org" target="_blank" rel="noopener noreferrer nofollow">The Calyx Institute</a> took that idea, simplified the heck out of it, and brought it to the phone. We'll walk through how to set it up on CalyxOS.</p>
+			<div class="featureImage mobileImage shadowImage smMobileImage">
+				<img src="../assets/calyxos/demo/tor-router.gif" alt="#">
+			</div>
+			<h3>Step 1: Orbot</h3>
+			<p>When CalyxOS starts for the first time, you have the option to install Orbot from a list of recommended apps. If you skip that step, <a href="http://play.google.com/store/apps/details?id=org.torproject.android" target="_blank" rel="noopener noreferrer nofollow">download Orbot</a> from the Aurora Store or through <a href="https://guardianproject.info/fdroid/" target="_blank" rel="noopener noreferrer nofollow">The Guardian Project's official F-Droid repositories</a>.</p>
+			<p>Open the app, tap on the three dots in the header's top right, and go to Settings. Next, tap on the option "Open Proxy on All Interfaces" to enable the feature. Then, go back to the main screen and toggle on "VPN Mode" to start Orbot.</p>
+			<h3>Step 2: CalyxOS Settings</h3>
+			<p>Go to your phone's Settings > Network &amp; internet > Advanced > VPN and tap on the gear icon for Orbot. Toggle on "Always-on VPN" and "Block connections without VPN," then tap to go back to the "Network &amp internet" menu.</p>
+			<p>Tap on "Hotspot &amp; tethering" and toggle on the option "Allow clients to use VPNs." Now tap on the option "Wi-Fi hotspot" and enable your hotspot.</p>
+			<h3>Step 3: Connect to your Tor hotspot</h3>
+			<p>Go to another device, connect to your hotspot, open an internet browser, and <a href="https://check.torproject.org" target="_blank" rel="noopener noreferrer nofollow">check your Tor connection</a>. Your device should be connected to the Tor network!</p>
+			<p>Questions? Find me on Twitter at <a href="https://twitter.com/glennsorrentino" target="_blank" rel="noopener noreferrer nofollow">@glennsorrentino</a>.</p>
+	</section>
+
+	<!-- FOOTER -->
+
+	<footer class="wrapper">
+		<p>This work is licensed under a <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY NC 4.0 license</a>.</p>
+		<p>&copy; Glenn Sorrentino. Created with the <a href="https://glenn-sorrentino.github.io/design-system" target="_blank" rel="noopener noreferrer">Simple Design System</a>.</p>
+		<p>🛡&nbsp;zs1lqjvywdg308kxrn6x8xduqm5j6j8fg28tertjtayfj8hwm0gvk5gyh3jd07p5w5fe7r56xjr2gj</p>
+	</footer>
+
+</body>
+
+</html>

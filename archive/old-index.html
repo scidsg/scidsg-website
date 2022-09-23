@@ -1,0 +1,858 @@
+<!doctype html>
+
+<!-- Hi there! If you're taking a closer look at the code, please
+understand that this site is a work IN PROGRESS! If you'd like
+to help make it better  - i.e. more accessible, align closer with
+W3C Standards, etc - please reach out! -->
+
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="Art Vandelay">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>🧑‍🔬 Science & Design</title>
+
+	<link rel="stylesheet" href="design-system/css/style.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<script src="design-system/js/jquery-min.js"></script>
+	<script src="design-system/components/tabs/js/tabs.js"></script>
+	<script src="design-system/components/header/js/header.js"></script>
+	<script src="design-system/components/hint/js/hint.js"></script>
+	<script src="design-system/components/footer/js/footer.js"></script>
+</head>
+
+<body>
+
+	<!-- HEADER -->
+
+	<header>
+		<div class="wrapper">
+			<div class="logoMark emptyLogo"></div>
+			<h1 class="logo"><span class="logoMark">🧑‍🔬</span> Science &amp; Design</h1>
+			<nav>
+				<a role="button" class="navButton" tabindex="0">
+					<div class="menu"></div>
+				</a>
+				<ul>
+					<li>
+						<p class="badge"><span class="indicator">🔴</span>&nbsp;&nbsp;Not accepting new clients</p>
+					</li>
+					<li><a href="#principles">Principles</a></li>
+					<li><a href="#pricing">Pricing</a></li>
+					<li><button type="button" class="btn primaryBtn" href="#contact">Contact</button></li>
+				</ul>
+			</nav>
+			<nav class="staged">
+				<a role="button" class="navButton closeButton" tabindex="0">
+					<div class="close"></div>
+				</a>
+				<ul>
+					<li>
+						<p class="badge">🔴&nbsp;&nbsp;Not accepting new clients</p>
+					</li>
+					<li><a href="#principles">Principles</a></li>
+					<li><a href="#pricing">Pricing</a></li>
+					<li><button type="button" class="btn primaryBtn" href="#contact">Contact</button></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<!-- INTRO -->
+
+	<section class="intro">
+		<div class="wrapper">
+			<h1>Improving the state of the world with thoughtful design.</h1>
+		</div>
+		<p class="hint">Scroll Down</p>
+	</section>
+
+	<!-- PROJECTS -->
+
+	<section id="principles" class="content banner centeredContent contentRow tertiaryContent wrapper">
+		<h2>Principles</h2>
+		<div class="contentRowContent">
+			<div class="contentItem blockContent">
+				<div class="description">
+					<h3>Accessibility</h3>
+					<p>No matter your ability, you should be able to access information freely.</p>
+				</div>
+			</div>
+			<div class="contentItem blockContent">
+				<div class="description">
+					<h3>Standards</h3>
+					<p>Building with web standards helps to ensure that your page can be found and used with ease.</p>
+				</div>
+			</div>
+		</div>
+		<div class="contentRowContent">
+			<div class="contentItem blockContent">
+				<div class="description">
+					<h3>Usability</h3>
+					<p>Research-based interaction design makes products instantly familiar.</p>
+				</div>
+			</div>
+			<div class="contentItem blockContent">
+				<div class="description">
+					<h3>Privacy</h3>
+					<p>Using the internet shouldn't put you or your device at risk.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="pricing" class="content cards centeredContent contentRow tertiaryContent wrapper">
+		<h2>Pricing</h2>
+		<p>Select the type of organization for a pricing estimate. Prices will vary depending on the project.</p>
+		<section class="tabs pillTabs wrapper">
+			<nav>
+				<a class="nonprofitTab">Non-Profit</a>
+				<a class="selected smbTab">Small Business</a>
+				<a class="enterpriseTab">Enterprise</a>
+			</nav>
+		</section>
+
+
+		<!-- NON-PROFIT PRICING -->
+		<div class="nonprofitRetainer hidden">
+			<h3>Non-Profit Retainers</h3>
+			<div class="contentRowContent">
+				<div class="contentItem blockContent">
+					<div class="description">
+						<h4>1 day/mo</h4>
+						<p class="strong">$500</p>
+						<p>Ideal for quick feedback, heuristic reviews, etc.</p>
+					</div>
+				</div>
+				<div class="contentItem blockContent">
+					<div class="description">
+						<h4>5 days/mo</h4>
+						<p class="strong">$2,500</p>
+						<p>Ideal for small projects and ongoing engagements.</p>
+					</div>
+				</div>
+				<div class="contentItem blockContent">
+					<div class="description">
+						<h4>10 days/mo</h4>
+						<p class="strong">$5,000</p>
+						<p>Ideal for more complex projects and ongoing engagements.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- SMALL BUSINESS PRICING -->
+
+		<div class="smallBusinessRetainer">
+			<h3>Small Business Retainers</h3>
+			<div id="smallBusiness" class=" contentRowContent">
+				<div class="contentItem blockContent">
+					<div class="description">
+						<h4>1 day/mo</h4>
+						<p class="strong">$1,000</p>
+						<p>Ideal for quick feedback, heuristic reviews, etc.</p>
+					</div>
+				</div>
+				<div class="contentItem blockContent">
+					<div class="description">
+						<h4>5 days/mo</h4>
+						<p class="strong">$5,000</p>
+						<p>Ideal for small projects and ongoing engagements.</p>
+					</div>
+				</div>
+				<div class="contentItem blockContent">
+					<div class="description">
+						<h4>10 days/mo</h4>
+						<p class="strong">$10,000</p>
+						<p>Ideal for more complex projects and ongoing engagements.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- ENTERPRISE PRICING -->
+
+		<div class="enterpriseRetainer hidden">
+			<h3>Enterprise Retainers</h3>
+			<div id="enterprise" class="contentRowContent">
+				<div class="contentItem blockContent">
+					<div class="description">
+						<h4>1 day/mo</h4>
+						<p class="strong">$1,500</p>
+						<p>Ideal for quick feedback, heuristic reviews, etc.</p>
+					</div>
+				</div>
+				<div class="contentItem blockContent">
+					<div class="description">
+						<h4>5 days/mo</h4>
+						<p class="strong">$7,500</p>
+						<p>Ideal for small projects and ongoing engagements.</p>
+					</div>
+				</div>
+				<div class="contentItem blockContent">
+					<div class="description">
+						<h4>10 days/mo</h4>
+						<p class="strong">$15,000</p>
+						<p>Ideal for more complex projects and ongoing engagements.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="nonprofitTable priceEx hidden">
+			<h3>Non-Profit Example Pricing</h3>
+			<div id="enterprise" class="contentRowContent">
+				<div class="contentItem blockContent">
+					<div class="description">
+						<p class="emoji">🧠</p>
+						<h4>Interaction Design</h4>
+						<p class="strong">$17,500</p>
+						<div class="descCol">
+							<div>
+								<p>Planning</p>
+								<p>Wireframes</p>
+								<p>Interface Design</p>
+							</div>
+							<div>
+								<p>Interaction Design</p>
+								<p>Prototyping</p>
+								<p>Iterations</p>
+							</div>
+					  </div>
+					</div>
+				</div>
+				<div class="contentItem blockContent">
+					<div class="description">
+						<p class="emoji">📋</p>
+						<h4>Evaluative Research</h4>
+						<p class="strong">$12,500</p>
+						<div class="descCol">
+							<div>
+								<p>Planning</p>
+								<p>Recruiting</p>
+							</div>
+							<div>
+								<p>Moderated Sessions</p>
+								<p>Analysis</p>
+							</div>
+					  </div>
+					</div>
+				</div>
+				<div class="contentItem blockContent">
+					<div class="description">
+						<p class="emoji">🌎</p>
+						<h4>Web Design</h4>
+						<p class="strong">$20,000</p>
+						<div class="descCol">
+							<div>
+								<p>Planning</p>
+								<p>Wireframes</p>
+								<p>Interface Design</p>
+								<p>Content</p>
+							</div>
+							<div>
+								<p>HTML & CSS</p>
+								<p>Visual Design</p>
+								<p>Iterations</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="smbTable priceEx">
+			<h3>Small Business Example Pricing</h3>
+			<div id="enterprise" class="contentRowContent">
+				<div class="contentItem blockContent">
+					<div class="description">
+						<p class="emoji">🧠</p>
+						<h4>Interaction Design</h4>
+						<p class="strong">$35,000</p>
+						<div class="descCol">
+							<div>
+								<p>Planning</p>
+								<p>Wireframes</p>
+								<p>Interface Design</p>
+							</div>
+							<div>
+								<p>Interaction Design</p>
+								<p>Prototyping</p>
+								<p>Iterations</p>
+							</div>
+					  </div>
+					</div>
+				</div>
+				<div class="contentItem blockContent">
+					<div class="description">
+						<p class="emoji">📋</p>
+						<h4>Evaluative Research</h4>
+						<p class="strong">$25,000</p>
+						<div class="descCol">
+							<div>
+								<p>Planning</p>
+								<p>Recruiting</p>
+							</div>
+							<div>
+								<p>Moderated Sessions</p>
+								<p>Analysis</p>
+							</div>
+					  </div>
+					</div>
+				</div>
+				<div class="contentItem blockContent">
+					<div class="description">
+						<p class="emoji">🌎</p>
+						<h4>Web Design</h4>
+						<p class="strong">$40,000</p>
+						<div class="descCol">
+							<div>
+								<p>Planning</p>
+								<p>Wireframes</p>
+								<p>Interface Design</p>
+								<p>Content</p>
+							</div>
+							<div>
+								<p>HTML & CSS</p>
+								<p>Visual Design</p>
+								<p>Iterations</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="enterpriseTable priceEx hidden">
+			<h3>Enterprise Example Pricing</h3>
+			<div id="enterprise" class="contentRowContent">
+				<div class="contentItem blockContent">
+					<div class="description">
+						<p class="emoji">🧠</p>
+						<h4>Interaction Design</h4>
+						<p class="strong">$52,500</p>
+						<div class="descCol">
+							<div>
+								<p>Planning</p>
+								<p>Wireframes</p>
+								<p>Interface Design</p>
+							</div>
+							<div>
+								<p>Interaction Design</p>
+								<p>Prototyping</p>
+								<p>Iterations</p>
+							</div>
+					  </div>
+					</div>
+				</div>
+				<div class="contentItem blockContent">
+					<div class="description">
+						<p class="emoji">📋</p>
+						<h4>Evaluative Research</h4>
+						<p class="strong">$37,500</p>
+						<div class="descCol">
+							<div>
+								<p>Planning</p>
+								<p>Recruiting</p>
+							</div>
+							<div>
+								<p>Moderated Sessions</p>
+								<p>Analysis</p>
+							</div>
+					  </div>
+					</div>
+				</div>
+				<div class="contentItem blockContent">
+					<div class="description">
+						<p class="emoji">🌎</p>
+						<h4>Web Design</h4>
+						<p class="strong">$60,000</p>
+						<div class="descCol">
+							<div>
+								<p>Planning</p>
+								<p>Wireframes</p>
+								<p>Interface Design</p>
+								<p>Content</p>
+							</div>
+							<div>
+								<p>HTML & CSS</p>
+								<p>Visual Design</p>
+								<p>Iterations</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- <section class="content wrapper">
+<div class="tableContent nonprofitTable hidden centeredContent smallTable">
+<h3>Non-Profit Example Pricing by&nbsp;Project</h3>
+<div class="window">
+<table>
+<tr>
+<th>Service</th>
+<th>Time</th>
+<th>Price</th>
+</tr>
+<tr>
+<td class="strong">🤝 General Consulting</td>
+<td class="strong">1 day - 1 week</td>
+<td class="strong">$500 - $2,500</td>
+</tr>
+<tr class="emptyRow">
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td class="strong">🧠 Interface or Interaction Design</td>
+<td class="strong">~6 weeks</td>
+<td class="strong">$17,500</td>
+</tr>
+<tr>
+<td>Planning</td>
+<td>5 days</td>
+<td>$2,500</td>
+</tr>
+<tr>
+<td>Wireframes</td>
+<td>5 days</td>
+<td>$2,500</td>
+</tr>
+<tr>
+<td>Interface Design</td>
+<td>5 days</td>
+<td>$2,500</td>
+</tr>
+<tr>
+<td>Interaction Design</td>
+<td>10 days</td>
+<td>$5,000</td>
+</tr>
+<tr>
+<td>Prototyping</td>
+<td>5 days</td>
+<td>$2,500</td>
+</tr>
+<tr>
+<td>Iterations</td>
+<td>5 days</td>
+<td>$2,500</td>
+</tr>
+<tr class="emptyRow">
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td class="strong">📋 Evaluative Research</td>
+<td class="strong">~5 weeks</td>
+<td class="strong">$12,500</td>
+</tr>
+<tr>
+<td>Planning</td>
+<td>5 days</td>
+<td>$2,500</td>
+</tr>
+<tr>
+<td>Recruiting</td>
+<td>5 days</td>
+<td>$2,500</td>
+</tr>
+<tr>
+<td>Conducting</td>
+<td>10 days</td>
+<td>$5,000</td>
+</tr>
+<tr>
+<td>Analysis</td>
+<td>5 days</td>
+<td>$2,500</td>
+</tr>
+<tr class="emptyRow">
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td class="strong">🌎 Web Design</td>
+<td class="strong">~8 weeks</td>
+<td class="strong">$20,000</td>
+</tr>
+<tr>
+<td>Planning</td>
+<td>5 days</td>
+<td>$2,500</td>
+</tr>
+<tr>
+<td>Wireframes</td>
+<td>5 days</td>
+<td>$2,500</td>
+</tr>
+<tr>
+<td>Interface Design</td>
+<td>5 days</td>
+<td>$2,500</td>
+</tr>
+<tr>
+<td>Content</td>
+<td>5 days</td>
+<td>$2,500</td>
+</tr>
+<tr>
+<td>HTML & CSS</td>
+<td>10 days</td>
+<td>$5,000</td>
+</tr>
+<tr>
+<td>Visual Design</td>
+<td>5 days</td>
+<td>$2,500</td>
+</tr>
+<tr>
+<td>Iterations</td>
+<td>5 days</td>
+<td>$2,500</td>
+</tr>
+<tr class="emptyRow">
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td class="strong">🔥 Rush Fee</td>
+<td class="strong"></td>
+<td class="strong">20%</td>
+</tr>
+<tr class="emptyRow">
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</table>
+</div>
+</div>
+<div class="tableContent smbTable centeredContent smallTable">
+<h3>Small Business Example Pricing by&nbsp;Project</h3>
+<div class="window">
+<table>
+<tr>
+<th>Service</th>
+<th>Time</th>
+<th>Price</th>
+</tr>
+<tr>
+<td class="strong">🤝 General Consulting</td>
+<td class="strong">1 day - 1 week</td>
+<td class="strong">$1,000 - $5,000</td>
+</tr>
+<tr class="emptyRow">
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td class="strong">🧠 Interface or Interaction Design</td>
+<td class="strong">~6 weeks</td>
+<td class="strong">$35,000</td>
+</tr>
+<tr>
+<td>Planning</td>
+<td>5 days</td>
+<td>$5,000</td>
+</tr>
+<tr>
+<td>Wireframes</td>
+<td>5 days</td>
+<td>$5,000</td>
+</tr>
+<tr>
+<td>Interface Design</td>
+<td>5 days</td>
+<td>$5,000</td>
+</tr>
+<tr>
+<td>Interaction Design</td>
+<td>10 days</td>
+<td>$10,000</td>
+</tr>
+<tr>
+<td>Prototyping</td>
+<td>5 days</td>
+<td>$5,000</td>
+</tr>
+<tr>
+<td>Iterations</td>
+<td>5 days</td>
+<td>$5,000</td>
+</tr>
+<tr class="emptyRow">
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td class="strong">📋 Evaluative Research</td>
+<td class="strong">~5 weeks</td>
+<td class="strong">$25,000</td>
+</tr>
+<tr>
+<td>Planning</td>
+<td>5 days</td>
+<td>$5,000</td>
+</tr>
+<tr>
+<td>Recruiting</td>
+<td>5 days</td>
+<td>$5,000</td>
+</tr>
+<tr>
+<td>Conducting</td>
+<td>10 days</td>
+<td>$10,000</td>
+</tr>
+<tr>
+<td>Analysis</td>
+<td>5 days</td>
+<td>$5,000</td>
+</tr>
+<tr class="emptyRow">
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td class="strong">🌎 Web Design</td>
+<td class="strong">~8 weeks</td>
+<td class="strong">$40,000</td>
+</tr>
+<tr>
+<td>Planning</td>
+<td>5 days</td>
+<td>$5,000</td>
+</tr>
+<tr>
+<td>Wireframes</td>
+<td>5 days</td>
+<td>$5,000</td>
+</tr>
+<tr>
+<td>Interface Design</td>
+<td>5 days</td>
+<td>$5,000</td>
+</tr>
+<tr>
+<td>Content</td>
+<td>5 days</td>
+<td>$5,000</td>
+</tr>
+<tr>
+<td>HTML & CSS</td>
+<td>10 days</td>
+<td>$10,000</td>
+</tr>
+<tr>
+<td>Visual Design</td>
+<td>5 days</td>
+<td>$5,000</td>
+</tr>
+<tr>
+<td>Iterations</td>
+<td>5 days</td>
+<td>$5,000</td>
+</tr>
+<tr class="emptyRow">
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td class="strong">🔥 Rush Fee</td>
+<td class="strong"></td>
+<td class="strong">20%</td>
+</tr>
+<tr class="emptyRow">
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</table>
+</div>
+</div>
+<div class="tableContent enterpriseTable hidden centeredContent smallTable">
+<h3>Enterprise Example Pricing by&nbsp;Project</h3>
+<div class="window">
+<table>
+<tr>
+<th>Service</th>
+<th>Time</th>
+<th>Price</th>
+</tr>
+<tr>
+<td class="strong">🤝 General Consulting</td>
+<td class="strong">1 day - 1 week</td>
+<td class="strong">$1,500 - $7,500</td>
+</tr>
+<tr class="emptyRow">
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td class="strong">🧠 Interface or Interaction Design</td>
+<td class="strong">~6 weeks</td>
+<td class="strong">$52,500</td>
+</tr>
+<tr>
+<td>Planning</td>
+<td>5 days</td>
+<td>$7,500</td>
+</tr>
+<tr>
+<td>Wireframes</td>
+<td>5 days</td>
+<td>$7,500</td>
+</tr>
+<tr>
+<td>Interface Design</td>
+<td>5 days</td>
+<td>$7,500</td>
+</tr>
+<tr>
+<td>Interaction Design</td>
+<td>10 days</td>
+<td>$15,000</td>
+</tr>
+<tr>
+<td>Prototyping</td>
+<td>5 days</td>
+<td>$7,500</td>
+</tr>
+<tr>
+<td>Iterations</td>
+<td>5 days</td>
+<td>$7,500</td>
+</tr>
+<tr class="emptyRow">
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td class="strong">📋 Evaluative Research</td>
+<td class="strong">~5 weeks</td>
+<td class="strong">$37,500</td>
+</tr>
+<tr>
+<td>Planning</td>
+<td>5 days</td>
+<td>$7,500</td>
+</tr>
+<tr>
+<td>Recruiting</td>
+<td>5 days</td>
+<td>$7,500</td>
+</tr>
+<tr>
+<td>Conducting</td>
+<td>10 days</td>
+<td>$15,000</td>
+</tr>
+<tr>
+<td>Analysis</td>
+<td>5 days</td>
+<td>$7,500</td>
+</tr>
+<tr class="emptyRow">
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td class="strong">🌎 Web Design</td>
+<td class="strong">~8 weeks</td>
+<td class="strong">$60,000</td>
+</tr>
+<tr>
+<td>Planning</td>
+<td>5 days</td>
+<td>$7,500</td>
+</tr>
+<tr>
+<td>Wireframes</td>
+<td>5 days</td>
+<td>$7,500</td>
+</tr>
+<tr>
+<td>Interface Design</td>
+<td>5 days</td>
+<td>$7,500</td>
+</tr>
+<tr>
+<td>Content</td>
+<td>5 days</td>
+<td>$7,500</td>
+</tr>
+<tr>
+<td>HTML & CSS</td>
+<td>10 days</td>
+<td>$15,000</td>
+</tr>
+<tr>
+<td>Visual Design</td>
+<td>5 days</td>
+<td>$7,500</td>
+</tr>
+<tr>
+<td>Iterations</td>
+<td>5 days</td>
+<td>$7,500</td>
+</tr>
+<tr class="emptyRow">
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td class="strong">🔥 Rush Fee</td>
+<td class="strong"></td>
+<td class="strong">20%</td>
+</tr>
+<tr class="emptyRow">
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</table>
+</div>
+</div>
+</section> -->
+
+	<!-- CONTACT -->
+
+	<section class="content minimalContent wrapper">
+		<h2 id="contact">Contact</h2>
+		<div class="contentItem noImage">
+			<div class="description">
+				<p class="emoji">✌️</p>
+				<p>We're not actively booking new clients right now, but please <a href="mailto:curling.quavers0q@icloud.com?subject=Let&lsquo;s%20Work%20Together!">email</a> for future availability!</a></p>
+			</div>
+		</div>
+	</section>
+
+	<!-- FOOTER -->
+
+	<footer>
+		<div class="wrapper">
+			<p>&copy; <span id="date">?</span> Science & Design</p>
+		</div>
+	</footer>
+
+</body>
+
+</html>

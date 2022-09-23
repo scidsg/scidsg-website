@@ -1,0 +1,118 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="Glenn Sorrentino">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>🧅 Host your own onion website - Product Design Portfolio of Glenn Sorrentino</title>
+
+	<link rel="stylesheet" href="../design-system/css/style.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<script src="design-system/js/jquery-min.js"></script>
+	<script src="design-system/components/header/js/header.js"></script>
+	<script src="design-system/components/hint/js/hint.js"></script>
+	<script src="design-system/components/footer/js/footer.js"></script>
+</head>
+
+<body>
+
+	<!-- HEADER -->
+
+	<header>
+		<div class="wrapper">
+			<div class="logoMark emptyLogo"></div>
+			<h1 class="logo"><a href="/">Glenn Sorrentino</a></h1>
+			<nav>
+				<a role="button" class="navButton" tabindex="0">
+					<div class="menu"></div>
+				</a>
+				<ul>
+					<li><a href="#recent">Recent Work</a></li>
+					<li><a href="#patents">Patents</a></li>
+					<li><a href="#speaking">Speaking</a></li>
+					<li><a href="#articles">Articles</a></li>
+					<li><a href="#collaboration">Collaboration</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a class="btn primaryBtn" href="#contact">Let's Work Together</a></li>
+				</ul>
+			</nav>
+			<nav class="staged">
+				<a role="button" class="navButton closeButton" tabindex="0">
+					<div class="close"></div>
+				</a>
+				<ul>
+					<li><a href="#recent">Recent Work</a></li>
+					<li><a href="#patents">Patents</a></li>
+					<li><a href="#speaking">Speaking</a></li>
+					<li><a href="#articles">Articles</a></li>
+					<li><a href="#collaboration">Collaboration</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a class="btn primaryBtn" href="#contact">Let's Work Together</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<!-- INTRO -->
+
+	<section class="intro secondaryIntro">
+		<div class="wrapper">
+			<h1>Host your own onion website</h1>
+			<p>Get a private website online using a Raspberry Pi, NGINX, and Tor.</p>
+			<p class="meta">November 22, 2021</p>
+		</div>
+	</section>
+
+	<section class="content wrapper">
+		<article>
+				<p>Creating an onion website is private, free, and can be deployed easier than a traditional domain. Follow the steps below and eliminate the need to purchase a domain and add-ons (like domain privacy), configure your web hosting, or <a href="https://www.forbes.com/sites/daveywinder/2020/05/05/godaddy-confirms-data-breach-what-19-million-customers-need-to-know/?sh=18daecae1daa" rel="noopener noreferrer nofollow" target="_blank">provide personal and financial data to yet another vulnerable company</a>.</p>
+				<h3>Step 1: Setup Raspberry Pi</h3>
+				<p>First, you should have an operational Raspberry Pi running a Debian-based OS. I used Raspbian via the <a href="https://www.raspberrypi.com/software/" rel="noopener noreferrer nofollow" target="_blank">Raspberry Pi Imager</a>.</p>
+				<img class="small" src="../assets/onion-website/step1.png">
+				<h3>Step 2: Install NGINX</h3>
+				<p>Install NGINX <a href="https://pimylifeup.com/raspberry-pi-nginx/" rel="noopener noreferrer nofollow" target="_blank">using this guide</a>.</p>
+				<img class="small" src="../assets/onion-website/step2.png">
+				<h3>Step 3: Install Tor</h3>
+				<p class="code">sudo apt install -y tor</p>
+				<img class="small" src="../assets/onion-website/step3.png">
+				<h3>Step 4: Create an Onion Service</h3>
+				<p>Go to your torrc file:</p>
+				<p class="code">sudo nano /etc/tor/torrc</p>
+				<p>Create an onion service by uncommenting these lines:</p>
+				<p class="code">HiddenServiceDir /var/lib/tor/hidden_service/<br>HiddenServicePort 80 127.0.0.1:80</p>
+				<img class="small" src="../assets/onion-website/step4.png">
+				<h3>Step 5: Restart Tor</h3>
+				<p class="code">sudo systemctl restart tor</p>
+				<h3>Step 6: Find Your Onion Address</h3>
+				<p class="code">sudo nano /var/lib/tor/hidden_service/hostname</p>
+				<img class="small" src="../assets/onion-website/step6.png">
+				<h3>Step 7: Visit your website!</h3>
+				<p>Enter your onion address in Tor Browser.</p>
+				<img src="../assets/onion-website/step8.png">
+				<h3>Next Steps</h3>
+				<p>🎉 Congratulations, you created an onion website! If you want to go further, check out the additional resources below:</p>
+				<p>✅ Install Raspian</p>
+				<p>✅ Install NGINX</p>
+				<p>✅ Install & Configure Tor</p>
+				<p>⬜️ <a href="https://www.raspberrypi.com/news/setting-up-two-factor-authentication-on-your-raspberry-pi/" rel="noopener noreferrer nofollow" target="_blank">Enable two-factor authentication</a> for SSH logins to your Pi</p>
+				<p>⬜️ Read: <a href="https://riseup.net/en/security/network-security/tor/onionservices-best-practices" rel="noopener noreferrer nofollow" target="_blank">Best practices for hosting onion services</a> from RiseUp</p>
+				<p>⬜️ Read: <a href="https://community.torproject.org/onion-services/setup/" rel="noopener noreferrer nofollow" target="_blank">Setting up an onion service</a> by The Tor Project</p>
+				<p>⬜️ Read: <a href="https://makezine.com/2017/09/07/secure-your-raspberry-pi-against-attackers/" rel="noopener noreferrer nofollow" target="_blank">Take These Steps to Secure Your Raspberry Pi Against Attackers</a> by Make Magazine</p>
+		</article>
+	</section>
+
+	<!-- FOOTER -->
+
+	<footer class="wrapper">
+		<p>This work is licensed under a <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY NC 4.0 license</a>.</p>
+		<p>&copy; Glenn Sorrentino. Created with the <a href="https://glenn-sorrentino.github.io/design-system" target="_blank" rel="noopener noreferrer">Simple Design System</a>.</p>
+		<p>🛡&nbsp;zs1lqjvywdg308kxrn6x8xduqm5j6j8fg28tertjtayfj8hwm0gvk5gyh3jd07p5w5fe7r56xjr2gj</p>
+	</footer>
+
+</body>
+
+</html>

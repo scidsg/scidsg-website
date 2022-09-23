@@ -1,0 +1,359 @@
+@media (prefers-color-scheme: light) {
+  .iconAlt {
+    color: var(--color-label-lm);
+  }
+
+  .listContainer ul li {
+    color: var(--color-label-lm)
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .iconAlt {
+    color: var(--color-label-dm);
+  }
+
+  .listContainer ul li {
+    color: var(--color-label-dm)
+  }
+}
+
+.listContainer {
+  display: flex;
+}
+
+.listContainer ul {
+  flex-direction: column;
+  padding-right: var(--spacing-base);
+  width: 100% !important;
+  margin-left: 0 !important;
+}
+
+.listContainer ul li {
+  font-size: var(--font-size-small);
+  line-height: var(--line-height-body);
+  list-style: none;
+}
+
+.group {
+  display: flex;
+  margin: var(--spacing-xxlarge) 0;
+}
+
+.blockContent {
+  flex-direction: column;
+}
+
+.group .description {
+  padding: 0 var(--spacing-large) 0 0;
+  margin: 0 !important;
+  width: 50%;
+}
+
+.blockContent .description {
+  margin: 0 auto !important;
+  padding: 0;
+  width: 100%;
+}
+
+.blockContent .description p {
+  text-align: left;
+  width: 100%;
+}
+
+img.wide {
+  width: 65vw !important;
+  margin-bottom: var(--spacing-large) !important;
+}
+
+.group img {
+  width: 50%;
+  margin: 0;
+  display: flex;
+  align-self: center;
+}
+
+.description {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  margin: var(--spacing-medium) 0;
+}
+
+.description .badge {
+  margin-top: 0 !important;
+  margin-bottom: var(--spacing-small);
+}
+
+.description.flip {
+  order: 2;
+  padding: 0 0 0 2rem;
+}
+
+.description h3,
+.description h4,
+.description h5,
+.description h6 {
+  margin: var(--spacing-small) 0 var(--spacing-base) 0;
+  width: 66%;
+}
+
+.description p {
+  margin: var(--spacing-small) 0;
+}
+
+.center .description p {
+  margin: var(--spacing-small) auto;
+}
+
+.description .icon {
+  width: var(--spacing-xxlarge);
+  height: var(--spacing-xxlarge);
+  margin: 0 0 var(--spacing-small) 0;
+  border-radius: var(--radius-soft);
+  align-self: auto;
+  background-size: contain;
+}
+
+.center.description p {
+  text-align: center;
+}
+
+.iconAlt {
+  font-weight: bold;
+  font-size: var(--font-size-small);
+  text-transform: uppercase;
+  margin: 0 0 var(--spacing-base) 0 !important;
+}
+
+.center .description .icon {
+  margin: 0 auto var(--spacing-base) auto;
+}
+
+.description ul {
+  /* list-style: none; */
+  margin-left: 0;
+  margin-top: var(--spacing-base);
+  font-size: var(--font-size-base);
+  text-align: left;
+  width: fit-content;
+  margin: var(--spacing-base) 0 0 var(--spacing-base);
+}
+
+img.avatar {
+  height: var(--size-avatar);
+  width: var(--size-avatar) !important;
+  border-radius: var(--radius-round);
+}
+
+img.avatar-lg {
+  height: calc(var(--size-avatar) * 2);
+  width: calc(var(--size-avatar) * 2) !important;
+  border-radius: var(--radius-round);
+  margin-left: var(--spacing-xlarge) !important;
+}
+
+.groupRow {
+  display: flex;
+  flex-direction: row;
+  margin: 0 0 var(--spacing-xlarge) 0;
+}
+
+.group .description h3,
+.group .description h4,
+.group .description h5,
+.group .description h6 {
+  width: 100%;
+}
+
+.groupRow .description h3,
+.groupRow .description h4,
+.groupRow .description h5,
+.groupRow .description h6 {
+  width: 100%;
+}
+
+/* .groupRow .description:first-of-type {
+    padding: 0 var(--spacing-base) 0 0;
+} */
+
+/* .groupRow .description:last-of-type {
+    padding: 0 0 0 var(--spacing-base);
+} */
+
+.groupRow .description {
+    padding: var(--spacing-large) var(--spacing-xxlarge);
+    justify-content: flex-start;
+    flex: 1 1 0px;
+    margin: 0;
+}
+
+.groupRow .description img ~ .iconAlt {
+  margin-top: var(--spacing-small) !important;
+}
+
+.mobileImageContainer {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+
+.mobileImageContainer img {
+  width: 80%;
+  height: auto;
+}
+
+@media only screen and (max-width: 1024px) {
+  .description h3,
+  .description h4,
+  .description h5,
+  .description h6 {
+    width: 80%;
+  }
+
+  .group {
+    margin: var(--spacing-xlarge) 0;
+  }
+
+  .groupRow {
+    margin: 0 0 var(--spacing-large) 0;
+  }
+
+  img.wide {
+    width: 75vw !important;
+  }
+
+  img.avatar-lg {
+    height: calc(var(--size-avatar) * 1.5);
+    width: calc(var(--size-avatar) * 1.5) !important;
+  }
+
+}
+
+@media only screen and (max-width: 960px) {
+  #about .group {
+    flex-direction: column;
+    margin: var(--spacing-large) 0;
+  }
+
+  #about {
+    margin: 0 auto;
+  }
+
+  #about .description {
+    width: 100%;
+  }
+
+  #about .group .mobileImageContainer {
+    order: -1;
+    width: 75%;
+    justify-content: flex-start;
+    margin-bottom: var(--spacing-medium);
+  }
+
+}
+
+
+@media only screen and (max-width: 768px) {
+  .group {
+    flex-direction: column;
+    margin: var(--spacing-large) 0;
+  }
+
+  #about .group .mobileImageContainer {
+    width: 100%;
+
+  }
+
+  .group img.avatar-lg {
+    align-self: flex-start;
+    order: -1;
+    margin-bottom: var(--spacing-base);
+    height: var(--size-avatar);
+    width: var(--size-avatar) !important;
+    border-radius: var(--radius-round);
+    margin-left: 0 !important;
+    }
+
+  .group .description {
+    padding: 0;
+    margin: var(--spacing-medium) 0;
+    width: auto;
+  }
+
+  .group img {
+    width: 100%;
+    margin: var(--spacing-base) 0 0 0;
+  }
+
+  .mobileImageContainer {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .mobileImageContainer img {
+    width: 66%;
+  }
+
+  .description {
+    padding: 0;
+    margin: var(--spacing-medium) 0;
+  }
+
+  .description.flip {
+    padding: 0;
+    order: initial;
+  }
+
+  .groupRow {
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .groupRow .description {
+    padding: var(--spacing-large);
+  }
+
+  .groupRow:first-of-type .description:first-of-type {
+    padding-top: 0;
+  }
+
+  /* section h3 {
+    margin-bottom: 0 !important;
+  } */
+
+  .description h3,
+  .description h4,
+  .description h5,
+  .description h6 {
+    /* margin: 0; */
+    width: 100%;
+  }
+
+  /* .groupRow .description:first-of-type {
+      padding: 0;
+  }
+
+  .groupRow .description:last-of-type {
+      padding: 0;
+  } */
+
+  .groupRow .description img {
+    order: 9;
+  }
+
+  img.wide {
+    width: 85vw !important;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .mobileImageContainer img {
+    width: 100%;
+  }
+
+  .group {
+    margin: var(--spacing-medium) 0;
+  }
+}

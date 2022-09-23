@@ -1,0 +1,118 @@
+.projectLogo.slackLogo {
+  background-image: url('../assets/slack/logo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.projectLogo.sfdcLogo {
+  background-image: url('../assets/salesforce/logo/logo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.icon.avatar {
+  background-image: url('../assets/about/avatar.jpg');
+}
+
+@media (prefers-color-scheme: light) {
+  .icon.design {
+    background-image: url('../assets/icons/lm-design.png');
+  }
+
+  .icon.research {
+    background-image: url('../assets/icons/lm-research.png');
+  }
+
+  .icon.eng {
+    background-image: url('../assets/icons/lm-eng.png');
+  }
+
+  .icon.video {
+    background-image: url('../assets/icons/lm-video.png');
+  }
+
+  .icon.security {
+    background-image: url('../assets/icons/lm-sec.png');
+  }
+
+  .icon.writing {
+    background-image: url('../assets/icons/lm-writing.png');
+  }
+
+  .icon.project {
+    background-image: url('../assets/icons/lm-project.png');
+  }
+
+  .icon.time {
+    background-image: url('../assets/icons/lm-time.png');
+  }
+
+  .icon.retainer {
+    background-image: url('../assets/icons/lm-retainer.png');
+  }
+
+  .icon.crit {
+    background-image: url('../assets/icons/lm-crit.png');
+  }
+
+  .icon.donor {
+    background-image: url('../assets/icons/lm-donor.png');
+  }
+
+  .icon.mail {
+    background-image: url('../assets/icons/lm-mail.png');
+  }
+
+}
+
+@media (prefers-color-scheme: dark) {
+  @-moz-document url-prefix() {
+    .icon.design {
+      background-image: url('../assets/icons/dm-design.png');
+    }
+
+    .icon.research {
+      background-image: url('../assets/icons/dm-research.png');
+    }
+
+    .icon.eng {
+      background-image: url('../assets/icons/dm-eng.png');
+    }
+
+    .icon.video {
+      background-image: url('../assets/icons/dm-video.png');
+    }
+
+    .icon.security {
+      background-image: url('../assets/icons/dm-sec.png');
+    }
+
+    .icon.writing {
+      background-image: url('../assets/icons/dm-writing.png');
+    }
+
+    .icon.project {
+      background-image: url('../assets/icons/dm-project.png');
+    }
+
+    .icon.time {
+      background-image: url('../assets/icons/dm-time.png');
+    }
+
+    .icon.retainer {
+      background-image: url('../assets/icons/dm-retainer.png');
+    }
+
+    .icon.crit {
+      background-image: url('../assets/icons/dm-crit.png');
+    }
+
+    .icon.donor {
+      background-image: url('../assets/icons/dm-donor.png');
+    }
+
+    .icon.mail {
+      background-image: url('../assets/icons/dm-mail.png');
+    }
+  }
+}

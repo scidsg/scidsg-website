@@ -1,0 +1,172 @@
+@media (prefers-color-scheme: light) {
+  .tabs {
+    border-bottom: var(--border-lm);
+  }
+
+  .tabs a {
+    border-bottom: 3px solid rgba(0,0,0,0);
+  }
+
+  .tabs a:hover {
+    border-bottom: 3px solid var(--color-dark);
+    background-color: var(--color-shade);
+  }
+
+  .tabs a.selected {
+    border-bottom: 3px solid var(--color-dark) !important;
+  }
+
+  .tabContainerScrolled {
+    background-color: var(--color-light);
+  }
+
+  .tabs .badge {
+    background-color: #B6585C;
+    color: var(--color-light);
+  }
+
+  .pillTabs a {
+    background-color: white;
+    border: var(--border-lm);
+  }
+
+  .pillTabs a.selected {
+    border-bottom: var(--border-selected-lm) !important;
+    border: var(--border-selected-lm);
+    background-color: var(--color-shade);
+  }
+
+  .pillTabs a:hover {
+    background-color: var(--color-shade);
+    border: var(--border-selected-lm);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .tabs {
+    border-bottom: var(--border-dm-alt);
+  }
+
+  .tabs a {
+    border-bottom: 3px solid rgba(0,0,0,0);
+  }
+
+  .tabs a:hover {
+    border-bottom: 3px solid var(--color-light);
+    background-color: var(--color-dark-1);
+  }
+
+  .tabs a.selected {
+    border-bottom: 3px solid var(--color-light)  !important;
+  }
+
+  .pillTabs a {
+    background-color: var(--color-shade-dm);
+    border: var(--border-dm);
+  }
+
+  .pillTabs a.selected {
+    border-bottom: var(--border-selected-dm) !important;
+    border: var(--border-selected-dm);
+    background-color: var(--color-dm-shade);
+  }
+
+  .pillTabs a:hover {
+    background-color: var(--color-dm-shade);
+    border: var(--border-selected-dm);
+  }
+
+  .tabContainerScrolled {
+    background-color: var(--color-dark);
+  }
+}
+
+.tabs.wrapper {
+  width: 100%;
+  z-index: 1;
+}
+
+.tabs h2 {
+  font-size: var(--font-size-body);
+  line-height: 0;
+  display: inline;
+  margin: 0 var(--spacing-medium) 0 0;
+}
+
+.tabs {
+  overflow: auto;
+  white-space: nowrap;
+  margin-bottom: calc(var(--spacing-xxlarge) * 2);
+}
+
+.tabs a {
+  display: inline-block;
+  padding: var(--spacing-base) var(--spacing-base) calc(var(--spacing-base) - 3px) var(--spacing-base);
+  text-decoration: none;
+  font-size: var(--font-size-small);
+  cursor: pointer;
+  border-radius: 2px 2px 0 0;
+}
+
+.pillTabs {
+  border-bottom: none !important;
+}
+
+.pillTabs a {
+  border-radius: 50vw;
+  font-size: var(--font-size-small) !important;
+  padding: var(--spacing-small) var(--spacing-base);
+  line-height: var(--line-height-small);
+}
+
+.pillTabs a:nth-child(2n) {
+  margin: 0 var(--spacing-xxsmall);
+}
+
+.pillTabs nav {
+  justify-content: center;
+
+}
+
+.tertiaryContent .pillTabs {
+  margin: var(--spacing-large) 0 var(--spacing-xlarge) 0;
+}
+
+.tabs a.selected {
+  font-weight: bold;
+}
+
+.tabContainerScrolled {
+  position: fixed;
+  top: 87px;
+  width: 100%;
+  z-index: 3;
+  padding-top: 0;
+}
+
+.tabs .badge {
+  display: initial;
+  margin-left: var(--spacing-xsmall) !important;
+  padding: calc(var(--spacing-xxsmall) * .65) calc(var(--spacing-small) * .65);
+  line-height: inherit;
+}
+
+@media only screen and (max-width: 960px) {
+}
+
+@media only screen and (max-width: 768px) {
+  .tabContainerScrolled {
+    top: 70px;
+  }
+
+  .chatTabs {
+    border-bottom: none;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .pillTabs a {
+    padding: var(--spacing-small);
+
+  }
+}

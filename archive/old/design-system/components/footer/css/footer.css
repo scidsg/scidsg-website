@@ -1,0 +1,32 @@
+@media (prefers-color-scheme: light) {
+  footer {
+    background: rgb(242,249,250);
+    background: -moz-linear-gradient(0deg, rgba(255,255,255,1) 0%, var(--color-light) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(255,255,255,1), var(--color-light) 100%);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, var(--color-light) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f2f9fa",endColorstr="#fafafa",GradientType=1);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+
+}
+
+footer {
+  padding: var(--spacing-base) 0 !important;
+  margin-top: calc(var(--spacing-xxlarge) * 2);
+}
+
+footer p {
+  font-size: var(--font-size-small);
+  word-break: break-word;
+  margin-top: 0 !important;
+}
+
+footer.centeredContent p {
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 768px) {
+
+}
