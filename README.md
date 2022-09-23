@@ -1,7 +1,7 @@
 # Science & Design
 [Website](https://scienceand.design) | [Schedule a Call](https://cal.com/scienceanddesign/15min) | [**Donate**](https://opencollective.com/scienceanddesign#category-CONTRIBUTE)
 
-We are a technology 501c3 (application in progress) with a global network of designers, researchers, engineers, writers, and technologists focused on making public interest organizations successful.
+We're a non-profit technology cooperative enabling the success of organizations through research, design, engineering, media, and strategy.
 
 
 ## Resources
