@@ -10,6 +10,8 @@ We're a non-profit technology cooperative enabling the success of organizations 
 
 [🎨 Figma Resources](https://www.figma.com/file/2VXR0abki6riZM7QWh0hFU/Science-%26-Design---Design-Whiteboard?node-id=34%3A296)
 
+[✍️ Blog](https://scidsg.medium.com/)
+
 ---------
 
 [Pricing Model](https://github.com/glenn-sorrentino/scienceanddesign/blob/main/resources/pricing-model.md)
