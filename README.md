@@ -1,8 +1,7 @@
 # Science & Design
 [Website](https://scienceand.design) | [Schedule a Call](https://cal.com/scienceanddesign/15min) | [**Donate**](https://opencollective.com/scienceanddesign#category-CONTRIBUTE)
 
-We're a non-profit technology cooperative enabling the success of organizations through research, design, engineering, media, and strategy.
-
+👋 We're a non-profit design and software development cooperative. Let's make something great together!
 
 ## Resources
 
