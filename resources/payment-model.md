@@ -10,7 +10,7 @@ At the end of the year, member one will receive $8,167, or 33% of the profits, a
 
 Members have the options of being awarded with time credits for their work.
 
-## Earnings			
+## Income			
 | Member	| Earnings |	Fees @ 10% |	% Contributed |
 |---------|----------|-------|----------------|
 | Member 1 |	$100,000 |	$10,000 |	33% |
@@ -18,22 +18,25 @@ Members have the options of being awarded with time credits for their work.
 | Member 3	| $200,000 |	$20,000 |	67% |
 | Total |	$300,000 |	$30,000 |	
 			
-## Admin			
-| Cost |	Annual Price |	
+## Gross Income
+**Total:** $30,000
+
+| Cost |  Annual Price |	
 |------|---------------|
 | VPS	| $1,000 |		
 | Marketing @ 5%	| $1,500|	
 | Administration Time |	$500 |
-| Donation @ 10% | $300
-| Total	| $3,300 |
+| Donation @ 10% | $3,000 |
+| Finder's Fee @ 10% | $3,000 |
+| Total	| $9,000 |
 			
-## Profits			
-**Profits**	$26,700		
+## Net Income			
+**Total**	$21,000		
 			
 ## Payouts			
 | Member |	Contribution |	Payment |	
 |--------|---------------|----------|
-| Member 1	| 33%	| $8,811	|
+| Member 1	| 33%	| $6,930 |
 | Member 2	| 0% |	$0	|
-| Member 3	| 67% |	$17,889 |	
-| Total	|	| $26,700 |	
+| Member 3	| 67% |	$14,070 |	
+| Total	|	| $21,000 |	
