@@ -6,7 +6,7 @@ In the example below, two members have collectively earned of $300,000 over the 
 
 (Annual | Bi-Annual | Quarterly | Monthly) expenses total $9,000, netting $21,000.
 
-At the end of the (year | half-year | quarter | month), Member 1 will receive $6,930, or 33% of the net income, and Member 3 will receive $14,070. The inactive member will have no funds distributed. 
+At the end of the (year | half-year | quarter | month), Member 1 will receive $6,930, or 33% of the net income, and Member 3 will receive $14,070, totaling the net income of $21,000. The inactive member will have no funds distributed. 
 
 Members have the options of being awarded with time credits for their work. 
 
