@@ -1,5 +1,12 @@
 # Our Donations
 
-10% of the admininstrative fees will be donated quarterly to partnering organizations.
+Our community will nominate the organizations and projects that Science & Design will donate to.
 
-1% of our member's time is recommended to be pro-bono for local organizations.
+## Criteria 
+- Business formation
+- Source code status
+- Public interest cause 
+
+10% of the admininstrative fees will be donated (annually | bi-annually | quarterly | monthly) to partnering organizations.
+
+1% of our community's time is recommended to be reserved for pro-bono offerings.
