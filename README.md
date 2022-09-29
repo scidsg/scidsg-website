@@ -13,8 +13,8 @@
 
 ---------
 
-[Pricing Model](https://github.com/glenn-sorrentino/scienceanddesign/blob/main/resources/pricing-model.md)
+[Pricing Model](https://github.com/scidsg/scienceanddesign/blob/main/resources/pricing-model.md)
 
-[Decision Making](https://github.com/glenn-sorrentino/scienceanddesign/blob/main/resources/decision-making.md)
+[Decision Making](https://github.com/scidsg/scienceanddesign/blob/main/resources/decision-making.md)
 
-[Our Donations](https://github.com/glenn-sorrentino/scienceanddesign/blob/main/resources/our-donations.md)
+[Our Donations](https://github.com/scidsg/scienceanddesign/blob/main/resources/our-donations.md)
