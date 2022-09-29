@@ -10,7 +10,7 @@ At the end of the (year | half-year | quarter | month), Member 1 will receive $6
 
 Members have the options of being awarded with time credits for their work. 
 
-## Gross Income
+## Earnings & Fees
 | Member	| Earnings |	Fees @ 10% |	% Contributed |
 |---------|----------|-------|----------------|
 | Member 1 |	$100,000 |	$10,000 |	33% |
@@ -20,7 +20,7 @@ Members have the options of being awarded with time credits for their work.
 			
 
 ## Expenses
-| Cost |  Annual Price |	
+| Cost |  Price |	
 |------|---------------|
 | VPS	| $1,000 |		
 | Marketing @ 5%	| $1,500|	
@@ -30,7 +30,11 @@ Members have the options of being awarded with time credits for their work.
 | **Total**	| **$9,000** |
 			
 ## Net Income			
-**Total**	**$21,000	**	
+| Cost |  Price |	
+|------|---------------|
+| Gross Income	| $30,000 |		
+| Expenses	| $9,000|	
+| **Total**	| **$21,000** |	
 			
 ## Payouts			
 | Member |	Contribution |	Payment |	
