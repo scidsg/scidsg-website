@@ -1,39 +1,45 @@
 # Payment Model
 
-Work obtained through **Science & Design** will have a 10% fee applied to support administrative costs. At the end of the year, the remaining profits are distributed back to the members according to their annual activity.
+Work obtained through **Science & Design** will have a 10% fee applied to cover business expenses. At the end of the (year | half-year | quarter | month), the remaining profits are distributed back to the members according to their (annual|bi-annual|quarterly|monthly) activity.
 
-In the example below, two members have collectively earned $300,000, and one has no activity. Member 1's business of $100,000 is 33% of the total revenue that year, and member 3's $200,000 makes 67% of the revenue. MAKER's 10% fee is $30,000.
+In the example below, two members have collectively earned of $300,000 over the (year | half-year | quarter | month), and one member has no earnings. Member 1's income of $100,000 is 33% of the total revenue that year, and Member 3's $200,000 is 67%. This affords Science & Design $30,000 of administrative fees.
 
-A total of $5,500 applied for administrative costs leaves $24,500 in profit.
+(Annual | Bi-Annual | Quarterly | Monthly) expenses total $9,000, netting $21,000.
 
-At the end of the year, member one will receive $8,167, or 33% of the profits, and member three will receive $16,333. The inactive member remains a member, with no funds distributed to them. 
+At the end of the (year | half-year | quarter | month), Member 1 will receive $6,930, or 33% of the net income, and Member 3 will receive $14,070. The inactive member will have no funds distributed. 
 
-Members have the options of being awarded with time credits for their work.
+Members have the options of being awarded with time credits for their work. 
 
-## Earnings			
+## Earnings & Fees
 | Member	| Earnings |	Fees @ 10% |	% Contributed |
 |---------|----------|-------|----------------|
 | Member 1 |	$100,000 |	$10,000 |	33% |
 | Member 2 |	$0	| $0	| 0% |
 | Member 3	| $200,000 |	$20,000 |	67% |
-| Total |	$300,000 |	$30,000 |	
+| **Total** |	$300,000 |	**$30,000** |	
 			
-## Admin			
-| Cost |	Annual Price |	
+
+## Expenses
+| Expense |  Price |	
 |------|---------------|
 | VPS	| $1,000 |		
 | Marketing @ 5%	| $1,500|	
 | Administration Time |	$500 |
-| Donation @ 10% | $300
-| Total	| $3,300 |
+| Donation @ 10% | $3,000 |
+| Finder's Fee @ 10% | $3,000 |
+| **Total**	| **$9,000** |
 			
-## Profits			
-**Profits**	$26,700		
+## Net Income			
+| Item |  Price |	
+|------|---------------|
+| Gross Income	| $30,000 |		
+| Expenses	| $9,000|	
+| **Total**	| **$21,000** |	
 			
 ## Payouts			
 | Member |	Contribution |	Payment |	
 |--------|---------------|----------|
-| Member 1	| 33%	| $8,811	|
+| Member 1	| 33%	| $6,930 |
 | Member 2	| 0% |	$0	|
-| Member 3	| 67% |	$17,889 |	
-| Total	|	| $26,700 |	
+| Member 3	| 67% |	$14,070 |	
+| **Total**	| 100%	| **$21,000** |	
