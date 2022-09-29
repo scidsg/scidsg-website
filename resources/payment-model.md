@@ -11,35 +11,35 @@ At the end of the (year | half-year | quarter | month), Member 1 will receive $6
 Members have the options of being awarded with time credits for their work. 
 
 ## Earnings & Fees
-| Member	| Earnings |	Fees @ 10% |	% Contributed |
+| Member | Earnings | Fees @ 10% | % Contributed |
 |---------|----------|-------|----------------|
-| Member 1 |	$100,000 |	$10,000 |	33% |
-| Member 2 |	$0	| $0	| 0% |
-| Member 3	| $200,000 |	$20,000 |	67% |
-| **Total** |	$300,000 |	**$30,000** |	
+| Member 1 | $100,000 | $10,000 | 33% |
+| Member 2 | $0	| $0 | 0% |
+| Member 3 | $200,000 | $20,000 | 67% |
+| **Total** | $300,000 | **$30,000** |	
 			
 
 ## Expenses
 | Expense |  Price |	
 |------|---------------|
 | VPS	| $1,000 |		
-| Marketing @ 5%	| $1,500|	
+| Marketing @ 5% | $1,500|	
 | Administration Time |	$500 |
 | Donation @ 10% | $3,000 |
 | Finder's Fee @ 10% | $3,000 |
-| **Total**	| **$9,000** |
+| **Total** | **$9,000** |
 			
 ## Net Income			
 | Item |  Price |	
 |------|---------------|
-| Gross Income	| $30,000 |		
-| Expenses	| $9,000|	
-| **Total**	| **$21,000** |	
+| Gross Income | $30,000 |		
+| Expenses | $9,000|	
+| **Total** | **$21,000** |	
 			
 ## Payouts			
-| Member |	Contribution |	Payment |	
+| Member | Contribution | Payment |	
 |--------|---------------|----------|
-| Member 1	| 33%	| $6,930 |
-| Member 2	| 0% |	$0	|
-| Member 3	| 67% |	$14,070 |	
-| **Total**	| 100%	| **$21,000** |	
+| Member 1 | 33% | $6,930 |
+| Member 2 | 0% | $0 |
+| Member 3 | 67% | $14,070 |	
+| **Total** | 100% | **$21,000** |	
