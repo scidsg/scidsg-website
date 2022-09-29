@@ -20,7 +20,7 @@ Members have the options of being awarded with time credits for their work.
 			
 
 ## Expenses
-| Cost |  Price |	
+| Expense |  Price |	
 |------|---------------|
 | VPS	| $1,000 |		
 | Marketing @ 5%	| $1,500|	
@@ -30,7 +30,7 @@ Members have the options of being awarded with time credits for their work.
 | **Total**	| **$9,000** |
 			
 ## Net Income			
-| Cost |  Price |	
+| Item |  Price |	
 |------|---------------|
 | Gross Income	| $30,000 |		
 | Expenses	| $9,000|	
