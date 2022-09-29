@@ -12,4 +12,4 @@
 | $10 – 100B         | 10 – 100K   | $476,837	| $47,684 |	$11,921 |	$2,980 |	$373 | 
 | > $100B         | > 100K   | $596,046	| $59,605 |	$14,901 |	$3,725	| $466 |
 
-[Source](https://docs.google.com/spreadsheets/d/1Flycd81JIipeSaxbf74d6dll1BMAvBidI3JEF-Z_ubs/edit?usp=sharing)
+[Source](https://github.com/scidsg/scienceanddesign/blob/main/resources/business/Pricing%20Model.ods)
