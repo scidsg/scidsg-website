@@ -1,8 +1,8 @@
 # Payment Model
 
-Work obtained through **Science & Design** will have a 10% fee applied to cover business expenses. At the end of the (year | half-year | quarter | month) the net income is distributed back to the members according to their (annual|bi-annual|quarterly|monthly) activity.
+Work obtained through **Science & Design** will have a 10% fee applied to cover business expenses. At the end of the (year | half-year | quarter | month) the net income is distributed back to the members according to their (annual | bi-annual | quarterly | monthly) activity.
 
-In the example below, two members have collectively earned of $300,000 over the (year | half-year | quarter | month), and one member has no earnings. Member 1's income of $100,000 is 33% of the total revenue that (year | half-year | quarter | month), and Member 3's $200,000 is 67%. This affords Science & Design $30,000 of administrative fees.
+In the example below, two members have collectively earned $300,000 over the (year | half-year | quarter | month), and one member has no earnings. Member 1's income of $100,000 is 33% of the total revenue that (year | half-year | quarter | month), and Member 3's $200,000 is 67%. This affords Science & Design $30,000 of administrative fees.
 
 (Annual | Bi-Annual | Quarterly | Monthly) expenses total $9,000, netting $21,000.
 
