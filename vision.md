@@ -3,7 +3,7 @@
 We are a non-profit organization that provides free research, design, and development services to public interest causes.
 
 ## Values
-- Charity
+- Generosity
 - Equity
 - Relationships
 - Diversity
@@ -11,7 +11,7 @@ We are a non-profit organization that provides free research, design, and develo
 - Privacy
 
 ## Methods
-- **Charity** - We provide financial support and give our services for free whenever possible.
+- **Generosity** - We provide financial support and give our services for free whenever possible.
 - **Equity** - No pay disparities. No CEOs making 6000x the median employee.
 - **Relationships** - The community shapes us. Through donor, sponsor, client, or worker relationships, we hear everyone's voices.
 - **Diversity** - We need diverse voices to have a balanced conversation.
