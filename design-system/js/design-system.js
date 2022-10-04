@@ -18,4 +18,12 @@ $(document).ready(function() {
     $('header nav ul').removeClass('open');
   });
 
+  $('.bannerBtn').on('click', function() {
+    $('.banner').toggleClass('hidden');
+  });
+
+  $('.bannerBtn').on('click', function() {
+    $('BODY + div').removeClass('banner');
+  });
+
 });
