@@ -26,7 +26,7 @@ We are a non-profit organization that provides free research, design, and develo
 
 ## Measures
 - **Money** - Have more than $0 in the bank after the first year.
-- **Leads** - Generate at least one lead per week.
+- **Leads** - Generate at least one lead (customer, partner, sponsor, collaborator) per week.
 - **Sponsors** - Gain at least one sponsor per quarter.
 - **Diversity** - At least one collaborator per content (except Antarctica) in the network after the first year.
 - **Network** - Build the network to at least 100 people across all disciplines.
