@@ -15,7 +15,7 @@ We are a non-profit organization that provides free research, design, and develo
 - **Equity** - No pay disparities. No CEOs making 6000x the median employee.
 - **Relationships** - The community shapes us. Through donor, sponsor, client, or worker relationships, we hear everyone's voices.
 - **Diversity** - We need diverse voices to have a balanced conversation.
-- **Mission** Driven - We help make public interest organizations successful.
+- **Mission Driven** - We help make public interest organizations successful.
 - **Privacy** - All customer, donor, or other information is stored securely with the principle of least-access.
 
 ## Obstacles
