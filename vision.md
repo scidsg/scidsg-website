@@ -1,3 +1,5 @@
+# Our Vision
+
 ## Vision
 We are a non-profit organization that provides free research, design, and development services to public interest causes.
 
