@@ -26,7 +26,7 @@
   --spacing-large: 2rem;
   --spacing-xlarge: 3rem;
   --spacing-xxlarge: 4rem;
-  --spacing-button-lg: .75rem 1.125rem;
+  --spacing-button-lg: 1rem 1.125rem;
   --spacing-button: .625rem .75rem;
 
   --size-icon-sm: 1rem;
@@ -40,7 +40,7 @@
   --font-size-base: 1rem;
   --font-size-button-lg: 1.125rem;
   --font-size-logo: 1.25rem;
-  --font-size-1: 4rem;
+  --font-size-1: 4.5rem;
   --font-size-2: 3.5rem;
   --font-size-3: 2.5rem;
   --font-size-4: 2rem;

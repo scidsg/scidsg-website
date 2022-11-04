@@ -74,6 +74,7 @@ header .wrapper {
 header h1 {
   width: fit-content;
   font-size: var(--font-size-logo) !important;
+  letter-spacing: .125rem;
 }
 
 header .logo {
@@ -176,7 +177,7 @@ nav ul li a {
   font-size: var(--font-size-small);
   font-weight: 500;
   line-height: var(--line-height-body);
-  letter-spacing: .025rem;
+  letter-spacing: .05rem;
   padding: 0 var(--spacing-base);
 }
 
