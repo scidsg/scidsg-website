@@ -21,7 +21,7 @@
 .badge {
   padding: var(--spacing-xsmall) var(--spacing-small);
   font-size: var(--font-size-xsmall);
-  letter-spacing: -.5px;
+  letter-spacing: .125px;
   border-radius: var(--radius-round);
   width: max-content;
   font-family: 'Mono';

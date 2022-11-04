@@ -18,11 +18,9 @@
 
 @font-face {
   font-family: "Mono";
-  src: url("../fonts/mono/SourceCodePro.woff2") format("woff2"),
-       url("../fonts/mono/SourceCodePro.woff") format("woff");
+  src: url("../fonts/mono/Atkinson-Hyperlegible-Regular.woff2") format("woff2"),
+       url("../fonts/mono/Atkinson-Hyperlegible-Regular.woff") format("woff");
 }
-
-
 
 @font-face {
   font-family: "Lex";
@@ -147,10 +145,11 @@ h1, h2, h3, h4, h5, h6 {
   width: fit-content;
   font-family: 'Mono';
   transition: .15s;
+  letter-spacing: .25rem;
 }
 
 h3, h4, h5, h6 {
-  letter-spacing: var(--letter-spacing-serif-heading);
+  letter-spacing: .125rem;
 }
 
 h2 {
@@ -213,10 +212,11 @@ h1 .emoji, h2 .emoji, h3 .emoji, h4 .emoji, h5 .emoji, h6 .emoji {
 
 .statement p {
   font-family: 'Mono';
-  font-size: var(--font-size-4);
+  font-size: var(--font-size-3);
   line-height: var(--line-height-body);
   max-width: 768px !important;
   margin: var(--spacing-base) !important;
+  letter-spacing: .125rem;
 }
 
 .statement {
@@ -255,7 +255,7 @@ h1 .emoji, h2 .emoji, h3 .emoji, h4 .emoji, h5 .emoji, h6 .emoji {
   }
 
   .statement p {
-    font-size: calc(var(--font-size-4) * .8);
+    font-size: calc(var(--font-size-3) * .8);
   }
 
 }
@@ -311,7 +311,7 @@ h1 .emoji, h2 .emoji, h3 .emoji, h4 .emoji, h5 .emoji, h6 .emoji {
   }
 
   .statement p {
-    font-size: calc(var(--font-size-4) * .75);
+    font-size: calc(var(--font-size-3) * .75);
   }
 
 }
@@ -344,7 +344,7 @@ h1 .emoji, h2 .emoji, h3 .emoji, h4 .emoji, h5 .emoji, h6 .emoji {
   }
 
   .statement p {
-    font-size: calc(var(--font-size-4) * .7);
+    font-size: calc(var(--font-size-3) * .7);
   }
 
 }
@@ -373,7 +373,7 @@ h1 .emoji, h2 .emoji, h3 .emoji, h4 .emoji, h5 .emoji, h6 .emoji {
   }
 
   .statement p {
-    font-size: calc(var(--font-size-4) * .65);
+    font-size: calc(var(--font-size-3) * .65);
   }
 
 }

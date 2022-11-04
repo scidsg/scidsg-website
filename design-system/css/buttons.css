@@ -61,6 +61,7 @@
   text-decoration: none;
   cursor: pointer;
   margin: var(--spacing-base) 0;
+  letter-spacing: .075rem;
   /* text-transform: capitalize; */
   font-family: 'Mono';
   /* border-radius: var(--radius-round); */
