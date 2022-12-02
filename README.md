@@ -1,5 +1,5 @@
 # Science & Design
-[Website](https://scienceand.design) | [Schedule a Call](https://cal.com/scienceanddesign/15min) | [**Donate**](https://opencollective.com/scidsg#category-CONTRIBUTE)
+[Website](https://scidsg.org) | [Schedule a Call](https://cal.com/scienceanddesign/15min) | [**Donate**](https://opencollective.com/scidsg#category-CONTRIBUTE)
 
 👋 We're a non-profit design and software development organization. Let's make something great together!
 
