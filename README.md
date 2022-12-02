@@ -5,7 +5,7 @@
 
 ## Resources
 
-[🎁 Donations & Org News](https://opencollective.com/scienceanddesign)
+[🎁 Donations & Org News](https://opencollective.com/scidsg)
 
 [🎨 Figma Resources](https://www.figma.com/file/2VXR0abki6riZM7QWh0hFU/Science-%26-Design---Design-Whiteboard?node-id=34%3A296)
 
