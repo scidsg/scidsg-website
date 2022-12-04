@@ -5,7 +5,7 @@
 | Business Strategy | Board of Directors | Democratic (Super majority) |
 | Dividend Allocation | Board of Directors | Democratic (Super majority) |
 | Fundraising Strategy | Board of Directors | Democratic (Super majority) |
-| Hiring/Firing Staff | Board of Directors | Democratic |
+| Hiring/Firing Staff | Board of Directors | Democratic (Super majority) |
 | Donor Recipients | Board, Contributors, Community | Democratic |
 | [Community Standards & Guidelines](https://github.com/scidsg/scienceanddesign/blob/main/resources/Community%20Guidelines%20%26%20Standards.pdf) | Board of Directors | Democratic |
 | General Meeting Voting Rights | Board of Directors | Democratic |
