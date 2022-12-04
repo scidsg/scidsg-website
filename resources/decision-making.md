@@ -6,7 +6,7 @@
 | Dividend Allocation | Board of Directors | Democratic (Super majority) |
 | Fundraising Strategy | Board of Directors | Democratic (Super majority) |
 | Hiring/Firing Staff | Board of Directors | Democratic |
-| Donor Recipients | Board of Directors | Democratic |
+| Donor Recipients | Board of Directors, Community | Democratic |
 | [Community Standards & Guidelines](https://github.com/scidsg/scienceanddesign/blob/main/resources/Community%20Guidelines%20%26%20Standards.pdf) | Board of Directors | Democratic |
 | General Meeting Voting Rights | Board of Directors | Democratic |
 | Approve Brand/Corporate Partnership | Board of Directors | Democratic |
