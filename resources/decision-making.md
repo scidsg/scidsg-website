@@ -11,11 +11,11 @@
 | General Meeting Voting Rights | Board of Directors | Democratic |
 | Approve Brand/Corporate Partnership | Board of Directors | Democratic |
 | Merger or Acquitision | Board of Directors, Members | Democratic |
+| Selection of Representative Board Members | Board, Contributors, Community | Democratic |
 | Budgeting | Director of Operations | Democratic (Board of Directors) |
 | Product Strategy | Director of Product | Democratic (Board of Directors) |
 | Check Signing Authority | Treasurer, Executive Director | Delegate |
 | Technology & Infrastructure | Director of Engineering | Delegate |
 | Approve New Contributors (Referral) | Contributors | Delegate |
-| Selection of Representative Board Members | Board, Contributors, Community | Democratic |
 
 The Board of Directors will vote in place of any unfilled roles.
