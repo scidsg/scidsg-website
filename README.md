@@ -13,9 +13,7 @@
 
 ---------
 
-[Our Vision](https://github.com/scidsg/scienceanddesign/blob/main/vision.md)
-
-[Decision Making](https://github.com/scidsg/scienceanddesign/blob/main/resources/decision-making.md)
+[🤔 Decision Making](https://github.com/scidsg/scienceanddesign/blob/main/resources/decision-making.md)
 
 
 
