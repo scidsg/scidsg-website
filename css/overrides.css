@@ -25,7 +25,7 @@
 }
 
 #working .badge {
-  margin: var(--spacing-base) auto;
+  margin: var(--spacing-base) auto !important;
 }
 
 @media only screen and (max-width: 1024px) {
