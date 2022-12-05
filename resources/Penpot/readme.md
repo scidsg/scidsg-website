@@ -1,4 +1,4 @@
-# Penpot Resources
+# 🎨 Penpot Resources
 
 [Penpot](https://penpot.app) is a free and open-source web-based design and prototyping tool.
 
