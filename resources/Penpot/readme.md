@@ -1,6 +1,6 @@
 # Penpot Resources
 
-[Penpot](https://penpot.app] is a free and open-source web-based design and prototyping tool.
+[Penpot](https://penpot.app) is a free and open-source web-based design and prototyping tool.
 
 Free design resources for wireframing, persona-building, and storyboarding will be made available here. We'll also publish the design kit that we use internally for the Science & Design brand.
 
