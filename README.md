@@ -7,7 +7,7 @@
 
 [🎁 Donations & Org News](https://opencollective.com/scidsg)
 
-[🎨 Figma Resources](https://www.figma.com/file/2VXR0abki6riZM7QWh0hFU/Science-%26-Design---Design-Whiteboard?node-id=34%3A296)
+[🎨 Penpot Resources](https://github.com/scidsg/scienceanddesign/tree/main/resources/Penpot)
 
 [✍️ Blog](https://scidsg.medium.com/)
 
