@@ -178,8 +178,7 @@ nav ul li a {
   font-weight: 500;
   line-height: var(--line-height-body);
   letter-spacing: .05rem;
-  padding: 0 calc(var(--spacing-base) * .85);
-
+  padding: 0 var(--spacing-base);
 }
 
 header .btn {
