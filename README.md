@@ -7,6 +7,8 @@
 
 [🎁 Donations & Org News](https://opencollective.com/scidsg)
 
+[🔑 Keybase](https://keybase.io/scidsg)
+
 [🎨 Penpot Resources](https://github.com/scidsg/scienceanddesign/tree/main/resources/Penpot)
 
 [✍️ Blog](https://scidsg.medium.com/)
