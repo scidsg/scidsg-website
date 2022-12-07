@@ -74,7 +74,7 @@ header .wrapper {
 header h1 {
   width: fit-content;
   font-size: var(--font-size-logo) !important;
-  letter-spacing: .125rem;
+  letter-spacing: .1rem;
 }
 
 header .logo {
