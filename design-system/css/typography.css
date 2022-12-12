@@ -178,6 +178,7 @@ h6 {
 
 p {
   max-width: 640px;
+  font-size: var(--font-size-base);
   line-height: var(--line-height-body);
   margin: var(--spacing-base) 0;
 }

@@ -11,13 +11,13 @@
 }
 
 footer {
-  font-size: var(--font-size-xsmall);
-  letter-spacing: var(--font-spacing-small);
   padding: var(--spacing-base) 0;
 }
 
 footer p {
   margin: 0;
+  font-size: var(--font-size-xsmall) !important;
+  letter-spacing: var(--font-spacing-small);
 }
 
 footer p.donate {
