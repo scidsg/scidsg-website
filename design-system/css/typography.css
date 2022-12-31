@@ -389,6 +389,10 @@ h1 .emoji, h2 .emoji, h3 .emoji, h4 .emoji, h5 .emoji, h6 .emoji {
     font-size: calc(var(--font-size-2) * .55);
   }
 
+  h4 {
+    font-size: calc(var(--font-size-3) * .55);
+  }
+
   h5 {
     font-size: calc(var(--font-size-4) * .55);
   }
