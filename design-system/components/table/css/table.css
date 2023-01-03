@@ -1,0 +1,85 @@
+@media (prefers-color-scheme: light) {
+  tr { border: var(--border-dark); }
+
+  thead, tbody {
+    background-color: var(--color-light);
+  }
+
+  tbody {
+    box-shadow: var(--shadow-lm);
+  }
+
+  td:hover, th:hover {
+    background-color: var(--color-shade-lm);
+  }
+
+}
+
+@media (prefers-color-scheme: dark) {
+  table {
+    color: var(--color-light);
+  }
+
+  tr {
+    border: var(--border-light);
+  }
+
+  thead, tbody {
+    background-color: var(--color-shade-dm);
+  }
+
+  tbody {
+    box-shadow: var(--shadow-dm);
+  }
+
+  td:hover, th:hover {
+    background-color: var(--color-dark);
+  }
+}
+
+table   {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  max-width: 640px;
+  margin-top: var(--spacing-large);
+  margin-bottom: var(--spacing-xlarge);
+  table-layout: fixed;
+}
+
+table caption {
+  font-size: var(--font-size-small);
+  margin-bottom: var(--spacing-base);
+}
+
+thead th {
+  font-family: 'Sans Bold';
+  text-transform: capitalize;
+  letter-spacing: var(--kern-medium) !important;
+}
+
+td {
+  padding: var(--spacing-base);
+}
+
+th, td {
+  vertical-align: middle;
+  font-size: calc(var(--font-size-small) * 1.125);
+}
+
+th {
+  padding: var(--spacing-base);
+  text-align: left;
+ }
+
+ @media only screen and (max-width: 640px) {
+   th, td {
+     font-size: calc(var(--font-size-small) * 1.125);
+   }
+ }
+
+@media only screen and (max-width: 480px) {
+  th, td {
+    font-size: var(--font-size-xsmall);
+  }
+}
