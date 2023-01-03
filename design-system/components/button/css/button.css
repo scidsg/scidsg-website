@@ -67,7 +67,7 @@
   font-size: var(--font-size-smaller);
   width: max-content;
   text-decoration: none;
-  font-weight: bold;
+  font-family: 'Sans Bold';
   cursor: pointer;
   margin: var(--spacing-small) 0;
   text-transform: capitalize;
