@@ -1,130 +1,304 @@
+/* The Simple Design System is made with ❤️ by Glenn Sorrentino - https://glennsorrentino.com */
+/* Please consider contributing! */
+
+/* Add your custom styles in this file... */
+
+@keyframes gradient {
+  0% {
+    -webkit-filter: hue-rotate(0);
+    -moz-filter: hue-rotate(0);
+    -ms-filter: hue-rotate(0);
+    filter: hue-rotate(0);
+  }
+  50% {
+    -webkit-filter: hue-rotate(360deg);
+    -moz-filter: hue-rotate(360deg);
+    -ms-filter: hue-rotate(360deg);
+    filter: hue-rotate(360deg);
+  }
+  100% {
+    -webkit-filter: hue-rotate(0);
+    -moz-filter: hue-rotate(0);
+    -ms-filter: hue-rotate(0);
+    filter: hue-rotate(0);
+  }
+}
+
+@font-face {
+  font-family: "Brand";
+  src: url("fonts/sans/LexendDeca-Regular.woff2") format("woff2"),
+       url("fonts/sans/LexendDeca-Regular.woff") format("woff");
+}
+
 @media (prefers-color-scheme: light) {
-  #working, #donate {
-    background-color: var(--color-light) !important;
+
+	::selection {
+		background: rgb(100,33,166);
+	}
+
+	.intro h2, .highlight, .brandMark {
+	    background: rgb(100,33,166);
+	    background: -moz-linear-gradient(135deg, rgba(100,33,166,1) 0%, rgba(86,65,193,1) 50%, rgba(74,95,217,1) 100%);
+	    background: -webkit-linear-gradient(135deg, rgba(100,33,166,1) 0%, rgba(86,65,193,1) 50%, rgba(74,95,217,1) 100%);
+	    background: linear-gradient(135deg, rgba(100,33,166,1) 0%, rgba(86,65,193,1) 50%, rgba(74,95,217,1) 100%);
+	    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#6421a6",endColorstr="#4a5fd9",GradientType=1);
+	}
+
+	.card .description {
+		border: 3px solid rgb(100,33,166);
+		box-shadow: 6px 6px 0 rgba(100,33,166,.25);
+	}
+
+	.banner {
+		background: rgb(100,33,166);
+	}
+
+	.primaryBtn {
+		background: rgb(100,33,166);
+	}
+
+	nav ul li a:not(.btn):hover {
+	  box-shadow: inset 0 -3px rgb(100,33,166) !important;
+	}
+
+	.btn:not(.primaryBtn), .badge {
+		border: 2px solid rgb(100,33,166);
+		color: rgb(100,33,166);
+	}
+
+	.badge {
+		background-color: var(--color-light);
+	}
+
+	#services {
+    background-size: 1rem 1rem;
+    background-image:
+    linear-gradient(to right, rgba(100,33,166,0.08) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(100,33,166,0.08) 1px, transparent 1px);
   }
 
-  .cards .contentItem {
-    background-color: white;
-    box-shadow: 0 30px 40px -20px rgba(0,0,0,0.1);
+    .icon.design {
+    background-image: url('../images/icons/lm-design.png');
+  }
+
+  .icon.research {
+    background-image: url('../images/icons/lm-research.png');
+  }
+
+  .icon.eng {
+    background-image: url('../images/icons/lm-eng.png');
+  }
+
+  .icon.video {
+    background-image: url('../images/icons/lm-video.png');
+  }
+
+  .icon.security {
+    background-image: url('../images/icons/lm-sec.png');
+  }
+
+  .icon.writing {
+    background-image: url('../images/icons/lm-writing.png');
+  }
+
+  .icon.project {
+    background-image: url('../images/icons/lm-project.png');
+  }
+
+  .icon.time {
+    background-image: url('../images/icons/lm-time.png');
+  }
+
+  .icon.retainer {
+    background-image: url('../images/icons/lm-retainer.png');
+  }
+
+  .icon.crit {
+    background-image: url('../images/icons/lm-crit.png');
+  }
+
+  .icon.donor {
+    background-image: url('../images/icons/lm-donor.png');
+  }
+
+  .icon.mail {
+    background-image: url('../images/icons/lm-mail.png');
   }
 }
 
 @media (prefers-color-scheme: dark) {
-  #working, #donate {
-    background-color: var(--color-shade-dm) !important;
+
+	::selection {
+		background: rgb(178,144,210);
+	}
+	
+	.intro h2, .highlight, .brandMark {
+	    background: rgb(178,144,210);
+	    background: -moz-linear-gradient(135deg, rgba(178,144,210,1) 0%, rgba(170,160,224,1) 50%, rgba(164,175,236,1) 100%);
+	    background: -webkit-linear-gradient(135deg, rgba(178,144,210,1) 0%, rgba(170,160,224,1) 50%, rgba(164,175,236,1) 100%);
+	    background: linear-gradient(135deg, rgba(178,144,210,1) 0%, rgba(170,160,224,1) 50%, rgba(164,175,236,1) 100%);
+	    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#6421a6",endColorstr="#4a5fd9",GradientType=1);
+	}
+
+	.banner {
+		background: rgb(178,144,210)
+	}
+
+ 	.primaryBtn {
+		background: rgb(178,144,210);
+	}
+
+	nav ul li a:not(.btn):hover {
+	  box-shadow: inset 0 -3px rgb(178,144,210) !important;
+	}
+
+	.btn:not(.primaryBtn) {
+		color: rgb(178,144,210);
+	}
+
+	.btn {
+		border: 2px solid rgb(178,144,210);
+	}
+
+	.card .description {
+		border: 3px solid rgb(178,144,210);
+		box-shadow: 6px 6px 0 rgba(178,144,210,.25);
+	}
+
+	#services {
+    background-size: 1rem 1rem;
+    background-image:
+    linear-gradient(to right, rgba(178,144,210,0.08) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(178,144,210,0.08) 1px, transparent 1px);
   }
 
-  .cards .contentItem {
-    background-color: var(--color-dm-shade);
-    box-shadow: 0 30px 40px -20px rgba(0,0,0,0.2);
-  }
+   .icon.design {
+      background-image: url('../images/icons/dm-design.png');
+    }
+
+    .icon.research {
+      background-image: url('../images/icons/dm-research.png');
+    }
+
+    .icon.eng {
+      background-image: url('../images/icons/dm-eng.png');
+    }
+
+    .icon.video {
+      background-image: url('../images/icons/dm-video.png');
+    }
+
+    .icon.security {
+      background-image: url('../images/icons/dm-sec.png');
+    }
+
+    .icon.writing {
+      background-image: url('../images/icons/dm-writing.png');
+    }
+
+    .icon.project {
+      background-image: url('../images/icons/dm-project.png');
+    }
+
+    .icon.time {
+      background-image: url('../images/icons/dm-time.png');
+    }
+
+    .icon.retainer {
+      background-image: url('../images/icons/dm-retainer.png');
+    }
+
+    .icon.crit {
+      background-image: url('../images/icons/dm-crit.png');
+    }
+
+    .icon.donor {
+      background-image: url('../images/icons/dm-donor.png');
+    }
+
+    .icon.mail {
+      background-image: url('../images/icons/dm-mail.png');
+    }
 }
 
-#working {
-  text-align: center;
+.logo h1 {
+	letter-spacing: var(--kern-wide);
 }
 
-#working .badge {
-  margin: var(--spacing-base) auto !important;
+.brandMark {
+	font-family: 'Brand';
+	font-size: calc(var(--font-size-logo) * 1.25);
+	position: relative;
+	margin: 0 var(--spacing-xsmall);
+	-webkit-background-clip: text;
+  	text-fill-color: transparent;
+  	-webkit-text-fill-color: transparent;
+	animation: gradient 30s infinite;
+	top: -2px
+}
+
+.intro h2 {
+  -webkit-background-clip: text;
+  text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  animation: gradient 30s infinite;
+  width: 60%;
+}
+
+.highlight {
+	animation: gradient 60s infinite;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Sans';
+	letter-spacing: var(--kern-wide);
+}
+
+h3, h4, h5, h6 {
+	letter-spacing: var(--kern-open);
+	font-family: 'Sans Bold';
+
+}
+
+.articleBody h2 {
+	line-height: var(--line-height-tight) !important;
+}
+
+@media only screen and (max-width: 1280px) {
+
 }
 
 @media only screen and (max-width: 1024px) {
-.intro h1 {
-    font-size: calc(var(--font-size-1) * .8) !important;
-    line-height: calc(var(--line-height-1) * .8) !important;
-  }
+	.intro h2 {
+	  width: 80%;
+	}
+}
+
+@media only screen and (max-width: 900px) {
+
+	@media (prefers-color-scheme: light) {
+		nav ul li a:not(.btn):hover {
+		  box-shadow: inset 3px 0 rgb(100,33,166) !important;
+		}
+	}
+
+		@media (prefers-color-scheme: dark) {
+		nav ul li a:not(.btn):hover {
+		  box-shadow: inset 3px 0 rgb(178,144,210) !important;
+		}
+	}
 }
 
 @media only screen and (max-width: 768px) {
-.intro h1 {
-    font-size: calc(var(--font-size-1) * .7) !important;
-    line-height: calc(var(--line-height-1) * .7) !important;
-  }
+	.intro h2 {
+	  width: 100%;
+	}
 }
 
 @media only screen and (max-width: 640px) {
-.intro h1 {
-    font-size: calc(var(--font-size-1) * .65) !important;
-    line-height: calc(var(--line-height-1) * .65) !important;
-  }
+
 }
 
 @media only screen and (max-width: 480px) {
-.intro h1 {
-    font-size: calc(var(--font-size-1) * .6) !important;
-    line-height: calc(var(--line-height-1) * .6) !important;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-
-  nav a.active {
-    border-bottom: none !important;
-  }
-
-  header nav {
-    position: initial;
-  }
-
-  header h1 {
-    float: none;
-    margin-top: 0;
-  }
-
-  header nav ul {
-    display: none;
-  }
-
-  nav.primaryNav ul {
-    display: inherit;
-  }
-
-  nav a {
-    padding: 0;
-  }
-
-  header nav.staged ul {
-    display: inherit;
-  }
-
-  .navButton, .close, .menu {
-    display: inherit !important;
-  }
-
-  .withUtil {
-    right: calc(var(--spacing-xxlarge) * 1.43);
-  }
-
-  .utilityIcon {
-    padding-left: var(--spacing-medium);
-    margin-left: var(--spacing-base);
-  }
-
-  header.singleNav nav ul {
-    display: inherit !important;
-  }
-
-
 
 }
-
-/* header .wrapper {
-  background-color: #8F8EBF;
-}
-
-header h1 {
-  color: #2C2645;
-}
-
-header .btn {
-  background-color: #2C2645;
-
-}
-
-.intro {
-  background-color: #8F8EBF;
-}
-
-.intro h1 {
-  color: #2C2645;
-} */
