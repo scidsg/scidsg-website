@@ -1,0 +1,144 @@
+@media (prefers-color-scheme: light) {
+  ::selection {
+      background-color: var(--color-dark);
+      color: var(--color-light);
+  }
+
+  input {
+    background-color: var(--color-light);
+    color: var(--color-dark);
+    border: var(--border-dark);
+    background-image: url("../../design-system/images/input/icon-search-lm.png");
+  }
+
+  a {
+    color: var(--color-dark);
+  }
+
+  body {
+    background-color: var(--color-shade-lm);
+  }
+
+  ol, ul {
+    color: var(--color-dark);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  ::selection {
+      background-color: var(--color-light);
+      color: var(--color-dark);
+  }
+
+  body {
+    background-color: var(--color-dark);
+  }
+
+  input {
+    background-color: var(--color-dark);
+    color: var(--color-light);
+    border: var(--border-light-1);
+    background-image: url("../../design-system/images/input/icon-search-dm.png");
+  }
+
+  a {
+    color: var(--color-light);
+  }
+
+  ol, ul {
+    color: var(--color-light);
+  }
+}
+
+:focus {
+  text-decoration: underline;
+  outline: solid;
+}
+
+.btn:focus {
+  text-decoration: underline;
+  outline: solid;
+}
+
+.hidden {
+  display: none !important;
+}
+
+input:focus {
+  text-decoration: none;
+}
+
+input[type="search"] {
+  background-size: 1.25rem;
+  background-position: .75rem center;
+  background-repeat: no-repeat;
+  padding-left: calc(var(--spacing-xlarge) * .85);
+}
+
+.label {
+  font-family: 'Sans Bold';
+}
+
+html {
+  scroll-padding-top: calc(var(--spacing-xxlarge) * 1.5);
+}
+
+body {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}
+
+a {
+  cursor: pointer;
+}
+
+p + ul {
+  margin-left: var(--spacing-base);
+}
+
+ul {
+  margin: var(--spacing-small) 0;
+}
+
+ul li {
+  margin: var(--spacing-base) 0;
+  line-height: var(--line-height-base);
+}
+
+ul li:first-of-type {
+  margin: 0;
+}
+
+img {
+  margin: var(--spacing-base) 0;
+  width: 100%;
+}
+
+header, article, section, footer {
+  display: flex;
+  justify-content: center;
+}
+
+.statementContainer, section:not(.intro) {
+  padding: calc(var(--spacing-xxlarge) * 1.5) 0;
+}
+
+.wrapper {
+  max-width: 1280px;
+  width: 100%;
+  display: flex;
+  padding: 0 var(--spacing-large);
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 768px) {
+  .wrapper {
+    padding: 0 var(--spacing-medium);
+  }
+
+  .statementContainer, section:not(.intro) {
+  padding: calc(var(--spacing-xxlarge) * 1.25) 0;
+}
+
+}
