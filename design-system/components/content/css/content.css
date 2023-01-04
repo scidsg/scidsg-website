@@ -271,9 +271,6 @@ article {
 }
 
 @media only screen and (max-width: 960px) {
-  .groupRow h4 {
-    font-size: calc(var(--font-size-3) * .8);
-  }
 
 }
 
