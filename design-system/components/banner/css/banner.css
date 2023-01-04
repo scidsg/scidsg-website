@@ -91,14 +91,14 @@
 
 @media only screen and (max-width: 480px) {
   .banner p {
-    font-size: var(--font-size-small);
+    font-size: var(--font-size-smaller);
   }
 
 }
 
 @media only screen and (max-width: 420px) {
   .banner p {
-    font-size: calc(var(--font-size-small) * .9);
+    font-size: calc(var(--font-size-smaller) * .9);
   }
 
 }

@@ -237,6 +237,10 @@
 	top: -2px
 }
 
+	header .logo {
+		top: 0 !important;
+	}
+
 .intro h2 {
   -webkit-background-clip: text;
   text-fill-color: transparent;

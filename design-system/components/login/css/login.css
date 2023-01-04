@@ -1,0 +1,81 @@
+@media (prefers-color-scheme: light) {
+
+}
+
+@media (prefers-color-scheme: dark) {
+
+}
+
+#login {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+#login .icon {
+  max-width: 64px;
+  margin-top: 0;
+}
+
+#login h2 {
+  margin-top: 0;
+  text-align: center;
+  line-height: var(--line-height-tighter);
+}
+
+#login *, #login *:before, #login *:after {
+  box-sizing: inherit;
+}
+
+#login .wrapper {
+  display: flex;
+  align-items: center;
+}
+
+#login .meta {
+  text-align: center;
+}
+
+#login .description {
+  max-width: 480px;
+  width: 100%;
+  padding: var(--spacing-large) !important;
+  align-items: flex-start;
+}
+
+.loginBody {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.loginBody div:not(.banner) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+#login .description input + .btn {
+  width: 100%;
+  justify-content: center;
+  padding: var(--spacing-base) !important;
+  font-size: var(--font-size-body);
+}
+
+@media only screen and (max-width: 1280px) {
+
+}
+
+@media only screen and (max-width: 1024px) {
+
+}
+
+@media only screen and (max-width: 960px) {
+
+}
+
+@media only screen and (max-width: 768px) {
+
+}
