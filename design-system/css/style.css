@@ -20,5 +20,6 @@
 @import url("../components/statement/css/statement.css");
 @import url("../components/article/css/article.css");
 @import url("../components/table/css/table.css");
+@import url("../components/login/css/login.css");
 @import url("base.css");
 @import url("../../css/overrides.css");
