@@ -132,6 +132,17 @@ p, q {
   margin: var(--spacing-base) 0;
 }
 
+q {
+  quotes: "“" "”" "‘" "’";
+}
+
+q::before {
+    content: open-quote;
+}
+q::after {
+    content: close-quote;
+}
+
 p.meta {
   margin: var(--spacing-small) 0 var(--spacing-xsmall) 0 !important;
   font-size: var(--font-size-small) !important;
