@@ -263,6 +263,10 @@ img.avatarLg {
   align-self: center !important;
 }
 
+#team .group {
+    margin: var(--spacing-xlarge) 0;  
+}
+
 @media only screen and (max-width: 1024px) {
   .description h3,
   .description h4,
