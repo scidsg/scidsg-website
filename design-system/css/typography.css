@@ -134,7 +134,7 @@ p {
 
 p.meta {
   margin: var(--spacing-small) 0 var(--spacing-xsmall) 0 !important;
-  font-size: var(--font-size-small);
+  font-size: var(--font-size-small) !important;
 }
 
 .highlight {

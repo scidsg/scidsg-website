@@ -49,6 +49,10 @@
 		box-shadow: 6px 6px 0 rgba(100,33,166,.25);
 	}
 
+	#users .avatar {
+		box-shadow: 6px 6px 0 rgba(100,33,166,.25);
+	}
+
 	.banner {
 		background: rgb(100,33,166);
 	}
@@ -124,12 +128,29 @@
   .icon.mail {
     background-image: url('../images/icons/lm-mail.png');
   }
+
+  #users {
+  	background-image: radial-gradient(rgb(100,33,166) 0%, transparent 7%);
+	  background-position: 0;
+ 	  background-size: 20px 20px;
+	}
 }
 
 @media (prefers-color-scheme: dark) {
 
 	::selection {
 		background: rgb(178,144,210);
+	}
+
+	#users {
+  	background-image: radial-gradient(rgb(178,144,210) 0%, transparent 5%);
+ 	  background-color: #333;
+	  background-position: 0 0, 20px 20px;
+ 	  background-size: 40px 40px;
+	}
+
+	#users .avatar {
+		box-shadow: 6px 6px 0 rgba(178,144,210,.25);
 	}
 	
 	.intro h2, .highlight, .brandMark {
@@ -221,6 +242,9 @@
     }
 }
 
+html {
+	scroll-padding-top: var(--spacing-xxlarge);
+}
 .logo h1 {
 	letter-spacing: var(--kern-wide);
 }
@@ -267,6 +291,15 @@ h3, h4, h5, h6 {
 .articleBody h2 {
 	line-height: var(--line-height-tight) !important;
 }
+
+  #users .description {
+  	align-items: center;
+  }
+
+	#users h4 {
+		width: 100%;
+		text-align: center;
+	}
 
 @media only screen and (max-width: 1280px) {
 
