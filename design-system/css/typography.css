@@ -135,7 +135,6 @@ p, q {
 q {
   quotes: "“" "”" "‘" "’";
 }
-
 q::before {
     content: open-quote;
 }
@@ -244,4 +243,12 @@ h1 .emoji, h2 .emoji, h3 .emoji, h4 .emoji, h5 .emoji, h6 .emoji {
   .code {
     width: fit-content !important;
   }
+}
+
+@media only screen and (max-width: 480px) {
+
+  h2 {
+    font-size: calc(var(--font-size-1) * .6);
+  }
+
 }

@@ -154,10 +154,15 @@ article {
   font-size: var(--font-size-small) !important;
 }
 
-.description img.avatar {
+img.avatar {
   height: var(--size-avatar);
   width: var(--size-avatar) !important;
   border-radius: var(--radius-round);
+}
+
+img.avatarLg {
+  height: calc(var(--size-avatar) * 2);
+  width: calc(var(--size-avatar) * 2) !important;
 }
 
 .card .description img.avatar {
@@ -318,6 +323,25 @@ article {
     order: initial;
   }
 
+  #team .description {
+    order: 1 !important;
+    align-items: center;
+  }
+
+  #team h3, #team .description h4 {
+    text-align: center;
+    width: 100%;
+  }
+
+  #team .group img.avatar {
+    margin-bottom: var(--spacing-medium) !important;
+  }
+
+  img.avatarLg {
+  height: calc(var(--size-avatar) * 1.5);
+  width: calc(var(--size-avatar) * 1.5) !important;
+  }
+
   .groupRow {
     flex-direction: column;
     margin: 0;
@@ -352,6 +376,11 @@ article {
 @media only screen and (max-width: 640px) {
   .mobileImageContainer img {
     width: 100%;
+  }
+
+  img.avatarLg {
+    height: var(--size-avatar);
+    width: var(--size-avatar) !important;
   }
 
 }
