@@ -20,30 +20,35 @@
   margin: 0;
 }
 
-.statement p {
+.statement p, .statement q {
   font-size: var(--font-size-4);
 }
 
+.quotes {
+  font-size: var(--font-size-3);
+  font-family: 'Serif';
+}
+
 @media only screen and (max-width: 960px) {
-  .statement p {
+  .statement p, .statement q {
     font-size: calc(var(--font-size-4) * .9);
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .statement p {
+  .statement p, .statement q {
     font-size: calc(var(--font-size-4) * .8);
   }
 }
 
 @media only screen and (max-width: 640px) {
-  .statement p {
+  .statement p, .statement q {
     font-size: calc(var(--font-size-4) * .8);
   }
 }
 
 @media only screen and (max-width: 480px) {
-  .statement p {
+  .statement p, .statement q {
     font-size: calc(var(--font-size-4) * .7);
   }
 }
