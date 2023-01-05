@@ -58,7 +58,8 @@
 }
 
 .secondaryIntro {
-  height: 82vh;
+  height: 80vh;
+  max-height: 639px;
 }
 
 .secondaryIntro + section h3 {
