@@ -160,6 +160,11 @@ article {
   border-radius: var(--radius-round);
 }
 
+.card .description img.avatar {
+  width: calc(var(--spacing-xxlarge) * 1.5) !important;
+  height: calc(var(--spacing-xxlarge) * 1.5) !important;
+}
+
 .groupRow {
   display: flex;
   flex-direction: row;
