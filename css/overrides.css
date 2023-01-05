@@ -60,7 +60,7 @@
 	}
 
 	#users .avatar {
-		box-shadow: 6px 6px 0 rgba(100,33,166,.25);
+		box-shadow: 3px 3px 0 rgba(100,33,166,.25);
 	}
 
 	.banner {
@@ -170,7 +170,7 @@
 	}
 
 	#users .avatar {
-		box-shadow: 6px 6px 0 rgba(178,144,210,.25);
+		box-shadow: 3px 3px 0 rgba(178,144,210,.25);
 	}
 	
 	.intro h2, .highlight, .brandMark {
