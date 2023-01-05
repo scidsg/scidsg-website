@@ -32,6 +32,16 @@
 
 @media (prefers-color-scheme: light) {
 
+	:focus {
+  	text-decoration: underline;
+  	outline: solid rgb(100,33,166);
+	}
+
+	.btn:focus {
+	  text-decoration: underline;
+	  outline: solid rgb(100,33,166);
+	}
+
 	::selection {
 		background: rgb(100,33,166);
 	}
@@ -137,6 +147,16 @@
 }
 
 @media (prefers-color-scheme: dark) {
+
+	:focus {
+  	text-decoration: underline;
+  	outline: solid rgb(178,144,210);
+	}
+
+	.btn:focus {
+	  text-decoration: underline;
+	  outline: solid rgb(178,144,210);
+	}
 
 	::selection {
 		background: rgb(178,144,210);
