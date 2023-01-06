@@ -41,7 +41,7 @@
   right: 0;
   z-index: 0 !important;
   margin: 0 auto;
-  padding: 0;
+  padding: 0 var(--spacing-base);
   transition: .3s;
 }
 
@@ -96,10 +96,6 @@ p.hint a {
 }
 
 @media only screen and (max-width: 1280px) {
-  .intro .tabs {
-    padding: 0 var(--spacing-base);
-  }
-
   .intro h2 {
     width: 70%;
   }
