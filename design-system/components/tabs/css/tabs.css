@@ -38,6 +38,7 @@
 .tabs {
   overflow: auto;
   white-space: nowrap;
+  margin: 0 auto;
   padding: 0 var(--spacing-base);
 }
 
@@ -45,7 +46,7 @@
   display: inline-block;
   padding: var(--spacing-medium) var(--spacing-base);
   text-decoration: none;
-  font-size: var(--font-size-smaller);
+  font-size: var(--font-size-small);
   cursor: pointer;
   border-radius: 2px 2px 0 0;
   height: auto;
