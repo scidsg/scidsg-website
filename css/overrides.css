@@ -334,13 +334,13 @@ h3, h4, h5, h6 {
 @media only screen and (max-width: 900px) {
 
 	@media (prefers-color-scheme: light) {
-		nav ul li a:not(.btn):hover {
+		header nav ul li a:not(.btn):hover {
 		  box-shadow: inset 3px 0 rgb(100,33,166) !important;
 		}
 	}
 
 		@media (prefers-color-scheme: dark) {
-		nav ul li a:not(.btn):hover {
+		header nav ul li a:not(.btn):hover {
 		  box-shadow: inset 3px 0 rgb(178,144,210) !important;
 		}
 	}
