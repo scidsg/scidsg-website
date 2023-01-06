@@ -72,7 +72,7 @@ article {
   margin-top: var(--spacing-base);
 }
 
-.group:last-of-type {
+.wrapper .group:last-of-type {
   margin-bottom: 0;
 }
 
@@ -291,8 +291,11 @@ img.avatarLg {
 @media only screen and (max-width: 768px) {
 .group {
     flex-direction: column;
-    margin: var(--spacing-large) 0;
   }
+
+ .group, .team .group {
+    margin: var(--spacing-large) 0;  
+}
 
   article {
     margin: var(--spacing-large) 0;
