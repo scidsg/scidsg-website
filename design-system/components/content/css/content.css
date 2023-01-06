@@ -263,7 +263,7 @@ img.avatarLg {
   align-self: center !important;
 }
 
-#team .group {
+.team .group {
     margin: var(--spacing-xlarge) 0;  
 }
 
@@ -327,17 +327,17 @@ img.avatarLg {
     order: initial;
   }
 
-  #team .description {
+  .team .description {
     order: 1 !important;
     align-items: center;
   }
 
-  #team h3, #team .description h4 {
+  .team h3, .team .description h4 {
     text-align: center;
     width: 100%;
   }
 
-  #team .group img.avatar {
+  .team .group img.avatar {
     margin-bottom: var(--spacing-medium) !important;
   }
 
