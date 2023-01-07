@@ -1,4 +1,4 @@
-# Pricing Model
+# 2023 Pricing Model
 
 To ensure an equitable model for all sizes of non-profits, our pricing is based on an org's revenue.
 
@@ -10,3 +10,5 @@ To ensure an equitable model for all sizes of non-profits, our pricing is based 
 | $25M - 50M   | $234,375    | $23,437     | $5,859      | $1,465      |
 | $50M - 100M  | $292,968    | $29,296     | $7,324      | $1,831      |
 | $100M - 200M | $366,210    | $36,621     | $9,155      | $2,288      |
+
+Prices increase annually according to inflation rates.
