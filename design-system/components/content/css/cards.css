@@ -61,6 +61,13 @@
   align-self: center;
 }
 
+.cardSection .wrapper {
+  align-items: center;
+}
+
+.cardSection .wrapper .btn {
+  margin-top: var(--spacing-medium);
+}
 
 .group.card .description {
   padding: 0 !important;

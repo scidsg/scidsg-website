@@ -46,6 +46,10 @@
 		background: rgb(100,33,166);
 	}
 
+	#pricing {
+		background-color: inherit;
+	}
+
 	.intro h2, .highlight, .brandMark {
 	    background: rgb(100,33,166);
 	    background: -moz-linear-gradient(135deg, rgba(100,33,166,1) 0%, rgba(86,65,193,1) 50%, rgba(74,95,217,1) 100%);
@@ -160,6 +164,10 @@
 
 	::selection {
 		background: rgb(178,144,210);
+	}
+
+	#pricing {
+		background-color: inherit;
 	}
 
 	#users, .userSection {
@@ -330,6 +338,97 @@ h3, h4, h5, h6 {
 	  width: 80%;
 	}
 }
+
+@media only screen and (max-width: 960px) {
+  @media (prefers-color-scheme: light) {
+    header nav ul {
+      box-shadow: var(--shadow-lm);
+      background-color: var(--color-light);
+      border: var(--border-dark);
+    }
+
+    header nav ul li a:hover {
+      box-shadow: inset 3px 0 var(--color-dark);
+    }
+  }
+
+  @media (prefers-color-scheme: dark) {
+    header nav ul {
+      box-shadow: var(--shadow-dm);
+      background-color: var(--color-shade-dm);
+      border: var(--border-light);
+
+    }
+
+    header nav ul li a:hover {
+      box-shadow: inset 3px 0 var(--color-light);
+    }
+  }
+
+  header nav ul {
+    display: none;
+  }
+
+  .mobileNav {
+    display: flex;
+    align-self: center;
+  }
+
+  header nav ul {
+    flex-direction: column;
+    position: absolute;
+    top: 72px;
+    width: max-content;
+    z-index: 1;
+    padding: var(--spacing-small) 0;
+    align-items: flex-start;
+    border-radius: var(--radius-soft);
+  }
+
+  header nav ul li a.wrapper {
+    display: flex;
+    width: 100%;
+  }
+
+  nav .btn:last-of-type {
+    margin-right: 0;
+  }
+
+  nav ul .btn {
+    margin-right: var(--spacing-base) !important;
+    margin-left: var(--spacing-base) !important;
+  }
+
+
+  header nav ul li a {
+    padding-top: var(--spacing-base) !important;
+    padding-bottom: var(--spacing-base) !important;
+    padding-left: var(--spacing-medium) !important;
+    padding-right: var(--spacing-medium) !important;
+  }
+
+  header nav .btn {
+    margin: var(--spacing-base) var(--spacing-medium);
+    display: inline-flex !important;
+  }
+
+  header nav ul li a.wrapper {
+    display: flex;
+  }
+
+  header nav .badge {
+    margin-right: 0;
+    margin-left: var(--spacing-medium);
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  header h1 {
+    font-size: calc(var(--font-size-logo) * .9) !important;
+  }
+
+}
+
 
 @media only screen and (max-width: 900px) {
 
