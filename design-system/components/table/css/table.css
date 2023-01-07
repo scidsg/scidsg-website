@@ -54,7 +54,7 @@ table   {
 }
 
 table caption {
-  font-size: var(--font-size-small);
+  font-size: var(--font-size-smaller);
   margin-bottom: var(--spacing-base);
 }
 
