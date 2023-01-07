@@ -30,6 +30,10 @@
   margin-top: 0 !important;
 }
 
+.intro .btn {
+  margin-top: var(--spacing-medium);
+}
+
 .articleIntro .category + h2 {
   margin-top: var(--spacing-base) !important;
 }
