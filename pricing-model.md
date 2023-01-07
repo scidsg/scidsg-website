@@ -1,3 +1,5 @@
+To ensure an equitable model for all sizes of non-profits, our pricing is based on an org's revenue.
+
 | Revenue      | Annually    | Monthly     | Weekly      | Daily       |
 | ------------ | ----------- | ----------- | ----------- | ----------- |
 | $0 - 1M      | $120,000    | $12,000     | $3,000      | $750        |
