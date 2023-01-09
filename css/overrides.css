@@ -273,8 +273,14 @@
 html {
 	scroll-padding-top: var(--spacing-xxlarge);
 }
+
 .logo h1 {
 	letter-spacing: var(--kern-wide);
+}
+
+tr th:first-of-type {
+  width: max-content;
+  text-align: center;
 }
 
 .brandMark {
