@@ -279,7 +279,6 @@ html {
 }
 
 tr th:first-of-type {
-  width: max-content;
   text-align: center;
 }
 
