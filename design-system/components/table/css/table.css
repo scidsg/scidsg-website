@@ -9,6 +9,11 @@
     box-shadow: var(--shadow-lm);
   }
 
+
+  th .meta.neg {
+    color: rgb(226, 36, 36);
+  }
+
   td:hover, th:hover {
     background-color: var(--color-shade-lm);
   }
@@ -32,9 +37,23 @@
     box-shadow: var(--shadow-dm);
   }
 
+    th .meta.neg {
+    color: rgb(238, 119, 119);
+  }
+
   td:hover, th:hover {
     background-color: var(--color-dark);
   }
+}
+
+th .meta {
+  font-size: var(--font-size-xsmall);
+  letter-spacing: var(--letter-spacing-wide);
+  font-family: 'Sans';
+}
+
+td .strike {
+  font-size: var(--font-size-small);
 }
 
 .featureSection table {
@@ -86,10 +105,15 @@ th {
    th, td {
      font-size: calc(var(--font-size-small) * 1);
    }
+
  }
 
 @media only screen and (max-width: 480px) {
   th, td {
     font-size: var(--font-size-xsmall);
   }
+
+  td .strike {
+  font-size: var(--font-size-xsmall);
+}
 }
