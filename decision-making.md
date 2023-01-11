@@ -8,7 +8,7 @@
 - Majority: A simple majority required
 - Supermajority: The action does not pass if one stakeholder group vetoes with a simple majority
 
-**Consent:** Absense of objections
+**Consent:** Absence of objections
 
 **Consultative:** Decision made with input from others
 
@@ -32,14 +32,14 @@
 | General Meeting Voting Rights   | All                           | Democratic                      |
 
 ## Science & Design Board of Directors
-A Board of Directors is a governing body that guides corporate strategy, profit distribution, and selecting/ compensation/ terminating leadership. 
-Our board of directors is the decision making body made up of representatives from each membership class.
+A Board of Directors is a governing body that guides corporate strategy, profit distribution, and selecting/ compensating/ terminating leadership. 
+Our Board of Directors is the decision-making body of representatives from each membership class.
 
-The Board of Directors for tech platforms are often controlled by venture capital investors, without worker or user representation. 
-Science & Design's Board of Directors is centered around the idea of "codetermination". Workers and users are affected by the decsisions of tech platforms, 
+Venture capital investors often control the Board of Directors for tech platforms without worker or user representation. 
+Science & Design's Board of Directors aligns around "co-determination." Workers and users are affected by the decisions of tech platforms, 
 so they should have a seat at the table.
 
-Our Board consists of elected representatives, to serve as stewards of the interests of each stakeholder group of Science & Design.
+Our Board consists of elected representatives to serve as stewards of the interests of each stakeholder group of Science & Design.
 
 **Founders:**
 The founding Board of Science & Design of 5 Directors
