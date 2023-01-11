@@ -42,7 +42,7 @@ so they should have a seat at the table.
 Our Board consists of elected representatives to serve as stewards of the interests of each stakeholder group of Science & Design.
 
 **Founders:**
-The founding Board of Science & Design of 5 Directors
+Science & Design's founding Board of 5 Directors
 
 **Contributors:**
 Contributors elect 2 Directors
