@@ -73,6 +73,10 @@
 .hidden {
   display: none !important;
 }
+.strike {
+  text-decoration: line-through;
+  opacity: .25;
+}
 
 input {
   padding: var(--spacing-base);
