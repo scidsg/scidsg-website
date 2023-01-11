@@ -54,3 +54,5 @@ Donating Members elect 2 Directors
 
 Our first election for board representation will be held in Q2 of 2023.
 
+--------
+Adapted from [Ampled Co-Op's Decision Making documentation](https://docs.ampled.com/coop/decision-making)
