@@ -21,12 +21,14 @@
 | Selecting Leadership            | Board of Directors            | Democratic (Supermajority)      |
 | Amending Decision Making Matrix | Board of Directors            | Democratic (Supermajority)      |
 | Fundraising Strategy            | Director of Operations        | Consent (Board of Directors)    |
-| Check Signing Authority         | Executive Director, Treasurer | Consent (Board of Directors)    |
+| Check Signing Authority         | Executive Director, Treasurer | Delegate                        |
 | Hiring/Firing Staff             | Board of Directors            | Consent                         |
 | Budgeting                       | Director of Operations        | Democratic (Board of Directors) |
 | Approve New Contributor         | Contributors                  | Consent                         |
 | Approve Partnerships            | All                           | Consent                         |
 | Product Strategy                | Director of Product           | Consultative                    |
+| Technology Strategy             | Director of Engineering       | Consultative                    |
+| Design Strategy                 | Director of Design            | Consultative                    |
 | Representative of Board Members | All                           | Democratic                      |
 | Fate of Science & Design        | All                           | Democratic (Supermajority)      |
 | General Meeting Voting Rights   | All                           | Democratic                      |
