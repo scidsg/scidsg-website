@@ -8,4 +8,4 @@ Science & Design builds public interest, free and open-source software, and help
 
 ❤️ [Donating](https://opencollective.com/scidsg#category-CONTRIBUTE)
 
-📖 [Decision Making](https://github.com/scidsg/scidsg-website/blob/main/decision-making.md)
+📖 [Decision Making](https://github.com/scidsg/business-resources/blob/main/decision-making.md)
