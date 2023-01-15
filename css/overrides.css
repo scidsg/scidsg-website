@@ -143,6 +143,14 @@
     background-image: url('../images/icons/lm-mail.png');
   }
 
+  .icon.tor {
+    background-image: url('../images/icons/lm-tor.png');
+  }
+
+  .icon.contrib {
+    background-image: url('../images/icons/lm-contrib.png');
+  }
+
   #users, .userSection {
   	background-image: radial-gradient(rgb(100,33,166) 0%, transparent 7%);
 	  background-position: 0;
@@ -267,6 +275,14 @@
 
     .icon.mail {
       background-image: url('../images/icons/dm-mail.png');
+    }
+
+    .icon.tor {
+      background-image: url('../images/icons/dm-tor.png');
+    }
+
+    .icon.contrib {
+      background-image: url('../images/icons/dm-contrib.png');
     }
 }
 

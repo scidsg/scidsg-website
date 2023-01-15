@@ -54,11 +54,12 @@
   margin: 0;
 }
 
-.cardSection h3 {
-  width: 100% !important;
-  max-width: 640px;
-  text-align: center;
+.groupRow.center .btn {
   align-self: center;
+}
+
+.groupRow.center  {
+  text-align: center;
 }
 
 .cardSection .wrapper {
