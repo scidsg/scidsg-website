@@ -368,7 +368,7 @@ h3, h4, h5, h6 {
 	}
 }
 
-@media only screen and (max-width: 975px) {
+@media only screen and (max-width: 990px) {
   @media (prefers-color-scheme: light) {
     header nav ul {
       box-shadow: var(--shadow-lm);
@@ -378,6 +378,10 @@ h3, h4, h5, h6 {
 
     header nav ul li a:hover {
       box-shadow: inset 3px 0 var(--color-dark);
+    }
+
+    header nav ul li a:not(.btn):hover {
+      box-shadow: inset 3px 0 rgb(100,33,166) !important;
     }
   }
 
@@ -391,6 +395,10 @@ h3, h4, h5, h6 {
 
     header nav ul li a:hover {
       box-shadow: inset 3px 0 var(--color-light);
+    }
+
+    header nav ul li a:not(.btn):hover {
+      box-shadow: inset 3px 0 rgb(178,144,210) !important;
     }
   }
 
@@ -456,22 +464,6 @@ h3, h4, h5, h6 {
     font-size: calc(var(--font-size-logo) * .9) !important;
   }
 
-}
-
-
-@media only screen and (max-width: 975px) {
-
-	@media (prefers-color-scheme: light) {
-		header nav ul li a:not(.btn):hover {
-		  box-shadow: inset 3px 0 rgb(100,33,166) !important;
-		}
-	}
-
-		@media (prefers-color-scheme: dark) {
-		header nav ul li a:not(.btn):hover {
-		  box-shadow: inset 3px 0 rgb(178,144,210) !important;
-		}
-	}
 }
 
 @media only screen and (max-width: 768px) {
