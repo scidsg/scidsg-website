@@ -50,6 +50,10 @@
 		background-color: inherit;
 	}
 
+  #getInvolved {
+    background-color: var(--color-light);
+  }
+
 	.intro h2, .highlight, .brandMark {
 	    background: rgb(100,33,166);
 	    background: -moz-linear-gradient(135deg, rgba(100,33,166,1) 0%, rgba(86,65,193,1) 50%, rgba(74,95,217,1) 100%);
@@ -173,6 +177,10 @@
 	::selection {
 		background: rgb(178,144,210);
 	}
+
+  #getInvolved {
+    background-color: var(--color-dark);
+  }
 
 	#pricing {
 		background-color: inherit;
