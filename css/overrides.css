@@ -187,10 +187,10 @@
 	}
 
 	#users, .userSection {
-  	background-image: radial-gradient(rgb(178,144,210) 0%, transparent 5%);
+  	background-image: radial-gradient(rgb(178,144,210) 0%, transparent 7%);
  	  background-color: #333;
-	  background-position: 0 0, 20px 20px;
- 	  background-size: 40px 40px;
+	  background-position: 0;
+    background-size: 20px 20px;
 	}
 
 	#users .avatar {
