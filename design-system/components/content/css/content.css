@@ -51,11 +51,15 @@
   margin-bottom: 0;
 }
 
-.featureSection .featureGroup {
+.featureSection .featureGroup:first-of-type {
   margin-top: 0;
 }
 
 .featureSection h3 + .featureGroup {
+  margin-top: var(--spacing-large);
+}
+
+.featureSection h3 + .featureGroup ~ .featureGroup {
   margin-top: var(--spacing-large);
 }
 
