@@ -412,7 +412,10 @@ img.avatarLg {
     width: 100%;
   }
 
-
+  .groupRow .description img:only-of-type {
+   height: 7rem;
+    width: 7rem;
+  }
 
   img.avatarLg {
     height: var(--size-avatar);
