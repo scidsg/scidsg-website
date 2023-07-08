@@ -1,33 +1,33 @@
 ==================================================================
-https://keybase.io/glennsorrentino
+https://keybase.io/scidsg
 --------------------------------------------------------------------
 
 I hereby claim:
 
-  * I am an admin of https://scienceand.design
-  * I am glennsorrentino (https://keybase.io/glennsorrentino) on keybase.
-  * I have a public key ASCygMX9r97xdu1Wz0GD5XHzM9zXdteAzWJ6OZZRM8kXTgo
+  * I am an admin of https://scidsg.org
+  * I am scidsg (https://keybase.io/scidsg) on keybase.
+  * I have a public key ASAp3aBB1MUDNYoTsbHi8uHsW9GJgap_mpwhlTI4juURTgo
 
 To do so, I am signing this object:
 
 {
   "body": {
     "key": {
-      "eldest_kid": "010123ed4a619d56831197a5a583d27c9c10246640bd53f9179c7dd5817ca9c344920a",
+      "eldest_kid": "0120cedc3ef1e2e8171a27ca76425205ec5c09ec0e6331437ec126216ef2ad48d9d10a",
       "host": "keybase.io",
-      "kid": "0120b280c5fdafdef176ed56cf4183e571f333dcd776d780cd627a39965133c9174e0a",
-      "uid": "8e5e3209ef89644436b58deb16ce5f19",
-      "username": "glennsorrentino"
+      "kid": "012029dda041d4c503358a13b1b1e2f2e1ec5bd18981aa7f9a9c219532388ee5114e0a",
+      "uid": "4cea665a694c13b65e3a9ecc04ad1e19",
+      "username": "scidsg"
     },
     "merkle_root": {
-      "ctime": 1663007457,
-      "hash": "2c0aec50e093da74aab9056baf800a4a3b39f1782747543c612f4f1a598cae438875943fc8fc8f254b32256ba2b09ec591fde801ec715ee9b376384c0fa88ef7",
-      "hash_meta": "e162eb29f2d2b3c21ec2809a4225338b0d10dcb1349afc9837f2f9a81b3a44cc",
-      "seqno": 23182599
+      "ctime": 1688835839,
+      "hash": "7e4334bf19e3975b1fbd7472d87f5166dc9991d1b409bf031daa503f0b6fce2d2f72b117ace72b220d07b4d42440d03e3b3ad47628b67e097f7a6b6e1c8d5afa",
+      "hash_meta": "3aecff1ce1050553cc720fa06d42d8907981ba635229a33f7a6baf7a7bb6618f",
+      "seqno": 24660154
     },
     "service": {
-      "entropy": "ZKulFsi+e8xhsjhdO3QVITZR",
-      "hostname": "scienceand.design",
+      "entropy": "8w9B68deJpw16yMZX8jiifEy",
+      "hostname": "scidsg.org",
       "protocol": "https:"
     },
     "type": "web_service_binding",
@@ -35,22 +35,22 @@ To do so, I am signing this object:
   },
   "client": {
     "name": "keybase.io go client",
-    "version": "6.0.1"
+    "version": "6.0.4"
   },
-  "ctime": 1663007487,
+  "ctime": 1688835856,
   "expire_in": 504576000,
-  "prev": "aa788670d6c9dc52dd418cf2493ce802f349e591b682e0926cb724cd5565da95",
-  "seqno": 175,
+  "prev": "22904ccdcfb5f455b00a2c93a6e183c16311e277e5143ade1dcef9f82cccc909",
+  "seqno": 58,
   "tag": "signature"
 }
 
 which yields the signature:
 
-hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgsoDF/a/e8XbtVs9Bg+Vx8zPc13bXgM1iejmWUTPJF04Kp3BheWxvYWTES5cCzK/EIKp4hnDWydxS3UGM8kk86ALzSeWRtoLgkmy3JM1VZdqVxCD6TzqoiSkmwNmbqfngXVt0mGETUTsEc4FlkG8+VC/XmAIBwqNzaWfEQFJ2q95aHif+xOkAsNpo0GlxuhjBHDwuxmero0xHUnm5o/ivCRdLwI8HDZkV+VsOdbpkdNIfRtlkmb4LgakswwGoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCDzF6fnP1UPxz4im1Vi0RLAVAzZ96iRwx/itQ5oIjUkWKN0YWfNAgKndmVyc2lvbgE=
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgKd2gQdTFAzWKE7Gx4vLh7FvRiYGqf5qcIZUyOI7lEU4Kp3BheWxvYWTESpcCOsQgIpBMzc+19FWwCiyTpuGDwWMR4nflFDreHc75+CzMyQnEINvRGglET6WzYu7Z+I4/A4GLSowM7FDRJyQmnKHTrFSuAgHCo3NpZ8RAIzLRnhn02hgOgmyZcORirPYPYMGIhkzvZW7j0RS3/g8Anq6ZkwJf1G0DZyCDxXhVwEvvFl32H1rRPanvPZvTA6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIG9t7XglzLNHaDZ/WmZSQk1Q3ZYZKOfHDKkS170pHqISo3RhZ80CAqd2ZXJzaW9uAQ==
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.
 
-View my publicly-auditable identity here: https://keybase.io/glennsorrentino
+View my publicly-auditable identity here: https://keybase.io/scidsg
 
 ==================================================================
