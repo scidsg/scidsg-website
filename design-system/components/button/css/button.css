@@ -75,6 +75,10 @@
   letter-spacing: var(--kern-open);
 }
 
+.btnGrp .btn + .btn {
+  margin: 0 !important;
+}
+
 .tertiaryBtn {
   border: none !important;
 }
