@@ -193,9 +193,6 @@ h1 .emoji, h2 .emoji, h3 .emoji, h4 .emoji, h5 .emoji, h6 .emoji {
 }
 
 @media only screen and (max-width: 1024px) {
-}
-
-@media only screen and (max-width: 768px) {
 
   h2 {
     font-size: calc(var(--font-size-1) * .8);
@@ -249,7 +246,15 @@ h1 .emoji, h2 .emoji, h3 .emoji, h4 .emoji, h5 .emoji, h6 .emoji {
 @media only screen and (max-width: 480px) {
 
   h2 {
-    font-size: calc(var(--font-size-1) * .6);
+    font-size: calc(var(--font-size-1) * .55);
+  }
+
+}
+
+@media only screen and (max-width: 375px) {
+
+  h2 {
+    font-size: calc(var(--font-size-1) * .5);
   }
 
 }
