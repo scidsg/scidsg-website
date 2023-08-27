@@ -91,6 +91,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: var(--line-height-heading);
   width: fit-content;
   margin: var(--spacing-base) 0;
+  transition: .3s;
 }
 
 article h2,
@@ -244,14 +245,6 @@ h1 .emoji, h2 .emoji, h3 .emoji, h4 .emoji, h5 .emoji, h6 .emoji {
 }
 
 @media only screen and (max-width: 480px) {
-
-  h2 {
-    font-size: calc(var(--font-size-1) * .55);
-  }
-
-}
-
-@media only screen and (max-width: 375px) {
 
   h2 {
     font-size: calc(var(--font-size-1) * .6);

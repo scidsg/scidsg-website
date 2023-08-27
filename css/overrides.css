@@ -522,14 +522,13 @@ h3, h4, h5, h6 {
   }
 
   .intro h2 {
-    width: 75%;
+    width: 80%;
   }
 
 }
 
 @media only screen and (max-width: 768px) {
 	.intro h2 {
-	  width: 90%;
 	}
 }
 
