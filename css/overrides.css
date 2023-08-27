@@ -82,6 +82,7 @@
 
 	.primaryBtn {
 		background: rgb(100,33,166);
+    color: white !important;
 	}
 
 	nav ul li a:not(.btn):hover {
@@ -90,7 +91,7 @@
 
 	.btn, .badge {
 		border: 2px solid rgb(100,33,166);
-/*		color: rgb(100,33,166);*/
+		color: rgb(100,33,166);
 	}
 
 	.badge {
@@ -338,7 +339,7 @@ header .logo {
 	top: 0 !important;
   align-self: center;
   padding: 0;
-  margin: 0 var(--spacing-base) 0 var(--spacing-small);
+  margin: 0 var(--spacing-medium) 0 var(--spacing-xsmall);
   scale: .85;
 }
 
@@ -351,7 +352,7 @@ nav .btn {
 }
 
 nav ul li a.wrapper {
-  padding: 0 calc(var(--spacing-base) * .625);
+  padding: 0 calc(var(--spacing-base) * .75);
 }
 
 nav a {
@@ -461,6 +462,7 @@ h3, h4, h5, h6 {
   .mobileNav {
     display: flex;
     align-self: center;
+    margin-right: var(--spacing-small);
   }
 
   header nav ul {
@@ -481,14 +483,12 @@ h3, h4, h5, h6 {
 
   nav .btn:last-of-type {
     margin-right: 0;
-    margin-left: var(--spacing-small) !important;
   }
 
   nav ul .btn {
     margin-right: var(--spacing-base) !important;
     margin-left: var(--spacing-base) !important;
   }
-
 
   header nav ul li a {
     padding-top: var(--spacing-base) !important;
