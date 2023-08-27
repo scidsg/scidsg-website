@@ -267,3 +267,27 @@ h1 .emoji, h2 .emoji, h3 .emoji, h4 .emoji, h5 .emoji, h6 .emoji {
   }
 
 }
+
+@media only screen and (max-width: 480px) {
+
+  h2 {
+    font-size: calc(var(--font-size-1) * .5);
+  }
+
+  h3 {
+    font-size: calc(var(--font-size-2) * .5);
+  }
+
+  h4 {
+    font-size: calc(var(--font-size-3) * .5);
+  }
+
+  h5 {
+    font-size: calc(var(--font-size-4) * .5);
+  }
+
+  h6 {
+    font-size: calc(var(--font-size-5) * .5);
+  }
+
+}
