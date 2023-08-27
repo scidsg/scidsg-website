@@ -379,6 +379,7 @@ header .btnLrg {
   -webkit-text-fill-color: transparent;
   animation: gradient 30s infinite;
   line-height: var(--line-height-heading);
+  width: 50%;
 }
 
 .highlight {
@@ -410,11 +411,14 @@ h3, h4, h5, h6 {
 	}
 
 @media only screen and (max-width: 1280px) {
-
+  .intro h2 {
+    width: 75%;
+  }
 }
 
 @media only screen and (max-width: 1024px) {
 	.intro h2 {
+    width: 66%;
 	}
 }
 
@@ -517,11 +521,15 @@ h3, h4, h5, h6 {
     font-size: calc(var(--font-size-logo) * .9) !important;
   }
 
+  .intro h2 {
+    width: 75%;
+  }
+
 }
 
 @media only screen and (max-width: 768px) {
 	.intro h2 {
-	  width: 100%;
+	  width: 90%;
 	}
 }
 
