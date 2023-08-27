@@ -50,6 +50,11 @@
 		background-color: inherit;
 	}
 
+  header {
+    border: var(--border-dark);
+    box-shadow: var(--shadow-lm);
+  }
+
   #getInvolved {
     background-color: var(--color-light);
   }
@@ -193,6 +198,11 @@
     background-size: 20px 20px;
 	}
 
+  header {
+    border: var(--border-light);
+    box-shadow: var(--shadow-dm);
+  }
+
 	#users .avatar {
 		box-shadow: 3px 3px 0 rgba(178,144,210,.25);
 	}
@@ -318,9 +328,44 @@ tr th:first-of-type {
 	top: -2px
 }
 
-	header .logo {
-		top: 0 !important;
-	}
+header {
+  width: fit-content;
+  margin: var(--spacing-base) auto 0 auto;
+  border-radius: var(--radius-round);
+}
+
+header .logo {
+	top: 0 !important;
+  align-self: center;
+  padding: 0;
+  margin: 0 var(--spacing-base) 0 var(--spacing-small);
+  scale: .9;
+}
+
+header .wrapper {
+  padding: 0 var(--spacing-small);
+}
+
+nav .btn {
+  margin: var(--spacing-small) 0;
+}
+
+nav ul li a.wrapper {
+  padding: 0 calc(var(--spacing-base) * .9);
+}
+
+nav a {
+  font-size: .825rem;
+}
+
+header h1 {
+  padding: 0;
+  margin: 0;
+}
+
+.btn {
+  border-radius: var(--radius-round);
+}
 
 .intro h2 {
   -webkit-background-clip: text;
@@ -389,7 +434,6 @@ h3, h4, h5, h6 {
       box-shadow: var(--shadow-dm);
       background-color: var(--color-shade-dm);
       border: var(--border-light);
-
     }
 
     header nav ul li a:hover {
@@ -403,6 +447,10 @@ h3, h4, h5, h6 {
 
   header nav ul {
     display: none;
+  }
+
+  header nav .btn {
+    margin: var(--spacing-small) 0 !important;
   }
 
   .mobileNav {
@@ -428,6 +476,7 @@ h3, h4, h5, h6 {
 
   nav .btn:last-of-type {
     margin-right: 0;
+    margin-left: var(--spacing-small) !important;
   }
 
   nav ul .btn {
