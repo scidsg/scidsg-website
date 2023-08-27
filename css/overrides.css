@@ -55,10 +55,6 @@
     box-shadow: var(--shadow-lm);
   }
 
-  #getInvolved {
-    background-color: var(--color-light);
-  }
-
 	.intro h2, .highlight, .brandMark {
 	    background: rgb(100,33,166);
 	    background: -moz-linear-gradient(135deg, rgba(100,33,166,1) 0%, rgba(86,65,193,1) 50%, rgba(74,95,217,1) 100%);
@@ -71,6 +67,10 @@
 		border: 3px solid rgb(100,33,166);
 		box-shadow: 6px 6px 0 rgba(100,33,166,.25);
 	}
+
+  #partners {
+    background-color: var(--color-light-translucent);
+  }
 
 	#users .avatar {
 		box-shadow: 3px 3px 0 rgba(100,33,166,.25);
