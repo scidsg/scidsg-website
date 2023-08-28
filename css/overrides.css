@@ -161,6 +161,18 @@
     background-image: url('../images/icons/lm-contrib.png');
   }
 
+  .icon.safe {
+    background-image: url('../images/icons/lm-safe.png');
+  }
+
+  .icon.access {
+    background-image: url('../images/icons/lm-access.png');
+  }
+
+  .icon.edu {
+    background-image: url('../images/icons/lm-edu.png');
+  }
+
   #users, .userSection {
   	background-image: radial-gradient(rgb(100,33,166) 0%, transparent 7%);
 	  background-position: 0;
@@ -252,6 +264,10 @@
       background-image: url('../images/icons/dm-design.png');
     }
 
+   .icon.access {
+      background-image: url('../images/icons/dm-access.png');
+    }
+
     .icon.research {
       background-image: url('../images/icons/dm-research.png');
     }
@@ -270,6 +286,14 @@
 
     .icon.writing {
       background-image: url('../images/icons/dm-writing.png');
+    }
+
+    .icon.safe {
+      background-image: url('../images/icons/dm-safe.png');
+    }
+
+    .icon.edu {
+      background-image: url('../images/icons/dm-edu.png');
     }
 
     .icon.project {
