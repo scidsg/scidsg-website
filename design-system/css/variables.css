@@ -70,7 +70,7 @@
   --line-height-wide: 1.6;
 
   --shadow-lm: 0px 20px 40px -20px rgba(0,0,0,0.1);
-  --shadow-lm-tight: 0px 20px 20px -10px rgba(0,0,0,0.08);
+  --shadow-lm-tight: 0px 6px 10px -5px rgba(0,0,0,0.08);
   --shadow-dm: 0px 20px 40px -20px rgba(0,0,0,0.2);
 
   --radius-soft: .25rem;

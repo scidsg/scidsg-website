@@ -52,7 +52,7 @@
 
   header {
     border: var(--border-dark);
-    box-shadow: var(--shadow-lm);
+    box-shadow: var(--shadow-lm-tight);
   }
 
 	.intro h2, .highlight, .brandMark {
