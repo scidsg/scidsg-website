@@ -48,7 +48,7 @@
 }
 
 @media only screen and (max-width: 480px) {
-  .statement p, .statement q {
+/*  .statement p, .statement q {
     font-size: calc(var(--font-size-4) * .7);
-  }
+  }*/
 }
