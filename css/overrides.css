@@ -332,14 +332,14 @@ tr th:first-of-type {
 header {
   width: fit-content;
   margin: var(--spacing-base) auto 0 auto;
-  border-radius: var(--radius-round);
+  border-radius: var(--radius-softer);
 }
 
 header .logo {
 	top: 0 !important;
   align-self: center;
   padding: 0;
-  margin: 0 var(--spacing-medium) 0 var(--spacing-xsmall);
+  margin: 0 var(--spacing-medium) 0 0;
   scale: .85;
 }
 
@@ -364,12 +364,8 @@ header h1 {
   margin: 0;
 }
 
-.btn {
-  border-radius: var(--radius-round);
-}
-
 header .btnLrg {
-  padding: calc(var(--spacing-base) * .8) !important;
+  padding: calc(var(--spacing-base) * .625) calc(var(--spacing-base) * .75) !important;
   font-size: calc(var(--font-size-smaller) * .9);
 }
 
