@@ -50,7 +50,7 @@
 		background-color: inherit;
 	}
 
-  header {
+  header.island {
     border: var(--border-dark);
     box-shadow: var(--shadow-lm-tight);
   }
@@ -211,7 +211,7 @@
     background-size: 20px 20px;
 	}
 
-  header {
+  header.island {
     border: var(--border-light);
     box-shadow: var(--shadow-dm);
   }
@@ -354,12 +354,41 @@ tr th:first-of-type {
 }
 
 header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  flex: 0 1 auto;
+  z-index: 9;
+  backdrop-filter: blur(var(--spacing-base));
+  -webkit-backdrop-filter: blur(var(--spacing-base));
+}
+
+header .wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+header .logo {
+  display: flex;
+  align-items: center;
+  height: var(--size-logo);
+  padding: calc(var(--spacing-medium) * 1.125) 0;
+  line-height: var(--line-height-base);
+  display: flex;
+  width: fit-content;
+  position: relative;
+  top: -1px;
+}
+
+header.island {
   width: fit-content;
   margin: var(--spacing-base) auto 0 auto;
   border-radius: var(--radius-softer);
 }
 
-header .logo {
+header.island .logo {
 	top: 0 !important;
   align-self: center;
   padding: 0;
@@ -367,16 +396,21 @@ header .logo {
   scale: .85;
 }
 
-header .wrapper {
+header.island .wrapper {
   padding: 0 var(--spacing-small);
+}
+
+header.island nav ul li a.wrapper {
+  padding: 0 calc(var(--spacing-base) * .75);
+}
+
+header.island .btnLrg {
+  padding: calc(var(--spacing-base) * .625) calc(var(--spacing-base) * .75) !important;
+  font-size: calc(var(--font-size-smaller) * .9);
 }
 
 nav .btn {
   margin: var(--spacing-small) 0 var(--spacing-small) var(--spacing-xsmall) !important;
-}
-
-nav ul li a.wrapper {
-  padding: 0 calc(var(--spacing-base) * .75);
 }
 
 nav a {
@@ -388,10 +422,7 @@ header h1 {
   margin: 0;
 }
 
-header .btnLrg {
-  padding: calc(var(--spacing-base) * .625) calc(var(--spacing-base) * .75) !important;
-  font-size: calc(var(--font-size-smaller) * .9);
-}
+
 
 .intro h2 {
   -webkit-background-clip: text;
@@ -442,7 +473,7 @@ h3, h4, h5, h6 {
 	}
 }
 
-@media only screen and (max-width: 920px) {
+@media only screen and (max-width: 1000px) {
   @media (prefers-color-scheme: light) {
     header nav ul {
       box-shadow: var(--shadow-lm);
