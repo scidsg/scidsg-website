@@ -32,73 +32,74 @@
 
 @media (prefers-color-scheme: light) {
 
-	:focus {
-  	text-decoration: underline;
-  	outline: solid rgb(100,33,166);
-	}
+  :focus {
+    text-decoration: underline;
+    outline: solid rgb(100,33,166);
+  }
 
-	.btn:focus {
-	  text-decoration: underline;
-	  outline: solid rgb(100,33,166);
-	}
+  .btn:focus {
+    text-decoration: underline;
+    outline: solid rgb(100,33,166);
+  }
 
-	::selection {
-		background: rgb(100,33,166);
-	}
+  ::selection {
+    background: rgb(100,33,166);
+  }
 
-	#pricing {
-		background-color: inherit;
-	}
+  #pricing {
+    background-color: inherit;
+  }
 
   header.island {
     border: var(--border-dark);
     box-shadow: var(--shadow-lm-tight);
   }
 
-	.intro h2, .highlight, .brandMark {
-	    background: rgb(100,33,166);
-	    background: -moz-linear-gradient(135deg, rgba(100,33,166,1) 0%, rgba(86,65,193,1) 50%, rgba(74,95,217,1) 100%);
-	    background: -webkit-linear-gradient(135deg, rgba(100,33,166,1) 0%, rgba(86,65,193,1) 50%, rgba(74,95,217,1) 100%);
-	    background: linear-gradient(135deg, rgba(100,33,166,1) 0%, rgba(86,65,193,1) 50%, rgba(74,95,217,1) 100%);
-	    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#6421a6",endColorstr="#4a5fd9",GradientType=1);
-	}
+  .intro h2, .highlight, .brandMark {
+      background: rgb(100,33,166);
+      background: -moz-linear-gradient(135deg, rgba(100,33,166,1) 0%, rgba(86,65,193,1) 50%, rgba(74,95,217,1) 100%);
+      background: -webkit-linear-gradient(135deg, rgba(100,33,166,1) 0%, rgba(86,65,193,1) 50%, rgba(74,95,217,1) 100%);
+      background: linear-gradient(135deg, rgba(100,33,166,1) 0%, rgba(86,65,193,1) 50%, rgba(74,95,217,1) 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#6421a6",endColorstr="#4a5fd9",GradientType=1);
+  }
 
-	.card .description {
-		border: 3px solid rgb(100,33,166);
-		box-shadow: 6px 6px 0 rgba(100,33,166,.25);
-	}
+  .card .description {
+    border: 3px solid rgb(100,33,166);
+    box-shadow: 6px 6px 0 rgba(100,33,166,.25);
+    width: 100%;
+  }
 
   #partners {
     background-color: var(--color-light-translucent);
   }
 
-	#users .avatar {
-		box-shadow: 3px 3px 0 rgba(100,33,166,.25);
-	}
+  #users .avatar {
+    box-shadow: 3px 3px 0 rgba(100,33,166,.25);
+  }
 
-	.banner {
-		background: rgb(100,33,166);
-	}
+  .banner {
+    background: rgb(100,33,166);
+  }
 
-	.primaryBtn {
-		background: rgb(100,33,166);
+  .primaryBtn {
+    background: rgb(100,33,166);
     color: white !important;
-	}
+  }
 
-	nav ul li a:not(.btn):hover {
-	  box-shadow: inset 0 -3px rgb(100,33,166) !important;
-	}
+  nav ul li a:not(.btn):hover {
+    box-shadow: inset 0 -3px rgb(100,33,166) !important;
+  }
 
-	.btn, .badge {
-		border: 2px solid rgb(100,33,166);
-		color: rgb(100,33,166);
-	}
+  .btn, .badge {
+    border: 2px solid rgb(100,33,166);
+    color: rgb(100,33,166);
+  }
 
-	.badge {
-		background-color: var(--color-light);
-	}
+  .badge {
+    background-color: var(--color-light);
+  }
 
-	#services {
+  #services {
     background-size: 1rem 1rem;
     background-image:
     linear-gradient(to right, rgba(100,33,166,0.08) 1px, transparent 1px),
@@ -174,86 +175,86 @@
   }
 
   #users, .userSection {
-  	background-image: radial-gradient(rgb(100,33,166) 0%, transparent 7%);
-	  background-position: 0;
- 	  background-size: 20px 20px;
-	}
+    background-image: radial-gradient(rgb(100,33,166) 0%, transparent 7%);
+    background-position: 0;
+    background-size: 20px 20px;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
 
-	:focus {
-  	text-decoration: underline;
-  	outline: solid rgb(178,144,210);
-	}
+  :focus {
+    text-decoration: underline;
+    outline: solid rgb(178,144,210);
+  }
 
-	.btn:focus {
-	  text-decoration: underline;
-	  outline: solid rgb(178,144,210);
-	}
+  .btn:focus {
+    text-decoration: underline;
+    outline: solid rgb(178,144,210);
+  }
 
-	::selection {
-		background: rgb(178,144,210);
-	}
+  ::selection {
+    background: rgb(178,144,210);
+  }
 
   #getInvolved {
     background-color: var(--color-dark);
   }
 
-	#pricing {
-		background-color: inherit;
-	}
+  #pricing {
+    background-color: inherit;
+  }
 
-	#users, .userSection {
-  	background-image: radial-gradient(rgb(178,144,210) 0%, transparent 7%);
- 	  background-color: #333;
-	  background-position: 0;
+  #users, .userSection {
+    background-image: radial-gradient(rgb(178,144,210) 0%, transparent 7%);
+    background-color: #333;
+    background-position: 0;
     background-size: 20px 20px;
-	}
+  }
 
   header.island {
     border: var(--border-light);
     box-shadow: var(--shadow-dm);
   }
 
-	#users .avatar {
-		box-shadow: 3px 3px 0 rgba(178,144,210,.25);
-	}
-	
-	.intro h2, .highlight, .brandMark {
-	    background: rgb(178,144,210);
-	    background: -moz-linear-gradient(135deg, rgba(178,144,210,1) 0%, rgba(170,160,224,1) 50%, rgba(164,175,236,1) 100%);
-	    background: -webkit-linear-gradient(135deg, rgba(178,144,210,1) 0%, rgba(170,160,224,1) 50%, rgba(164,175,236,1) 100%);
-	    background: linear-gradient(135deg, rgba(178,144,210,1) 0%, rgba(170,160,224,1) 50%, rgba(164,175,236,1) 100%);
-	    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#6421a6",endColorstr="#4a5fd9",GradientType=1);
-	}
+  #users .avatar {
+    box-shadow: 3px 3px 0 rgba(178,144,210,.25);
+  }
+  
+  .intro h2, .highlight, .brandMark {
+      background: rgb(178,144,210);
+      background: -moz-linear-gradient(135deg, rgba(178,144,210,1) 0%, rgba(170,160,224,1) 50%, rgba(164,175,236,1) 100%);
+      background: -webkit-linear-gradient(135deg, rgba(178,144,210,1) 0%, rgba(170,160,224,1) 50%, rgba(164,175,236,1) 100%);
+      background: linear-gradient(135deg, rgba(178,144,210,1) 0%, rgba(170,160,224,1) 50%, rgba(164,175,236,1) 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#6421a6",endColorstr="#4a5fd9",GradientType=1);
+  }
 
-	.banner {
-		background: rgb(178,144,210)
-	}
+  .banner {
+    background: rgb(178,144,210)
+  }
 
- 	.primaryBtn {
-		background: rgb(178,144,210);
-	}
+  .primaryBtn {
+    background: rgb(178,144,210);
+  }
 
-	nav ul li a:not(.btn):hover {
-	  box-shadow: inset 0 -3px rgb(178,144,210) !important;
-	}
+  nav ul li a:not(.btn):hover {
+    box-shadow: inset 0 -3px rgb(178,144,210) !important;
+  }
 
-	.btn:not(.primaryBtn) {
-		color: rgb(178,144,210);
-	}
+  .btn:not(.primaryBtn) {
+    color: rgb(178,144,210);
+  }
 
-	.btn {
-		border: 2px solid rgb(178,144,210);
-	}
+  .btn {
+    border: 2px solid rgb(178,144,210);
+  }
 
-	.card .description {
-		border: 3px solid rgb(178,144,210);
-		box-shadow: 6px 6px 0 rgba(178,144,210,.25);
-	}
+  .card .description {
+    border: 3px solid rgb(178,144,210);
+    box-shadow: 6px 6px 0 rgba(178,144,210,.25);
+  }
 
-	#services {
+  #services {
     background-size: 1rem 1rem;
     background-image:
     linear-gradient(to right, rgba(178,144,210,0.08) 1px, transparent 1px),
@@ -330,11 +331,11 @@
 }
 
 html {
-	scroll-padding-top: var(--spacing-xxlarge);
+  scroll-padding-top: var(--spacing-xxlarge);
 }
 
 .logo h1 {
-	letter-spacing: var(--kern-wide);
+  letter-spacing: var(--kern-wide);
 }
 
 tr th:first-of-type {
@@ -342,15 +343,15 @@ tr th:first-of-type {
 }
 
 .brandMark {
-	font-family: 'Brand';
-	font-size: calc(var(--font-size-logo) * 1.25);
-	position: relative;
-	margin: 0 var(--spacing-xsmall);
-	-webkit-background-clip: text;
-  	text-fill-color: transparent;
-  	-webkit-text-fill-color: transparent;
-	animation: gradient 30s infinite;
-	top: -2px
+  font-family: 'Brand';
+  font-size: calc(var(--font-size-logo) * 1.25);
+  position: relative;
+  margin: 0 var(--spacing-xsmall);
+  -webkit-background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+  animation: gradient 30s infinite;
+  top: -2px
 }
 
 header {
@@ -389,7 +390,7 @@ header.island {
 }
 
 header.island .logo {
-	top: 0 !important;
+  top: 0 !important;
   align-self: center;
   padding: 0;
   margin: 0 var(--spacing-medium) 0 0;
@@ -434,32 +435,32 @@ header h1 {
 }
 
 .highlight {
-	animation: gradient 60s infinite;
+  animation: gradient 60s infinite;
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Sans';
-	letter-spacing: var(--kern-wide);
+  font-family: 'Sans';
+  letter-spacing: var(--kern-wide);
 }
 
 h3, h4, h5, h6 {
-	letter-spacing: var(--kern-open);
-	font-family: 'Sans Bold';
+  letter-spacing: var(--kern-open);
+  font-family: 'Sans Bold';
 
 }
 
 .articleBody h2 {
-	line-height: var(--line-height-tight) !important;
+  line-height: var(--line-height-tight) !important;
 }
 
   #users .description {
-  	align-items: center;
+    align-items: center;
   }
 
-	#users h4 {
-		width: 100%;
-		text-align: center;
-	}
+  #users h4 {
+    width: 100%;
+    text-align: center;
+  }
 
 @media only screen and (max-width: 1280px) {
   .intro h2 {
@@ -468,9 +469,9 @@ h3, h4, h5, h6 {
 }
 
 @media only screen and (max-width: 1024px) {
-	.intro h2 {
+  .intro h2 {
     width: 66%;
-	}
+  }
 }
 
 @media only screen and (max-width: 1000px) {
@@ -579,8 +580,8 @@ h3, h4, h5, h6 {
 }
 
 @media only screen and (max-width: 768px) {
-	.intro h2 {
-	}
+  .intro h2 {
+  }
 }
 
 @media only screen and (max-width: 640px) {
