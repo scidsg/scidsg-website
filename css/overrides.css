@@ -66,7 +66,7 @@
   .card .description {
     border: 3px solid rgb(100,33,166);
     box-shadow: 6px 6px 0 rgba(100,33,166,.25);
-    width: 100%;
+    width: 90%;
   }
 
   #partners {
