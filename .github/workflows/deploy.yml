@@ -24,11 +24,3 @@ jobs:
     - name: Deploy to Digital Ocean
       run: |
         ssh -i ~/.ssh/id_rsa root@159.89.104.28 "cd /var/www/html/scidsg.org && git restore --source=HEAD --staged --worktree -- . && git reset HEAD -- && git clean -fd .&& git config pull.rebase false && git pull"
-
-
-
-git restore --source=HEAD --staged --worktree -- .
-    git reset HEAD -- .
-    git clean -fd .
-    git config pull.rebase false
-    git pull
