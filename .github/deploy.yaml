@@ -1,0 +1,26 @@
+name: Deploy to Digital Ocean
+
+on:
+  push:
+    branches:
+      - main  # Set this to the branch you want to deploy from
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up SSH
+      run: |
+        mkdir -p ~/.ssh/
+        echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
+        chmod 600 ~/.ssh/id_rsa
+        ssh-keyscan -H 159.89.104.28 >> ~/.ssh/known_hosts
+      env:
+        SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+
+    - name: Deploy to Digital Ocean
+      run: |
+        ssh -i ~/.ssh/id_rsa root@159.89.104.28 "cd /var/www/html/scidsg.org && git pull origin main"
