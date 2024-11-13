@@ -423,15 +423,14 @@ header h1 {
   margin: 0;
 }
 
-
-
 .intro h2 {
   -webkit-background-clip: text;
   text-fill-color: transparent;
   -webkit-text-fill-color: transparent;
   animation: gradient 30s infinite;
-  line-height: var(--line-height-heading);
-  width: 50%;
+  line-height: .85;
+  width: 100%;
+  font-size: calc(var(--font-size-1) * 2.325);
 }
 
 .highlight {
@@ -464,13 +463,13 @@ h3, h4, h5, h6 {
 
 @media only screen and (max-width: 1280px) {
   .intro h2 {
-    width: 60%;
+    font-size: calc(var(--font-size-1) * 1.9);
   }
 }
 
 @media only screen and (max-width: 1024px) {
   .intro h2 {
-    width: 66%;
+    font-size: calc(var(--font-size-1) * 1.5);
   }
 }
 
@@ -572,26 +571,24 @@ h3, h4, h5, h6 {
   header h1 {
     font-size: calc(var(--font-size-logo) * .9) !important;
   }
-
-  .intro h2 {
-    width: 80%;
-  }
-
 }
 
 @media only screen and (max-width: 768px) {
   .intro h2 {
+    font-size: calc(var(--font-size-1) * 1.25);
   }
 }
 
 @media only screen and (max-width: 640px) {
   .intro h2 {
     width: 100%;
+    font-size: calc(var(--font-size-1) * 1.125);
   }
 }
 
 @media only screen and (max-width: 480px) {
   .intro h2 {
     width: 100%;
+    font-size: calc(var(--font-size-1) * .8);
   }
 }
