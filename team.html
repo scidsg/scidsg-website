@@ -1,311 +1,238 @@
-<!doctype html>
-
-<!-- Hey there! Thanks for taking a closer look at the code 😎
-This project is a work IN-PROGRESS! If you'd like to help make
-it better  - i.e. more accessible, align closer with
-W3C/WHATWG Standards, etc - please consider contributing 🙏 -->
-
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-	<meta charset="utf-8">
-	<meta name="author" content="Glenn Sorrentino">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!-- <meta http-equiv="onion-location" content="http://egonv4vxnya3qlycvsaxfr2vostxmwrq6omjzukzik6vvbicie6pdwyd.onion/" /> --> <!-- Use the meta tag for your onion address if your hosting provider restricts changing your server's content security headers. -->
-	<meta name="description" content="Science & Design builds public interest, free and open-source software, and helps other non-profits do the same. Let's work together!"> <!-- Keep the description to around 20 words or 150 characters so it displays fully on Google search results. -->
-	<meta name="apple-mobile-web-app-title" content="Science & Design">
-	<meta name="application-name" content="Science & Design">
-	<meta name="theme-color" content="#6421A6">
-
-	<title>The Team - Science & Design</title>
-
-	<link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
-	<link rel="icon" type="image/png" href="images/favicon/favicon-32x32.png" sizes="32x32">
-	<link rel="icon" type="image/png" href="images/favicon/favicon-16x16.png" sizes="16x16">
-	<link rel="icon" type="image/png" href="images/favicon/android-chrome-192x192.png" sizes="192x192">
-	<link rel="icon" type="image/png" href="images/favicon/android-chrome-512x512.png" sizes="512x512">
-	<link rel="icon" type="image/x-icon" href="images/favicon/favicon.ico">
-
-	<link rel="stylesheet" href="design-system/css/style.css">
-	<link rel="stylesheet" href="css/overrides.css">
-
-	<script src="design-system/js/jquery-min.js"></script>
-	<script src="design-system/js/design-system.js"></script>
+    <meta charset="UTF-8">
+    <meta name="author" content="Science & Design, Inc.">
+    <meta name="theme-color" content="#7d25c1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Science & Design, Inc.</title>
+    <link rel="icon" type="image/x-icon" href="src/img/favicon/favicon.ico">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
 </head>
+<body class="landing">
+    <div class="banner">
+        <p>❤️ Love what we do? <a href="https://opencollective.com/scidsg/" target="_blank" rel="noopener noreferrer">Donate</a>!</p>
+    </div>
+    <header>
+        <p class="logo">Science <span class="brandMark">&amp;</span> Design</p>
+        <nav>
+            <a class="mobileNav btnIcon" aria-label="Navigation menu">Menu</a>
+            <ul>
+                <li><a href="team.html">Team</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+            <a class="btn primaryBtn" href="https://opencollective.com/scidsg/" target="_blank" rel="noopener noreferrer">Donate</a>
+        </nav>
+    </header>
 
-<body>
-
-	<header>
-		<div class="wrapper">
-			<div class="logo">
-				<div class="logoMark"></div>
-				<h1><a href="/">Science <span class="brandMark">&amp;</span> Design</a></h1>
-			</div>
-			<nav>
-				<ul>
-					<li><a class="wrapper" target="_blank" rel="noopener noreferrer" href="https://shop.scidsg.org">🛍️ Shop</a></li>
-					<li><a class="wrapper" href="team.html">The Team</a></li>
-					<li><a class="wrapper" href="who-we-serve.html">Who We Serve</a></li>
-					<li><a class="wrapper" href="working-together.html">Working Together</a></li>
-					<li><a role="button" class="btn btnLrg" href="https://cal.com/scidsg/15min" target="_blank" rel="noopener noreferrer">Schedule a Call</a></li>
-				</ul>
-				<a class="mobileNav btnIcon"></a>
-				<a role="button" class="btn btnLrg primaryBtn" href="https://opencollective.com/scidsg#category-CONTRIBUTE" target="_blank" rel="noopener noreferrer">Donate</a>
-			</nav>
-		</div>
-	</header>
-
-	<div role="main">
-
-		<section class="intro secondaryIntro">
-			<div class="wrapper">
-				<h2>Meet The Team</h2>
-				<p>🤝 We're a group of creators helping to make the internet a better place.</p>
-			</div>
-			<div class="tabs wrapper">
-				<nav>
-					<ul>
-						<li><a href="#board">Board of Directors</a></li>
-						<li><a href="#contributors">Contributors</a></li>
-					</ul>
-				</nav>
-			</div>
-		</section>
-
-		<section id="board" class="team">
-			<div class="wrapper">
-				<h3>Board of Directors</h3>
-				<div class="group">
+    <main class="landing">
+        <section class="intro secondary">
+            <div class="wrapper">
+                <h1>Our Team</h1>
+                <p>We're a collective of cross-industry professionals helping to make the internet safer and more secure.</p>
+                <img src="src/img/team-cover.webp" alt="Team Shot">
+            </div>
+        </section>
+        <section class="why">
+            <h2 class=wrapper>Board of Directors</h2>
+            <div class="feature bio">
+				<div class="wrapper">
 					<div class="description">
-						<h4>Elijah Waxwing</h4>
-						<div class="badgeContainer">
-							<p class="badge">Director</p>
-						</div>
-						<p>Elijah is the co-founder of Riseup.net, the LEAP Encryption Access Project, and Thoughtworks. He's has been working on the issue of digital justice, autonomous infrastructure, and surveillance of social movements since 2000. Elijah is a software developer, systems architect, information security specialist, and manager.</p>
-						<p class="meta">🐘 <a href="https://kolektiva.social/@elijah" target="_blank" rel="noopener noreferrer">Mastodon</a></p>
+						<h3>Elijah Waxwing</h3>
+						<p>Elijah is the co-founder of Riseup.net, the LEAP Encryption Access Project, and Thoughtworks. He's been working on the issue of digital justice, autonomous infrastructure, and surveillance of social movements since 2000. Elijah is a software developer, systems architect, information security specialist, and manager.</p>
+						<a href="https://kolektiva.social/@elijah" target="_blank" rel="noopener noreferrer">Mastodon</a>
 					</div>
-					<img class="avatar avatarLg" src="images/team/elijah.jpg" alt="Elijah's Headshot">
+					<img src="src/img/elijah.jpg" alt="Elijah's Headshot">
 				</div>
-				<div class="group">
-					<div class="description flip">
-						<h4>Glenn Sorrentino</h4>
-						<div class="badgeContainer">
-							<p class="badge">Board Chair</p>	
-							<p class="badge">Executive Director</p>
-						</div>
-						<p>Glenn is the founder and Executive Director of Science &amp; Design and serves on the Board of Advisors to <a href="https://ddosecrets.com" target="_blank" rel="noopener noreferrer">Distributed Denial of Secrets</a>. In his most recent role as Principal Product Designer at Salesforce, he led the design for products including Search, Voice, Identity, and Authentication. His work has been awarded <a href="https://patents.google.com/?inventor=glenn+sorrentino" target="_blank" rel="noopener noreferrer">multiple US patents</a>, and invitations to collaborate with institutions like <a href="https://www.belfercenter.org/sites/default/files/2019-11/DataPrivacy.pdf" target="_blank" rel="noopener noreferrer">Harvard's Belfer Center</a> and the <a href="https://www3.weforum.org/docs/WEF_Redesigning_Data_Privacy_Report_2020.pdf" target="_blank" rel="noopener noreferrer">World Economic Forum</a>.</p>
-						<p>While at Salesforce, he provided pro-bono research and design services to open-source projects and non-profit organizations like Signal, The Calyx Institute, OnionShare, EFF, and Tor Project. Now, he's making it his full-time focus.</p>
-						<p class="meta">💼 <a href="https://www.linkedin.com/in/glennsorrentino/" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
-					</div>
-					<img class="avatar avatarLg" src="images/team/glenn.jpg" alt="Glenn's Headshot">
-				</div>
-				<div class="group">
+			</div>
+			<div class="feature bio">
+				<div class="wrapper">
 					<div class="description">
-						<h4>Micah Lee</h4>
-						<div class="badgeContainer">
-							<p class="badge">Director</p>
-						</div>
+						<h3>Glenn Sorrentino</h3>
+						<p>Glenn is the founder and Executive Director of Science & Design and serves on the Board of Advisors to <a href="https://ddosecrets.com" target="_blank" rel="noopener noreferrer">Distributed Denial of Secrets</a>. In his most recent role as Principal Product Designer at Salesforce, he led the design for products including Search, Voice, Identity, and Authentication. His work has been awarded <a href="https://patents.google.com/?inventor=glenn+sorrentino" target="_blank" rel="noopener noreferrer">multiple US patents</a>, and invitations to collaborate with institutions like <a href="https://www.belfercenter.org/sites/default/files/2019-11/DataPrivacy.pdf" target="_blank" rel="noopener noreferrer">Harvard's Belfer Center</a> and the <a href="https://www3.weforum.org/docs/WEF_Redesigning_Data_Privacy_Report_2020.pdf" target="_blank" rel="noopener noreferrer">World Economic Forum</a>.</p>
+						<a href="https://www.linkedin.com/in/glennsorrentino/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+					</div>
+					<img src="src/img/glenn.jpg" alt="Glenn's Headshot">
+				</div>
+			</div>
+			<div class="feature bio">
+				<div class="wrapper">
+					<div class="description">
+						<h3>Micah Lee</h3>
 						<p>Micah is a cofounder of <a href="https://freedom.press" target="_blank" rel="noopener noreferrer">Freedom of the Press Foundation</a>, serves on the board of <a href="https://ddosecrets.com" target="_blank" rel="noopener noreferrer">Distributed Denial of Secrets</a> and <a href="https://open-archive.org/" target="_blank" rel="noopener noreferrer">OpenArchive</a>, and is the Director of Information Security at The Intercept. He is a computer security engineer and an open-source software developer who writes about technical topics like digital and operational security, encryption tools, whistleblowing, and hacking using language that everyone can understand without dumbing it down. In addition, he develops security and privacy tools such as OnionShare, Dangerzone, and Semiphemeral.</p>
-						<p class="meta">🌎 <a href="https://micahflee.com/" target="_blank" rel="noopener noreferrer">Website</a></p>
+						<a href="https://micahflee.com/" target="_blank" rel="noopener noreferrer">Website</a>
 					</div>
-					<img class="avatar avatarLg" src="images/team/micah.png" alt="Micah's Headshot">
+					<img src="src/img/micah.png" alt="Micah's Headshot">
 				</div>
-				<div class="group">
-					<div class="description flip">
-						<h4>Serene</h4>
-						<div class="badgeContainer">
-							<p class="badge">Director</p>
-						</div>
+			</div>
+			
+			<div class="feature bio">
+				<div class="wrapper">
+					<div class="description">
+						<h3>Serene</h3>
 						<p>Serene is a software engineer, ex-hacker, and the creator of the Snowflake pluggable transport. Away from the computer, she is a concert pianist who concertizes around the world.</p>
-						<p class="meta">🌎 <a href="https://serenepianist.com/" target="_blank" rel="noopener noreferrer">Website</a></p>
+						<a href="https://serenepianist.com/" target="_blank" rel="noopener noreferrer">Website</a>
 					</div>
-					<img class="avatar avatarLg" src="images/team/serene.jpg" alt="Serene's Headshot">
-				</div>
-				<div class="group">
-					<div class="description">
-						<h4>Stefanie Daehler</h4>
-						<div class="badgeContainer">
-							<p class="badge">Secretary</p>
-							<p class="badge">Treasurer</p>
-						</div>
-						<p>Stefanie is a librarian and educator, holding a Masters of Library and Information Sciences from Pratt and a BA from Cornell.</p>
-						<p>Her experience includes Penguin Publishing, The NYC Department of Education, and leadership at The Archer School for Girls.</p>
-						<p class="meta">💼 <a href="https://www.linkedin.com/in/stefaniedaehler/" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
-					</div>
-					<img class="avatar avatarLg" src="images/team/stef.jpg" alt="Stef's Headshot">
+					<img src="src/img/serene.jpg" alt="Serene's Headshot">
 				</div>
 			</div>
-		</section>
-
-		<section id="contributors" class="team">
-			<div class="wrapper">
-				<h3>Contributors</h3>
-				<div class="group">
+			
+			<div class="feature bio">
+				<div class="wrapper">
 					<div class="description">
-						<h4>Ashley Di Battista, Ph.D.</h4>
-						<div class="badgeContainer">
-							<p class="badge">Research Lead</p>
-						</div>
-						<p>Ashley is a retired clinical neuropsychologist, long time researcher with a PhD and user experience expert. She loves making the complex comprehensible and has a thing for wordplay and puns, too.</p>
-
-						<p>You can watch/listen to their co-hosted podcast at <a href="https://youtube.com/@whathefux" target="_blank" rel="noopener noreferrer">youtube.com/@whathefux</a> or read her free articles on all things research and data how to's at <a href="https://medium.com/@ashley.dibattista" target="_blank" rel="noopener noreferrer">medium.com/@ashley.dibattista</a>.</p>
-						<p class="meta"><a href="https://www.linkedin.com/in/ashley-di-battista-phd-1891a1253/" target="_blank" rel="noopener noreferrer">💼 LinkedIn</a></p>
+						<h3>Stefanie Daehler</h3>
+						<p>Stefanie is a librarian and educator, holding a Masters of Library and Information Sciences from Pratt and a BA from Cornell. Her experience includes Penguin Publishing, The NYC Department of Education, and leadership at The Archer School for Girls.</p>
+						<a href="https://www.linkedin.com/in/stefaniedaehler/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
 					</div>
-					<img class="avatar avatarLg" src="images/team/ashley.jpg" alt="Ashley's Headshot">
+					<img src="src/img/stef.jpg" alt="Stef's Headshot">
 				</div>
-				<div class="group">
-					<div class="description flip">
-						<h4>Ese Udom</h4>
-						<div class="badgeContainer">
-							<p class="badge">Engineering</p>
-						</div>
+			</div>
+        </section>
+
+		<section class="why">
+            <h2 class=wrapper>Contributors</h2>
+            <div class="feature bio">
+				<div class="wrapper">
+					<div class="description">
+						<h3>Ashley Di Battista, Ph.D.</h3>
+						<p>Ashley is a retired clinical neuropsychologist, long-time researcher with a PhD, and user experience expert. She loves making the complex comprehensible and has a thing for wordplay and puns, too.</p>
+						<p>You can watch/listen to her co-hosted podcast at <a href="https://youtube.com/@whathefux" target="_blank" rel="noopener noreferrer">YouTube</a> or read her free articles on research and data how-to's at <a href="https://medium.com/@ashley.dibattista" target="_blank" rel="noopener noreferrer">Medium</a>.</p>
+						<a href="https://www.linkedin.com/in/ashley-di-battista-phd-1891a1253/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+					</div>
+					<img src="src/img/ashley.jpg" alt="Ashley's Headshot">
+				</div>
+			</div>
+			
+			<div class="feature bio">
+				<div class="wrapper">
+					<div class="description">
+						<h3>Ese Udom</h3>
 						<p>Ese is a software engineer based in Lagos, Nigeria. He's been coding for nine years with experience building with Java, PHP, Android, AOSP, Kotlin, AWS, and other web technologies.</p>
-						<p class="meta">💼 <a href="https://www.linkedin.com/in/eseudom/" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
+						<a href="https://www.linkedin.com/in/eseudom/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
 					</div>
-					<img class="avatar avatarLg" src="images/team/ese.jpg" alt="Ese's Headshot">
-				</div>
-				<div class="group">
-					<div class="description">
-						<h4>Florian Idelberger, Ph.D.</h4>
-						<div class="badgeContainer">
-							<p class="badge">Research</p>	
-							<p class="badge">Legal Tech</p>
-						</div>
-						<p>Florian is a researcher and consultant with a focus on legal tech and security. In his Ph.D. they focused on the evaluation of domain specific and controlled natural languages to bridge the gap between humans and machines when seeking to understand (computable) contracts. They also work on research related to Law & AI, such as investigating the capabilities, limitations and ethical/legal conundrums of employing AI models. In addition, they have a decade of experience of working on open-source licensing and improving open-source software.</p>
-						<p class="meta">🌎 <a href="http://fl0id.eu" target="_blank" rel="noopener noreferrer">Website</a></p>
-					</div>
-					<img class="avatar avatarLg" src="images/team/florian.png" alt="Florians's Headshot">
-				</div>
-				<div class="group">
-					<div class="description flip">
-						<h4>Glenn Sorrentino</h4>
-						<div class="badgeContainer">
-							<p class="badge">Design</p>	
-							<p class="badge">User Research</p>
-						</div>
-						<p>Glenn is the founder and Executive Director of Science &amp; Design. In his most recent role as Principal Product Designer at Salesforce, he helped build products including Search, Voice, Identity, and Authentication. His work has led to <a href="https://patents.google.com/?inventor=glenn+sorrentino" target="_blank" rel="noopener noreferrer">multiple US patents</a>, and invitations to collaborate with institutions like <a href="https://www.belfercenter.org/sites/default/files/2019-11/DataPrivacy.pdf" target="_blank" rel="noopener noreferrer">Harvard's Belfer Center</a> and the <a href="https://www3.weforum.org/docs/WEF_Redesigning_Data_Privacy_Report_2020.pdf" target="_blank" rel="noopener noreferrer">World Economic Forum</a>.</p>
-						<p>While at Salesforce, he provided pro-bono research and design services to open-source projects and non-profit organizations like Signal, The Calyx Institute, OnionShare, EFF, and Tor Project. Now, he's making it his full-time focus.</p>
-						<p class="meta">💼 <a href="https://www.linkedin.com/in/glennsorrentino/" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
-					</div>
-					<img class="avatar avatarLg" src="images/team/glenn.jpg" alt="Glenn's Headshot">
-				</div>
-				<div class="group">
-					<div class="description">
-						<h4>Maya Ninova, Ph.D.</h4>
-						<div class="badgeContainer">
-							<p class="badge">User Research</p>
-						</div>
-						<p>Maya is a user researcher and social psychologist based in Barcelona, Spain, with over a decade of international experience conducting human behavioral research. She also consults with organizations on research strategy and processes, and loves mentoring and teaching less experienced practitioners on the research craft. </p>
-						<p class="meta">💼 <a href="https://www.linkedin.com/in/mayagninova/" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
-					</div>
-					<img class="avatar avatarLg" src="images/team/maya.jpg" alt="Maya's Headshot">
-				</div>
-				<div class="group">
-					<div class="description flip">
-						<h4>Miguel Jacq</h4>
-						<div class="badgeContainer">
-							<p class="badge">DevSecOps</p>
-						</div>
-						<p>Miguel is a DevSecOps engineer with 15 years of industry experience.</p>
-						<p>He works with many international businesses, non|not-for profits and community organisations to run safer, more resilient and efficient digital services.</p>
-						<p class="meta">💼 <a href="https://www.linkedin.com/in/mig5/" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
-					</div>
-					<img class="avatar avatarLg" src="images/team/mig.jpg" alt="Miguel's Headshot">
-				</div>
-				<div class="group">
-					<div class="description">
-						<h4>Nicola Fabiano</h4>
-						<div class="badgeContainer">
-							<p class="badge">Legal</p>
-							<p class="badge">EU Support</p>
-						</div>
-						<p>Nicola is an Italian lawyer, adjunct professor, and former San Marino Data Protection Authority President. He is also an IT professional and system administrator, certified as an ICT Security Manager, mainly focused on data protection, privacy, and cybersecurity, related to every aspect of technological innovation. He pays attention to the most innovative digital solutions, even testing them, and delves into aspects of compliance with data protection, privacy, and cybersecurity laws. About communication systems in general, he is very conscientious about respecting the principle of ensuring that data subjects are in control over their personal data. Nicola is the creator of the Data Protection and Privacy Relationships Model (<a href="https://www.dappremo.eu/en/" target="_blank" rel="noopener noreferrer">DAPPREMO</a>) based on high mathematics and set theory, and he is the author of articles, essays, books, and papers.</p>
-						<p class="meta">🌎 <a href="https://www.linkedin.com/in/nicfab/" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
-					</div>
-					<img class="avatar avatarLg" src="images/team/nicola.png" alt="Nicola's Headshot">
-				</div>
-				<div class="group">
-					<div class="description flip">
-						<h4>Ritik Shah</h4>
-						<div class="badgeContainer">
-							<p class="badge">Engineering</p>
-						</div>
-						<p>Ritik is a passionate cybersecurity enthusiast armed with a Master's in Cybersecurity from Northeastern University. With a focus on SOC analysis and network security, Ritik is committed to fortifying digital defenses against evolving cyber threats.</p>
-						<p class="meta">🌎 <a href="https://www.linkedin.com/in/ritik-shah23/" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
-					</div>
-					<img class="avatar avatarLg" src="images/team/ritik.png" alt="Ritik's Headshot">
-				</div>
-				<div class="group">
-					<div class="description">
-						<h4>Sam Schlinkert</h4>
-						<div class="badgeContainer">
-							<p class="badge">Engineering</p>
-							<p class="badge">Technical Writing</p>
-						</div>
-						<p>Sam is an editor and programmer interested in privacy, usability and user documentation. He's written a series of open-source command line tools designed to fulfill specific security needs, such as creating and auditing passphrase word lists, reading QR codes for TOTP secrets, and checking KeePass databases for compromised passwords. Previously, he was a social media editor at CNN.</p>
-						<p class="meta">🌎 <a href="https://www.samschlinkert.com/" target="_blank" rel="noopener noreferrer">Website</a></p>
-					</div>
-					<img class="avatar avatarLg" src="images/team/sam.png" alt="Sam's Headshot">
-				</div>
-				<div class="group">
-					<div class="description flip">
-						<h4>Saptak Sengupta</h4>
-						<div class="badgeContainer">
-							<p class="badge">Engineering</p>
-						</div>
-						<p>Saptak is a Human Rights Centered Web Developer focusing on topics including security, privacy, accessibility, and localization.</p>
-						<p>He believes you can still make great UIs while respecting users' fundamental human rights. </p>
-						<p class="meta">💼 <a href="https://www.linkedin.com/in/saptaks/" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
-					</div>
-					<img class="avatar avatarLg" src="images/team/saptak.png" alt="Saptak's Headshot">
-				</div>
-				<div class="group">
-					<div class="description">
-						<h4>Seth Brown</h4>
-						<div class="badgeContainer">
-							<p class="badge">Engineering</p>
-						</div>
-						<p>An experienced software engineer obsessive about performant, scalable, and accessible code. Has lead projects ranging from seed-stage start-ups, to enterprise applications for Fortune 500 companies. Advocate of maintaining code quality through creating organizational standards and TDD.</p>
-						<p class="meta">💼 <a href="https://www.linkedin.com/in/seth-brown1/" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
-					</div>
-					<img class="avatar avatarLg" src="images/team/seth.jpg" alt="Seth's Headshot">
-				</div>
-				<div class="group">
-					<div class="description flip">
-						<h4>Sooraj Sathyanarayanan</h4>
-						<div class="badgeContainer">
-							<p class="badge">Engineering</p>
-						</div>
-						<p>Sooraj is a cybersecurity and privacy researcher with a Master's in Cybersecurity from Northeastern University. He leads the blockchain research with a focus on user autonomy and self-sovereign digital identity. His professional path includes roles in IT audit, penetration testing, vulnerability management, digital forensics, and threat research.  As the Chapter Lead at null NEU, he is committed to fostering a community dedicated to security awareness. He stands out as an opensource advocate, deeply invested in data privacy and digital rights.</p>
-						<p class="meta">💼 <a href="https://www.linkedin.com/in/soorajsathyanarayanan/" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
-					</div>
-					<img class="avatar avatarLg" src="images/team/sooraj.png" alt="Sooraj's Headshot">
-				</div>	
-			</div>
-		</section>
-
-		<section class="featureSection">
-			<div class="wrapper">
-				<div class="group featureGroup">
-					<div class="description">
-						<div class="icon donor"></div>
-						<h3>Support Our Work</h3>
-						<p>We build free, independent open-source software and help non-profits do the same. Please support our work by becoming a member!</p>
-						<a role="button" class="btn btnLrg" href="https://opencollective.com/scidsg#category-CONTRIBUTE" target="_blank" rel="noopener noreferrer">Donate</a>
-					</div>
+					<img src="src/img/ese.jpg" alt="Ese's Headshot">
 				</div>
 			</div>
-		</section>
-
-	</div>
-
-	<footer>
-		<div class="wrapper">
-			<p>&copy; <a property="dct:title" href="https://scidsg.org" target="_blank" rel="cc:attributionURL noopener noreferrer">Science &amp; Design</a></p>
-			<p><a href="https://github.com/scidsg/scidsg-website" target="_blank" rel="noopener noreferrer">Contribute on Github</a>. Built with ❤️ using the <a href="https://github.com/glenn-sorrentino/design-system" target="_blank" rel="noopener noreferrer">Simple Design System</a>.</p>
-		</div>
-	</footer>
+			
+			<div class="feature bio">
+				<div class="wrapper">
+					<div class="description">
+						<h3>Florian Idelberger, Ph.D.</h3>
+						<p>Florian is a researcher and consultant with a focus on legal tech and security. In their Ph.D., they evaluated domain-specific and controlled natural languages to bridge the gap between humans and machines for understanding (computable) contracts. They also research topics like Law & AI and open-source licensing.</p>
+						<a href="http://fl0id.eu" target="_blank" rel="noopener noreferrer">Website</a>
+					</div>
+					<img src="src/img/florian.png" alt="Florian's Headshot">
+				</div>
+			</div>
+			
+			<div class="feature bio">
+				<div class="wrapper">
+					<div class="description">
+						<h3>Glenn Sorrentino</h3>
+						<p>Glenn is the founder and Executive Director of Science & Design. Previously, as Principal Product Designer at Salesforce, he led design for products including Search, Voice, Identity, and Authentication. His work has resulted in <a href="https://patents.google.com/?inventor=glenn+sorrentino" target="_blank" rel="noopener noreferrer">multiple patents</a> and collaborations with institutions like Harvard's Belfer Center.</p>
+						<a href="https://www.linkedin.com/in/glennsorrentino/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+					</div>
+					<img src="src/img/glenn.jpg" alt="Glenn's Headshot">
+				</div>
+			</div>
+			
+			<div class="feature bio">
+				<div class="wrapper">
+					<div class="description">
+						<h3>Maya Ninova, Ph.D.</h3>
+						<p>Maya is a user researcher and social psychologist based in Barcelona, Spain, with over a decade of experience conducting behavioral research. She also consults organizations on research strategy and enjoys mentoring less experienced researchers.</p>
+						<a href="https://www.linkedin.com/in/mayagninova/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+					</div>
+					<img src="src/img/maya.jpg" alt="Maya's Headshot">
+				</div>
+			</div>
+			
+			<div class="feature bio">
+				<div class="wrapper">
+					<div class="description">
+						<h3>Miguel Jacq</h3>
+						<p>Miguel is a DevSecOps engineer with 15 years of experience. He works with businesses, non-profits, and community organizations to run safer, resilient, and efficient digital services.</p>
+						<a href="https://www.linkedin.com/in/mig5/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+					</div>
+					<img src="src/img/mig.jpg" alt="Miguel's Headshot">
+				</div>
+			</div>
+			
+			<div class="feature bio">
+				<div class="wrapper">
+					<div class="description">
+						<h3>Nicola Fabiano</h3>
+						<p>Nicola is an Italian lawyer and former San Marino Data Protection Authority President, focusing on privacy and cybersecurity. He created the <a href="https://www.dappremo.eu/en/" target="_blank" rel="noopener noreferrer">DAPPREMO model</a> and has authored numerous publications on data protection and privacy.</p>
+						<a href="https://www.linkedin.com/in/nicfab/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+					</div>
+					<img src="src/img/nicola.png" alt="Nicola's Headshot">
+				</div>
+			</div>
+			
+			<div class="feature bio">
+				<div class="wrapper">
+					<div class="description">
+						<h3>Ritik Shah</h3>
+						<p>Ritik is a cybersecurity enthusiast with a Master’s in Cybersecurity from Northeastern University. He specializes in SOC analysis and network security, focusing on strengthening digital defenses.</p>
+						<a href="https://www.linkedin.com/in/ritik-shah23/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+					</div>
+					<img src="src/img/ritik.png" alt="Ritik's Headshot">
+				</div>
+			</div>
+			
+			<div class="feature bio">
+				<div class="wrapper">
+					<div class="description">
+						<h3>Sam Schlinkert</h3>
+						<p>Sam is an editor and programmer focused on privacy and usability. He has developed open-source tools for security and was previously a social media editor at CNN.</p>
+						<a href="https://www.samschlinkert.com/" target="_blank" rel="noopener noreferrer">Website</a>
+					</div>
+					<img src="src/img/sam.png" alt="Sam's Headshot">
+				</div>
+			</div>
+			
+			<div class="feature bio">
+				<div class="wrapper">
+					<div class="description">
+						<h3>Saptak Sengupta</h3>
+						<p>Saptak is a web developer focused on security, privacy, and accessibility, ensuring great UI design respects fundamental human rights.</p>
+						<a href="https://www.linkedin.com/in/saptaks/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+					</div>
+					<img src="src/img/saptak.png" alt="Saptak's Headshot">
+				</div>
+			</div>
+			
+			<div class="feature bio">
+				<div class="wrapper">
+					<div class="description">
+						<h3>Seth Brown</h3>
+						<p>Seth is a software engineer passionate about scalable, accessible code. He leads projects for startups and Fortune 500 companies while advocating for code quality and TDD.</p>
+						<a href="https://www.linkedin.com/in/seth-brown1/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+					</div>
+					<img src="src/img/seth.jpg" alt="Seth's Headshot">
+				</div>
+			</div>
+			
+			<div class="feature bio">
+				<div class="wrapper">
+					<div class="description">
+						<h3>Sooraj Sathyanarayanan</h3>
+						<p>Sooraj is a cybersecurity researcher specializing in blockchain, digital identity, and IT audit. He advocates for open-source and data privacy while fostering security awareness.</p>
+						<a href="https://www.linkedin.com/in/soorajsathyanarayanan/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+					</div>
+					<img src="src/img/sooraj.png" alt="Sooraj's Headshot">
+				</div>
+			</div>
+        </section>
+        <footer>
+            <div class="wrapper">
+                <p>Built with ✊ by <a property="cc:attributionName" href="https://scidsg.org/" target="_blank" rel="cc:attributionURL dct:creator noopener noreferrer">Science &amp; Design, Inc.</a>, a <a href="https://github.com/scidsg/business-resources/blob/main/Business%20Resources/501(c)(3)%20Determination%20Letter.pdf" target="_blank" rel="noopener noreferrer">501(c)(3)</a> non-profit located in California, USA 🇺🇸 making a global 🌍 impact.</p>
+            </div>
+        </footer>
+    </main>
+    <script src="src/js/nav.js"></script>
+    <script src="src/js/faq.js"></script>
 
 </body>
-
 </html>

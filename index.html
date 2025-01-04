@@ -1,331 +1,170 @@
-<!doctype html>
-
-<!-- Hey there! Thanks for taking a closer look at the code 😎
-This project is a work IN-PROGRESS! If you'd like to help make
-it better  - i.e. more accessible, align closer with
-W3C/WHATWG Standards, etc - please consider contributing 🙏 -->
-
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-	<meta charset="utf-8">
-	<meta name="author" content="Glenn Sorrentino">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!-- <meta http-equiv="onion-location" content="http://egonv4vxnya3qlycvsaxfr2vostxmwrq6omjzukzik6vvbicie6pdwyd.onion/" /> --> <!-- Use the meta tag for your onion address if your hosting provider restricts changing your server's content security headers. -->
-	<meta name="description" content="Science & Design builds public interest, free and open-source software, and helps other non-profits do the same. Let's work together!"> <!-- Keep the description to around 20 words or 150 characters so it displays fully on Google search results. -->
-	<meta name="apple-mobile-web-app-title" content="Science & Design">
-	<meta name="application-name" content="Science & Design">
-	<meta name="theme-color" content="#6421A6">
-	<meta name="google-site-verification" content="DXjKIL4kcUV4tvysVnussZn1fwj-UI68bq-Wl6ju2d4" />
-
-	<title>Science & Design - A 501(c)(3) non-profit product development organization</title>
-
-	<link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
-	<link rel="icon" type="image/png" href="images/favicon/favicon-32x32.png" sizes="32x32">
-	<link rel="icon" type="image/png" href="images/favicon/favicon-16x16.png" sizes="16x16">
-	<link rel="icon" type="image/png" href="images/favicon/android-chrome-192x192.png" sizes="192x192">
-	<link rel="icon" type="image/png" href="images/favicon/android-chrome-512x512.png" sizes="512x512">
-	<link rel="icon" type="image/x-icon" href="images/favicon/favicon.ico">
-
-	<link rel="stylesheet" href="design-system/css/style.css">
-	<link rel="stylesheet" href="css/overrides.css">
-
-	<script src="design-system/js/jquery-min.js"></script>
-	<script src="design-system/js/design-system.js"></script>
+    <meta charset="UTF-8">
+    <meta name="author" content="Science & Design, Inc.">
+    <meta name="theme-color" content="#7d25c1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Science & Design, Inc.</title>
+    <link rel="icon" type="image/x-icon" href="src/img/favicon/favicon.ico">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
 </head>
+<body class="landing">
+    <div class="banner">
+        <p>❤️ Love what we do? <a href="https://opencollective.com/scidsg/" target="_blank" rel="noopener noreferrer">Donate</a>!</p>
+    </div>
+    <header>
+        <p class="logo">Science <span class="brandMark">&amp;</span> Design</p>
+        <nav>
+            <a class="mobileNav btnIcon" aria-label="Navigation menu">Menu</a>
+            <ul>
+                <li><a href="team.html">Team</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <a class="btn primaryBtn" href="https://opencollective.com/scidsg/" target="_blank" rel="noopener noreferrer">Donate</a>
+        </nav>
+    </header>
 
-<body>
-	<header>
-		<div class="wrapper">
-			<div class="logo">
-				<div class="logoMark"></div>
-				<h1><a href="index.html">Science <span class="brandMark">&amp;</span> Design</a></h1>
-			</div>
-			<nav>
-				<ul>
-					<li><a class="wrapper" target="_blank" rel="noopener noreferrer" href="https://shop.scidsg.org">🛍️ Shop</a></li>
-					<li><a class="wrapper" href="team.html">The Team</a></li>
-					<li><a class="wrapper" href="working-together.html">Working Together</a></li>
-					<li><a role="button" class="btn btnLrg" href="https://cal.com/scidsg/15min" target="_blank" rel="noopener noreferrer">Schedule a Call</a></li>
-				</ul>
-				<a class="mobileNav btnIcon"></a>
-				<a role="button" class="btn btnLrg primaryBtn" href="https://opencollective.com/scidsg#category-CONTRIBUTE" target="_blank" rel="noopener noreferrer">Donate</a>
-			</nav>
-		</div>
-	</header>
-
-	<div role="main">
-
-		<section class="intro">
-			<div class="wrapper">
-				<h2>We create open-source software that gives power to the people.</h2>
-			</div>
-			<p class="hint">Scroll Down</p>
-		</section>
-
-		<div class="statementContainer">
-			<div class="wrapper">
-				<div class="statement description">
-					<p>Science &amp; Design builds and maintains free and open-source software and services for journalists, human rights activists, educators, and more. <span class="highlight">We care about accessibility, usability, privacy, and security</span> and support other non-profits and open-source projects serving the public interest.</p>
-				</div>
-			</div>
-		</div>
-
-		<section id="getInvolved" class="cardSection">
-			<div class="wrapper">
-				<h3>Focus Areas</h3>
-				<div class="groupRow card center">
-					<div class="description">
-						<div class="icon access"></div>
-						<h4>Access</h4>
-						<p>We believe that everyone deserves free access to information.</p>
-					</div>
-					<div class="description">
-						<div class="icon safe"></div>
-						<h4>Safety</h4>
-						<p>We empower people with tools to stay safe online.</p>
-					</div>
-					<div class="description">
-						<div class="icon edu"></div>
-						<h4>Education</h4>
-						<p>We enable individual autonomy through free educational resources.</p>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<section class="featureSection">
-			<div class="wrapper">
-				<h3>Our Products</h3>
-				<div class="group featureGroup">
-					<div class="description">
-						<h4>Hush Line</h4>
-						<p>The first anonymous tip line-as-a-service for organizations and individuals.</p>
-						<div class="btnGrp">
-							<a role="button" class="btn btnLrg" href="https://beta.hushline.app/register" target="_blank" rel="noopener noreferrer">Register</a>
-							<a role="button" class="btn btnLrg" href="https://hushline.app" target="_blank" rel="noopener noreferrer">Learn More</a>
-						</div>
-						<img src="images/hushline/cover.png" alt="Homepage and app for Hush Line.">
-					</div>
-				</div>
-				<div class="group featureGroup">
-					<div class="description">
-						<h4>Mastodon Scheduler</h4>
-						<p>Schedule your posts to Mastodon so your accounts stay fresh.</p>
-						<div class="btnGrp">
-							<a role="button" class="btn btnLrg" href="https://mastodon-scheduler.app" target="_blank" rel="noopener noreferrer">Learn More</a>
-						</div>
-						<img src="images/mastodon-scheduler/cover.png" alt="Homepage and app for Mastodon Scheduler.">
-					</div>
-				</div>
-				<div class="group featureGroup">
-					<div class="description">
-						<h4>Pi Relay</h4>
-						<p>Have a spare Raspberry Pi? Safely transform it into a relay powering the Tor network, and help people worldwide stay safe online.</p>
-						<div class="btnGrp">
-							<a role="button" class="btn btnLrg" href="https://pirelay.computer" target="_blank" rel="noopener noreferrer">Learn More</a>
-						</div>
-						<img src="images/pirelay/cover.png" alt="Homepage for Pi Relay">
-					</div>
-				</div>
-				<div class="group featureGroup">
-					<div class="description">
-						<h4>Design System</h4>
-						<p>An experience-first, open-source design system with a Builder application enabling anyone to create lightweight, resilient, and usable websites.</p>
-						<div class="btnGrp">
-							<a role="button" class="btn btnLrg" href="https://pagebuilder.design" target="_blank" rel="noopener noreferrer">Learn More</a>
-						</div>
-						<img src="images/design-system/cover.png" alt="Cover image for the Design System with the homepage, and Page Builder.">
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<section id="services" class="cardSection">
-			<div class="wrapper">
-				<h3>Working Together</h3>
-				<div class="groupRow card">
-					<div class="description">
-						<div class="icon design"></div>
-						<h4>Design</h4>
-						<p>From usability to beautiful aesthetics, your users have high expectations for your product.</p>
-						<div class="cols">
-							<div>
-								<ul>
-									<li>Product Design</li>
-									<li>Interaction Design</li>
-									<li>Interface Design</li>
-								</ul>
-							</div>
-							<div>
-								<ul>
-									<li>Visual Design</li>
-									<li>Conversational Design</li>
-									<li>Marketing Design</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="description">
-						<div class="icon eng"></div>
-						<h4>Engineering</h4>
-						<p>It's critical for your systems to be transparent, scalable, and resilient. So build it right the first time.</p>
-						<div class="cols">
-							<div>
-								<ul>
-									<li>Mobile Apps</li>
-									<li>Desktop Apps</li>
-									<li>IOT</li>
-								</ul>
-							</div>
-							<div>
-								<ul>
-									<li>Web Development</li>
-									<li>Accessibility Auditing</li>
-									<li>Infrastructure</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="groupRow card">
-					<div class="description">
-						<div class="icon security"></div>
-						<h4>SecOps</h4>
-						<p>Security isn't just a quick fix. It's a commitment to your users. From training to data security, we can help.</p>
-						<div class="cols">
-							<div>
-								<ul>
-									<li>Threat Modeling</li>
-									<li>Server &amp; Application Hardening</li>
-									<li>Intrusion Detection</li>
-								</ul>
-							</div>
-							<div>
-								<ul>
-									<li>Penetration Testing</li>
-									<li>OpSec Training</li>
-									<li>Community Resources</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="description">
-						<div class="icon research"></div>
-						<h4>User Research</h4>
-						<p>Research reduces development risk and answers important questions about your product or service.</p>
-						<div class="cols">
-							<div>
-								<ul>
-									<li>Evaluative Research</li>
-									<li>Generative Research</li>
-									<li>User Interviews</li>
-								</ul>
-							</div>
-							<div>
-								<ul>
-									<li>RITE Testing</li>
-									<li>Surveys</li>
-									<li>Diary Studies</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-				<a role="button" class="btn btnLrg" href="working-together.html">Learn More</a>
-
-			</div>
-		</section>
-
-		<section id="partners">
-			<div class="wrapper centerMin">
-				<h3>Our Partners</h3>
-				<div class="groupRow center">
-					<div class="description">
-						<a href="https://ddosecrets.com" target="_blank" rel="noopener noreferrer"><img src="images/logos/ddos.png" alt="DDoSecrets logo"></a>
-					</div>
-					<div class="description">
-						<a href="https://onionshare.org/" target="_blank" rel="noopener noreferrer"><img src="images/logos/onionshare.png" alt="OnionShare Logo"></a>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<section id="getInvolved" class="cardSection">
-			<div class="wrapper">
-				<h3>Get Involved</h3>
-				<div class="groupRow card center">
-					<div class="description">
-						<div class="icon donor"></div>
-						<h4>Donate</h4>
-						<p>We build public interest, free and open-source software, and help non-profits do the same. Support us with a one-time or monthly donation.</p>
-						<a role="button" class="btn" href="https://opencollective.com/scidsg#category-CONTRIBUTE" target="_blank" rel="noopener noreferrer">Donate Now</a>
-					</div>
-					<div class="description">
-						<div class="icon tor"></div>
-						<h4>Sponsor a Tor Relay</h4>
-						<p>Your support pays for a unique virtual private server (VPS) used only for operating your relay.</p>
-						<a role="button" class="btn" href="https://opencollective.com/scidsg/contribute/tor-relay-operator-50818" target="_blank" rel="noopener noreferrer">Sponsor a Relay</a>
-					</div>
-					<div class="description">
-						<div class="icon contrib"></div>
-						<h4>Contribute</h4>
-						<p>We're always looking for new contributors. If you'd like to get involved, send us an email or schedule a call.</p>
-						<div class="btnGrp">
-							<a role="button" class="btn" href="https://docs.google.com/presentation/d/1QsCMZiy_fjnauB9yIrjOwflhxFRJiUbJySgBCzdewBU/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Welcome Deck</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<!-- <section class="featureSection">
-			<div class="wrapper">
-				<div class="group featureGroup">
-					<div class="description">
-						<div class="icon research"></div>
-						<h3>Help Improve Our Products</h3>
-						<p>Want to help make our software better? Our research activities may include testing early prototypes or completing a short survey.</p>
-						<a role="button" class="btn btnLrg" href="https://cryptpad.fr/form/#/2/form/view/Rd0BKCKmhYZZfbu64GfxV2ZRQUvOkBO4784BiDdu4Fk/" target="_blank" rel="noopener noreferrer">Sign Up</a>
-					</div>
-					
-				</div>
-			</div>
-		</section> -->
-
-		<section id="contact">
-			<div class="wrapper">
-				<div class="description">
-					<div class="icon mail"></div>
-					<h3 id="updatethis">Contact</h3>
-					<p>Thanks for stopping by! We'd love to move this conversation to IRL :) Send an email, follow us on Mastodon, or schedule a call! </p>
-					<div class="cols">
-						<div>
-							<ul>
-								<li>🤫&nbsp;<a href="https://tips.hushline.app/to/scidsg" target="_blank" rel="me noopener noreferrer">Hush Line</a> (Preferred)</li>
-								<li>🐘&nbsp;<a href="https://fosstodon.org/@scidsg" target="_blank" rel="me noopener noreferrer">Mastodon</a></li>
-							</ul>
-						</div>
-						<div>
-							<ul>
-								<li>❤️&nbsp;<a href="https://opencollective.com/scidsg" target="_blank" rel="me noopener noreferrer">Open Collective</a></li>
-								<li>🧑‍💻&nbsp;<a href="https://github.com/scidsg" target="_blank" rel="me noopener noreferrer">GitHub</a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-
-	</div>
-
-	<footer>
-		<div class="wrapper">
-			<p>&copy; <a property="dct:title" href="https://scidsg.org" target="_blank" rel="cc:attributionURL noopener noreferrer">Science &amp; Design, Inc.</a>, a <a href="https://github.com/scidsg/business-resources/blob/main/Business%20Resources/501(c)(3)%20Determination%20Letter.pdf" target="_blank" rel="noopener noreferrer">501(c)(3)</a> non-profit. <a href="https://github.com/scidsg/business-resources/blob/main/Business%20Resources/Terms%20of%20Service.md" target="_blank" rel="noopener noreferrer">Terms of Service</a>.</p>
-		</div>
-	</footer>
+    <main class="landing">
+        <section class="intro">
+            <div class="wrapper">
+                <h1>We build tools for transparency and access to information</h1>
+                <p>Science & Design, Inc. is a 501(c)(3) product development non-profit in the United States building free and open-source software and services
+                    for journalists, lawyers, educators, and more.</p>
+                <img src="src/img/cover.webp" alt="Product Suite">
+            </div>
+        </section>
+        <section id="who" class="cards">
+            <h2>Our Users</h2>
+            <div class="wrapper">
+                    <div class="description">
+                        <img src="src/img/avatar-1.webp" alt="Journalist Avatar">
+                        <h3>Journalists & Newsrooms</h3>
+                    </div>
+                    <div class="description">
+                        <img src="src/img/avatar-2.webp" alt="Educator Avatar">
+                        <h3>Educators & School Administrators</h3>
+                    </div>
+                    <div class="description">
+                        <img src="src/img/avatar-4-p.webp" alt="Employer Avatar">
+                        <h3>Organizers & Activists</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="why">
+            <h2 class=wrapper>Recent Work</h2>
+            <div class="feature">
+                <div class="wrapper">
+                    <div class="description">
+                        <h3>Hush Line</h3>
+                        <p>SaaS and PaaS anonymous reporting for organizations and individuals. The easiest whistleblower reporting platform available.</p>
+                        <a class="btn" role="button" href="https://hushline.app" rel="noopener noreferrer">Go To Hush Line</a>
+                    </div>
+                    <img src="src/img/hushline.webp" alt="Hush Line mobile and desktop interfaces.">
+                </div>
+            </div>
+            <div class="feature">
+                <div class="wrapper">
+                    <div class="description flip">
+                        <h3>Frontpage</h3>
+                        <p>The platform powering Distributed Denial of Secrets consumer-facing app. High-volume, editorial interface for publishing 
+                            hacked and leaked data serving the public's interest.</p>
+                        <a class="btn" role="button" href="https://ddosecrets.com" rel="noopener noreferrer">Go To DDoSecrets</a>
+                    </div>
+                    <img src="src/img/ddosecrets.webp" alt="Distributed Denial of Secrets desktop and mobile interfaces.">
+                </div>
+            </div>
+            <div class="feature">
+                <div class="wrapper">
+                    <div class="description">
+                        <h3>Mastodon Scheduler</h3>
+                        <p>A tool for Fediverse users to scheduler their posts, allowing better planning and preparation of social content.</p>
+                        <a class="btn" role="button" href="https://mastodon-scheduler.app" rel="noopener noreferrer">Go To Mastodon Scheduler</a>
+                    </div>
+                    <img src="src/img/mastodon.webp" alt="Screenshot of Mastodon Scheduler interface.">
+                </div>
+            </div>
+        </section>
+        <section class="why">
+            <h2 class=wrapper>Team</h2>
+            <div class="feature">
+                <div class="wrapper">
+                    <div class="description">
+                        <h3>Glenn Sorrentino</h3>
+                        <p>SaaS and PaaS anonymous reporting for organizations and individuals. The easiest whistleblower reporting platform available.</p>
+                        <a class="btn" role="button" href="https://hushline.app" rel="noopener noreferrer">Go To Hush Line</a>
+                    </div>
+                    <img src="src/img/hushline.webp" alt="Hush Line mobile and desktop interfaces.">
+                </div>
+            </div>
+            <div class="feature">
+                <div class="wrapper">
+                    <div class="description flip">
+                        <h3>Micah Lee</h3>
+                        <p>The platform powering Distributed Denial of Secrets consumer-facing app. High-volume, editorial interface for publishing 
+                            hacked and leaked data serving the public's interest.</p>
+                        <a class="btn" role="button" href="https://ddosecrets.com" rel="noopener noreferrer">Go To DDoSecrets</a>
+                    </div>
+                    <img src="src/img/ddosecrets.webp" alt="Distributed Denial of Secrets desktop and mobile interfaces.">
+                </div>
+            </div>
+            <div class="feature">
+                <div class="wrapper">
+                    <div class="description">
+                        <h3>Elijah Waxwing</h3>
+                        <p>A tool for Fediverse users to scheduler their posts, allowing better planning and preparation of social content.</p>
+                        <a class="btn" role="button" href="https://mastodon-scheduler.app" rel="noopener noreferrer">Go To Mastodon Scheduler</a>
+                    </div>
+                    <img src="src/img/mastodon.webp" alt="Screenshot of Mastodon Scheduler interface.">
+                </div>
+            </div>
+            <div class="feature">
+                <div class="wrapper">
+                    <div class="description flip">
+                        <h3>Serene</h3>
+                        <p>A tool for Fediverse users to scheduler their posts, allowing better planning and preparation of social content.</p>
+                        <a class="btn" role="button" href="https://mastodon-scheduler.app" rel="noopener noreferrer">Go To Mastodon Scheduler</a>
+                    </div>
+                    <img src="src/img/mastodon.webp" alt="Screenshot of Mastodon Scheduler interface.">
+                </div>
+            </div>
+            <div class="feature">
+                <div class="wrapper">
+                    <div class="description">
+                        <h3>Stefanie Daehler</h3>
+                        <p>A tool for Fediverse users to scheduler their posts, allowing better planning and preparation of social content.</p>
+                        <a class="btn" role="button" href="https://mastodon-scheduler.app" rel="noopener noreferrer">Go To Mastodon Scheduler</a>
+                    </div>
+                    <img src="src/img/mastodon.webp" alt="Screenshot of Mastodon Scheduler interface.">
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="contact">
+            <div class="feature">
+                <div class="wrapper">
+                    <div class="description">
+                        <h2>👋<br>Contact Us</h2>
+                        <p>Thank you for stopping by! Science & Design, Inc., a 501(c)(3) non-profit in the US building free and open-source software and services making a positive impact across industries. Get it touch using one of the channels below! </p>
+                        <ul>
+                            <li><a href="https://tips.hushline.app/to/scidsg">Private Messages using Hush Line</a></li>
+                            <li><a href="mailto:hello@scidsg.org">Email - hello@scidsg.org</a></li>
+                            <li><a href="https://mastodon.social/@scidsg" rel="noopener noreferrer">Mastodon</a></li>
+                            <li><a href="https://bsky.app/profile/scidsg.org" rel="noopener noreferrer">Bluesky</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="wrapper">
+                <p>Built with ✊ by <a property="cc:attributionName" href="https://scidsg.org/" target="_blank" rel="cc:attributionURL dct:creator noopener noreferrer">Science &amp; Design, Inc.</a>, a <a href="https://github.com/scidsg/business-resources/blob/main/Business%20Resources/501(c)(3)%20Determination%20Letter.pdf" target="_blank" rel="noopener noreferrer">501(c)(3)</a> non-profit located in California, USA 🇺🇸 making a global 🌍 impact.</p>
+            </div>
+        </footer>
+    </main>
+    <script src="src/js/nav.js"></script>
+    <script src="src/js/faq.js"></script>
 
 </body>
-
 </html>
