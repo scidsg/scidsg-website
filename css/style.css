@@ -160,7 +160,7 @@ img.logo {
   color: var(--fg);
   border: 1px solid var(--card-brd);
   border-radius: 12px;
-  padding: 0.75rem;
+  padding: 1rem;
   box-shadow: 0 12px 30px rgba(0,0,0,.15);
   opacity: 0;
   visibility: hidden;
