@@ -1,162 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="author" content="Science & Design, Inc.">
-    <meta name="theme-color" content="#7d25c1">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8" />
     <title>Science & Design, Inc.</title>
-    <link rel="icon" type="image/x-icon" href="src/img/favicon/favicon.ico">
-    <link rel="stylesheet" href="src/css/reset.css">
-    <link rel="stylesheet" href="src/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<body class="landing">
-    <div class="banner">
-        <p>🧅 Use <a href="https://www.torproject.org/download/" rel="noopener noreferrer" target="_blank"
-                aria-label="Use Tor Browser for greater anonymity">Tor
-                Browser</a> for greater anonymity.</p>
-    </div>
-    <header>
-        <p class="logo">Science <span class="brandMark">&amp;</span> Design</p>
-        <nav>
-            <a class="mobileNav btnIcon" aria-label="Navigation menu">Menu</a>
-            <ul>
-                <li><a href="team.html">Team</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-            <a class="btn primaryBtn" href="https://opencollective.com/scidsg/" target="_blank" rel="noopener noreferrer">Donate</a>
-        </nav>
-    </header>
 
-    <main class="landing">
-        <section class="intro">
-            <div class="wrapper">
-                <h1>We build tools for transparency and free access to information.</h1>
-                <p>Science & Design, Inc. is a 501(c)(3) product development non-profit in the United States building free and open-source software and services
-                    for journalists, lawyers, educators, and more.</p>
-                <img src="src/img/cover.webp" alt="Product Suite">
-            </div>
-        </section>
-        <section id="who" class="cards">
-            <h2>Our Users</h2>
-            <div class="wrapper">
-                    <div class="description">
-                        <img src="src/img/avatar-1.webp" alt="Journalist Avatar">
-                        <h3>Journalists & Newsrooms</h3>
-                    </div>
-                    <div class="description">
-                        <img src="src/img/avatar-2.webp" alt="Educator Avatar">
-                        <h3>Educators & School Administrators</h3>
-                    </div>
-                    <div class="description">
-                        <img src="src/img/avatar-4-p.webp" alt="Employer Avatar">
-                        <h3>Organizers & Activists</h3>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="why">
-            <h2 class=wrapper>Recent Work</h2>
-            <div class="feature">
-                <div class="wrapper">
-                    <div class="description">
-                        <h3>Hush Line</h3>
-                        <p>SaaS and PaaS anonymous reporting for organizations and individuals. The easiest whistleblower reporting platform available.</p>
-                        <a class="btn" role="button" href="https://hushline.app" rel="noopener noreferrer">Go To Hush Line</a>
-                    </div>
-                    <img src="src/img/hushline.webp" alt="Hush Line mobile and desktop interfaces.">
-                </div>
-            </div>
-            <div class="feature">
-                <div class="wrapper">
-                    <div class="description flip">
-                        <h3>Frontpage</h3>
-                        <p>The platform powering Distributed Denial of Secrets consumer-facing app. High-volume, editorial interface for publishing 
-                            hacked and leaked data serving the public's interest.</p>
-                        <a class="btn" role="button" href="https://ddosecrets.com" rel="noopener noreferrer">Go To DDoSecrets</a>
-                    </div>
-                    <img src="src/img/ddosecrets.webp" alt="Distributed Denial of Secrets desktop and mobile interfaces.">
-                </div>
-            </div>
-        </section>
-        <section class="why">
-            <h2 class=wrapper>Board of Directors</h2>
-            <div class="feature bio">
-				<div class="wrapper">
-					<div class="description">
-						<h3>Elijah Waxwing</h3>
-						<p>Elijah is the co-founder of Riseup.net, the LEAP Encryption Access Project, and Thoughtworks. He's been working on the issue of digital justice, autonomous infrastructure, and surveillance of social movements since 2000. Elijah is a software developer, systems architect, information security specialist, and manager.</p>
-						<a href="https://kolektiva.social/@elijah" target="_blank" rel="noopener noreferrer">Mastodon</a>
-					</div>
-					<img src="src/img/elijah.jpg" alt="Elijah's Headshot">
-				</div>
-			</div>
-			<div class="feature bio">
-				<div class="wrapper">
-					<div class="description">
-						<h3>Glenn Sorrentino</h3>
-						<p>Glenn is the founder and Executive Director of Science & Design and serves on the Board of Advisors to <a href="https://ddosecrets.com" target="_blank" rel="noopener noreferrer">Distributed Denial of Secrets</a>. In his most recent role as Principal Product Designer at Salesforce, he led the design for products including Search, Voice, Identity, and Authentication. His work has been awarded <a href="https://patents.google.com/?inventor=glenn+sorrentino" target="_blank" rel="noopener noreferrer">multiple US patents</a>, and invitations to collaborate with institutions like <a href="https://www.belfercenter.org/sites/default/files/2019-11/DataPrivacy.pdf" target="_blank" rel="noopener noreferrer">Harvard's Belfer Center</a> and the <a href="https://www3.weforum.org/docs/WEF_Redesigning_Data_Privacy_Report_2020.pdf" target="_blank" rel="noopener noreferrer">World Economic Forum</a>.</p>
-						<a href="https://www.linkedin.com/in/glennsorrentino/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-					</div>
-					<img src="src/img/glenn.jpg" alt="Glenn's Headshot">
-				</div>
-			</div>
-			<div class="feature bio">
-				<div class="wrapper">
-					<div class="description">
-						<h3>Micah Lee</h3>
-						<p>Micah is a cofounder of <a href="https://freedom.press" target="_blank" rel="noopener noreferrer">Freedom of the Press Foundation</a>, serves on the board of <a href="https://ddosecrets.com" target="_blank" rel="noopener noreferrer">Distributed Denial of Secrets</a> and <a href="https://open-archive.org/" target="_blank" rel="noopener noreferrer">OpenArchive</a>, and is the Director of Information Security at The Intercept. He is a computer security engineer and an open-source software developer who writes about technical topics like digital and operational security, encryption tools, whistleblowing, and hacking using language that everyone can understand without dumbing it down. In addition, he develops security and privacy tools such as OnionShare, Dangerzone, and Semiphemeral.</p>
-						<a href="https://micahflee.com/" target="_blank" rel="noopener noreferrer">Website</a>
-					</div>
-					<img src="src/img/micah.png" alt="Micah's Headshot">
-				</div>
-			</div>
-			<div class="feature bio">
-				<div class="wrapper">
-					<div class="description">
-						<h3>Serene</h3>
-						<p>Serene is a software engineer, ex-hacker, and the creator of the Snowflake pluggable transport. Away from the computer, she is a concert pianist who concertizes around the world.</p>
-						<a href="https://serenepianist.com/" target="_blank" rel="noopener noreferrer">Website</a>
-					</div>
-					<img src="src/img/serene.jpg" alt="Serene's Headshot">
-				</div>
-			</div>
-			<div class="feature bio">
-				<div class="wrapper">
-					<div class="description">
-						<h3>Stefanie Daehler</h3>
-						<p>Stefanie is a librarian and educator, holding a Masters of Library and Information Sciences from Pratt and a BA from Cornell. Her experience includes Penguin Publishing, The NYC Department of Education, and leadership at The Archer School for Girls.</p>
-						<a href="https://www.linkedin.com/in/stefaniedaehler/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-					</div>
-					<img src="src/img/stef.jpg" alt="Stef's Headshot">
-				</div>
-			</div>
-        </section>
-        <section id="contact" class="contact">
-            <div class="feature">
-                <div class="wrapper">
-                    <div class="description">
-                        <h2>👋<br>Contact Us</h2>
-                        <p>Thank you for stopping by! Science & Design, Inc., a 501(c)(3) non-profit in the US building free and open-source software and services making a positive impact across industries. Get it touch using one of the channels below! </p>
-                        <ul>
-                            <li><a href="https://tips.hushline.app/to/scidsg" rel="me">Private Messages using Hush Line</a></li>
-                            <li><a href="mailto:hello@scidsg.org">Email - hello@scidsg.org</a></li>
-                            <li><a href="https://mastodon.social/@scidsg" rel="noopener me noreferrer">Mastodon</a></li>
-                            <li><a href="https://bsky.app/profile/scidsg.org" rel="noopener noreferrer">Bluesky</a></li>
-            
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <footer>
-            <div class="wrapper">
-                <p>Built with ✊ by <a property="cc:attributionName" href="https://scidsg.org/" target="_blank" rel="cc:attributionURL dct:creator noopener noreferrer">Science &amp; Design, Inc.</a>, a <a href="https://github.com/scidsg/business-resources/blob/main/Business%20Resources/501(c)(3)%20Determination%20Letter.pdf" target="_blank" rel="noopener noreferrer">501(c)(3)</a> non-profit located in California, USA 🇺🇸 making a global 🌍 impact.</p>
-            </div>
-        </footer>
+<body>
+    <main class="wrap" aria-live="polite">
+        <div id="text"></div>
     </main>
-    <script src="src/js/nav.js"></script>
-    <script src="src/js/faq.js"></script>
-
+    <script src="js/script.js"></script>
 </body>
+
 </html>
