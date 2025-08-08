@@ -48,6 +48,15 @@ body {
     /* kill horizontal scrollbar */
 }
 
+body {
+  min-height: 100svh;
+  box-sizing: border-box;
+  padding: clamp(24px, 4vw, 64px);
+  display: grid;
+  place-items: start start;
+  overflow-x: hidden;
+}
+
 a {
     color: var(--accent);
 }
