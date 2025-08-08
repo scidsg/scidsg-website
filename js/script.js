@@ -97,7 +97,7 @@ const lines = [
 
 const WORD_DELAY = 100;
 const SENTENCE_PAUSE = 500;
-const LINE_PAUSE = 750;
+const LINE_PAUSE = 1000;
 
 const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
 const D_WORD = reduceMotion ? 0 : WORD_DELAY;
