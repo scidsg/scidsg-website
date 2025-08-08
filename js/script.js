@@ -1,9 +1,9 @@
 const lines = [
     [
-        { type: 'text', text: "👋 Hi, we're Science & Design, Inc., a 501(c)(3) non-profit based in the United States that makes free and open-source software focusing on free access to information and free speech online." }
+        { type: 'text', text: "👋 Hi, we're Science & Design, Inc., a 501(c)(3) product development non-profit based in the US that makes free and open-source software focusing on free access to information and free speech online." }
     ],
     [
-        { type: 'text', text: "We were the first non-profit in the US to launch a software-as-a-service whistleblower platform, called" },
+        { type: 'text', text: "We were the first 501(c)(3) to launch a software-as-a-service whistleblower platform, called" },
         {
             type: 'hl',
             text: "Hush Line",
@@ -30,7 +30,7 @@ const lines = [
                 alt: "DDoSecrets site preview"
             }
         },
-        { type: 'text', text: ", a 501(c)(3) publishing and archiving hacked and leaked public interest data. Working with the team, we created a multi-user, journalistic, editorial-themed platform that supports a wide corpus of global data." }
+        { type: 'text', text: ", a non-profit publishing and archiving hacked and leaked public interest data. Working with the team, we created a multi-user, journalistic, editorial-themed platform that supports a wide corpus of global data." }
     ],
     [
         { type: 'text', text: "Our Board is the best in the biz, with people who've dedicated their careers to protecting privacy online." },
