@@ -101,7 +101,7 @@ const lines = [
 ];
 
 const WORD_DELAY = 100;
-const SENTENCE_PAUSE = 300;
+const SENTENCE_PAUSE = 600;
 const LINE_PAUSE = 900;
 
 const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
