@@ -30,7 +30,7 @@ const lines = [
                 alt: "DDoSecrets site preview"
             }
         },
-        { type: 'text', text: ", a non-profit publishing and archiving hacked and leaked public interest data. Working with the team, we created a multi-user, journalistic, editorial-themed platform that supports a wide corpus of global data." }
+        { type: 'text', text: ", a non-profit that publishes and archives hacked and leaked public interest data. Working with the team, we created a multi-user, journalistic, editorial-themed platform that supports a wide corpus of global data." }
     ],
     [
         { type: 'text', text: "Our Board is the best in the biz, with people who've dedicated their careers to protecting privacy online." },
