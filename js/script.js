@@ -15,7 +15,7 @@ const lines = [
                 alt: "Hush Line interface screenshot"
             }
         },
-        { type: 'text', text: ". Our platform offers end-to-end encrypted, anonymous tip lines for lawyers, journalists, educators, and more, and has users from organizations including Whistleblower Partners, LLP, Whistleblowers of America, NPR, LA Times, Bloomberg, HuffPost, ABC News, and BBC." },
+        { type: 'text', text: ". Our platform offers end-to-end encrypted, anonymous tip lines for lawyers, journalists, educators, and more. We're trusted by professionals at organizations such as Whistleblower Partners, LLP, Whistleblowers of America, NPR, LA Times, Bloomberg, HuffPost, ABC News, and BBC." },
     ],
     [
         { type: 'text', text: "We help other organizations with software development, and built the publishing platform for" },
@@ -30,7 +30,7 @@ const lines = [
                 alt: "DDoSecrets site preview"
             }
         },
-        { type: 'text', text: ". Working with the team, we created a multi-user, journalistic, editorial-themed platform that supports a wide corpus of global data." }
+        { type: 'text', text: ", a 501(c)(3) publishing and archiving hacked and leaked public interest data. Working with the team, we created a multi-user, journalistic, editorial-themed platform that supports a wide corpus of global data." }
     ],
     [
         { type: 'text', text: "Our Board is the best in the biz, with people who've dedicated their careers to protecting privacy online." },
@@ -45,7 +45,7 @@ const lines = [
                 alt: "Glenn Sorrentino, Executive Director of Science & Design, Inc."
             }
         },
-        { type: 'text', text: "is a patent-awarded product designer, and a longtime contributor to open-source tools including Signal, OnionShare, and CalyxOS." },
+        { type: 'text', text: " is a patent-awarded product designer and a longtime contributor to open-source tools including Signal, OnionShare, and CalyxOS." },
         {
             type: 'hl',
             text: "Micah Lee",
@@ -57,7 +57,7 @@ const lines = [
                 alt: "Micah Lee, Director of Science & Design, Inc."
             }
         },
-        { type: 'text', text: " is a journalist, software developer, the IT-support behind Edward Snowden's disclosures in 2013." },
+        { type: 'text', text: " is a journalist and software developer who provided IT support for Edward Snowden's disclosures in 2013." },
         {
             type: 'hl',
             text: "Elijah Waxwing",
@@ -93,7 +93,7 @@ const lines = [
                 alt: "Stefanie Daehler, Director of Science & Design, Inc."
             }
         },
-        { type: 'text', text: " is our Treasurer and Secretary. Her background is in education, and has served in leadership positions in the New York Public Schools System and in private schools in Los Angeles." },
+        { type: 'text', text: " is our Treasurer and Secretary. Her background is in education, and she has served in leadership positions in the New York Public Schools System and private schools in Los Angeles." },
     ],
     [
         { type: 'text', text: "To get in touch with us, please send an email to hello@scidsg.org, or a Signal message to @scidsg.01." },
@@ -196,6 +196,8 @@ function tokenizeWords(s) {
 function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
 async function revealAll() {
+    await sleep(800);
+
     for (let i = 0; i < lines.length; i++) {
         const line = lines[i];
         const lineEl = createLineContainer();
