@@ -39,6 +39,7 @@ const lines = [
             text: "Glenn Sorrentino",
             card: {
                 title: "Glenn Sorrentino",
+                url: "https://www.linkedin.com/in/glennsorrentino/",
                 text: "Executive Director, Science & Design, Inc.",
                 img: "./img/glenn.png",
                 alt: "Glenn Sorrentino, Executive Director of Science & Design, Inc."
@@ -50,6 +51,7 @@ const lines = [
             text: "Micah Lee",
             card: {
                 title: "Micah Lee",
+                url: "https://micahflee.com",
                 text: "Director, Science & Design, Inc.",
                 img: "./img/micah.png",
                 alt: "Micah Lee, Director of Science & Design, Inc."
@@ -61,6 +63,7 @@ const lines = [
             text: "Elijah Waxwing",
             card: {
                 title: "Elijah Waxwing",
+                url: "https://www.linkedin.com/in/elijah-waxwing-8989aa302/",
                 text: "Director, Science & Design, Inc.",
                 img: "./img/elijah.png",
                 alt: "Elijah Waxwing, Director of Science & Design, Inc."
@@ -72,6 +75,7 @@ const lines = [
             text: "Serene",
             card: {
                 title: "Serene",
+                url: "https://www.linkedin.com/in/keroserene/",
                 text: "Director, Science & Design, Inc.",
                 img: "./img/serene.png",
                 alt: "Serene, Director of Science & Design, Inc."
@@ -83,7 +87,8 @@ const lines = [
             text: "Stefanie Daehler",
             card: {
                 title: "Stefanie Daehler",
-                text: "Director, Science & Design, Inc.",
+                url: "https://www.linkedin.com/in/stefaniedaehler/",
+                text: "Treasurer & Secretary, Science & Design, Inc.",
                 img: "./img/stef.png",
                 alt: "Stefanie Daehler, Director of Science & Design, Inc."
             }
