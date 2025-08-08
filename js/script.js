@@ -55,7 +55,7 @@ const lines = [
                 alt: "Micah Lee, Director of Science & Design, Inc."
             }
         },
-        { type: 'text', text: ", is a journalist, software developer, the IT-support behind Edward Snowden's disclosures in 2013." },
+        { type: 'text', text: " is a journalist, software developer, the IT-support behind Edward Snowden's disclosures in 2013." },
         {
             type: 'hl',
             text: "Elijah Waxwing",
@@ -95,9 +95,9 @@ const lines = [
     ],
 ];
 
-const WORD_DELAY = 150;
+const WORD_DELAY = 100;
 const SENTENCE_PAUSE = 500;
-const LINE_PAUSE = 1000;
+const LINE_PAUSE = 750;
 
 const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
 const D_WORD = reduceMotion ? 0 : WORD_DELAY;
