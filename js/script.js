@@ -15,7 +15,7 @@ const lines = [
                 alt: "Hush Line interface screenshot"
             }
         },
-        { type: 'text', text: ". Our platform offers end-to-end encrypted, anonymous tip lines for lawyers, journalists, educators, and more, and has users from organizations including NPR, LA Times, Bloomberg, HuffPost, ABC News, and BBC." },
+        { type: 'text', text: ". Our platform offers end-to-end encrypted, anonymous tip lines for lawyers, journalists, educators, and more, and has users from organizations including Whistleblower Partners, LLP, Whistleblowers of America, NPR, LA Times, Bloomberg, HuffPost, ABC News, and BBC." },
     ],
     [
         { type: 'text', text: "We help other organizations with software development, and built the publishing platform for" },
