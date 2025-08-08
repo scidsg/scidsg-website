@@ -3,7 +3,7 @@ const lines = [
         { type: 'text', text: "👋 Hi, we're Science & Design, Inc., a 501(c)(3) product development non-profit based in the US that makes free and open-source software focusing on free access to information and free speech online." }
     ],
     [
-        { type: 'text', text: "We were the first 501(c)(3) to launch a software-as-a-service whistleblower platform, called" },
+        { type: 'text', text: "We are the first 501(c)(3) to launch a software-as-a-service whistleblower platform, called" },
         {
             type: 'hl',
             text: "Hush Line",
