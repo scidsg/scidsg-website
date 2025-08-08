@@ -140,25 +140,42 @@ img.logo {
     transform: scaleX(1);
 }
 
+@media (hover: hover) and (pointer: fine) {
+  .highlight:hover .highlight-card,
+  .highlight:focus-visible .highlight-card {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+}
+
+/* Base card */
 .highlight-card {
-    position: absolute;
-    left: 0;
-    bottom: 120%;
-    min-width: 260px;
-    max-width: min(420px, 92vw);
-    background: var(--card-bg);
-    color: var(--fg);
-    border: 1px solid var(--card-brd);
-    border-radius: 12px;
-    padding: 0.75rem;
-    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
-    opacity: 0;
-    visibility: hidden;
-    transform: translateY(6px);
-    transition: opacity .18s ease, transform .18s ease, visibility .18s;
-    z-index: 10;
-    font-size: 0.95rem;
-    line-height: 1.45;
+  position: absolute;
+  left: 0;
+  bottom: 120%;
+  min-width: 260px;
+  max-width: min(420px, 92vw);
+  background: var(--card-bg);
+  color: var(--fg);
+  border: 1px solid var(--card-brd);
+  border-radius: 12px;
+  padding: 0.75rem;
+  box-shadow: 0 12px 30px rgba(0,0,0,.15);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(6px);
+  transition: opacity .18s ease, transform .18s ease, visibility .18s;
+  z-index: 1000;
+  font-size: .95rem;
+  line-height: 1.45;
+}
+
+/* JS toggles this on any device */
+.highlight-card.open {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
 }
 
 .highlight:hover .highlight-card,
@@ -200,6 +217,38 @@ img.logo {
         width: 64px;
         margin-bottom: 1.5em;
     }
+}
+
+/* Mobile: turn the card into a centered “sheet” that never overflows */
+@media (max-width: 640px) {
+  .highlight { position: static; }
+
+  .highlight-card {
+    position: fixed;
+    top: 12px;
+    right: 5%;
+    left: 5%;
+    transform: translateX(-50%);
+    bottom: auto;
+    max-width: calc(100vw - 24px);
+    width: auto;
+    max-height: calc(100vh - 24px);
+    overflow: auto;          /* scroll inside if content is tall */
+    -webkit-overflow-scrolling: touch;
+    border-radius: 12px;
+  }
+}
+
+/* Optional: a little dim background when a card is open on mobile */
+@media (max-width: 640px) {
+  body.card-open::after {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,.15);
+    pointer-events: none;
+    z-index: 999; /* just under the card */
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {

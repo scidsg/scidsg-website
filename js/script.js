@@ -242,3 +242,94 @@ async function revealWords(textNode, full) {
 }
 
 revealAll();
+
+(function () {
+  const PADDING = 12;
+
+  function positionCardDesktop(highlight, card) {
+    // Place above by default
+    const hRect = highlight.getBoundingClientRect();
+    card.style.left = "0";
+    card.style.right = "auto";
+    card.style.bottom = "120%";
+    card.style.top = "auto";
+    card.style.transform = ""; // let CSS handle the small translate
+
+    // Temporarily show to measure
+    card.style.opacity = "0";
+    card.style.visibility = "hidden";
+    card.classList.add("open");
+    const cRect = card.getBoundingClientRect();
+
+    // Horizontal clamp
+    let left = hRect.left;
+    left = Math.max(PADDING, Math.min(window.innerWidth - cRect.width - PADDING, left));
+    card.style.left = left - hRect.left + "px"; // relative to highlight
+
+    // Flip below if not enough room above
+    const above = hRect.top - cRect.height - PADDING;
+    if (above < 0) {
+      card.style.bottom = "auto";
+      card.style.top = "calc(100% + 8px)";
+    }
+
+    // Restore visibility
+    card.style.opacity = "";
+    card.style.visibility = "";
+  }
+
+  function closeOpenCard() {
+    const open = document.querySelector(".highlight-card.open");
+    if (open) {
+      open.classList.remove("open");
+      document.body.classList.remove("card-open");
+    }
+  }
+
+  // Toggle on tap/click
+  document.addEventListener("click", (e) => {
+    const hl = e.target.closest(".highlight");
+    const open = document.querySelector(".highlight-card.open");
+
+    if (hl) {
+      const card = hl.querySelector(".highlight-card");
+      if (open && open !== card) open.classList.remove("open");
+
+      // Toggle
+      const willOpen = !card.classList.contains("open");
+      card.classList.toggle("open");
+
+      // Mobile: add backdrop flag
+      if (window.matchMedia("(max-width: 640px)").matches) {
+        document.body.classList.toggle("card-open", willOpen);
+      } else if (willOpen) {
+        // Desktop: keep inside viewport
+        positionCardDesktop(hl, card);
+      }
+
+      e.preventDefault();
+      e.stopPropagation();
+      return;
+    }
+
+    // Clicked outside
+    if (open) {
+      closeOpenCard();
+    }
+  });
+
+  // Close on Escape
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") closeOpenCard();
+  });
+
+  // Re-clamp on resize/orientation change
+  window.addEventListener("resize", () => {
+    const open = document.querySelector(".highlight-card.open");
+    if (!open) return;
+    const hl = open.closest(".highlight");
+    if (hl && !window.matchMedia("(max-width: 640px)").matches) {
+      positionCardDesktop(hl, open);
+    }
+  });
+})();
