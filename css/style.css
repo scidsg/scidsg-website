@@ -8,7 +8,6 @@
     --card-brd: #f3f3f3;
 }
 
-/* Local font */
 @font-face {
     font-family: "Atkinson Hyperlegible";
     src:
@@ -31,7 +30,6 @@
 
 html,
 body {
-    /* prevent inner scrollers by not fixing height */
     min-height: 100%;
     height: auto;
     margin: 0;
@@ -58,7 +56,6 @@ a {
     color: var(--accent);
 }
 
-/* ensure only the page scrolls */
 .wrap {
     width: min(850px, 100%);
     overflow: visible;
@@ -86,12 +83,10 @@ img.logo {
     }
 }
 
-/* kill any accidental inner scroller on #text */
 #text {
     display: block;
     max-width: 100%;
     overflow: visible;
-    /* no scrollbars inside */
     contain: none;
 }
 
@@ -145,7 +140,6 @@ img.logo {
     transform: scaleX(1);
 }
 
-/* Card with optional image support */
 .highlight-card {
     position: absolute;
     left: 0;
