@@ -5,7 +5,7 @@
     --accent: #8310b5;
     --highlight: #8410b518;
     --card-bg: #fcfcfc;
-    --card-brd: #f3f3f3;
+    --card-brd: #e0e0e0;
 }
 
 @font-face {
@@ -154,7 +154,7 @@ img.logo {
   position: absolute;
   left: 0;
   bottom: 120%;
-  min-width: 260px;
+  min-width: 360px;
   max-width: min(420px, 92vw);
   background: var(--card-bg);
   color: var(--fg);
@@ -225,15 +225,14 @@ img.logo {
 
   .highlight-card {
     position: fixed;
-    top: 12px;
+    top: 1.5em;
     right: 5%;
     left: 5%;
-    transform: translateX(-50%);
     bottom: auto;
     max-width: calc(100vw - 24px);
     width: auto;
     max-height: calc(100vh - 24px);
-    overflow: auto;          /* scroll inside if content is tall */
+    overflow: auto;
     -webkit-overflow-scrolling: touch;
     border-radius: 12px;
   }
