@@ -196,7 +196,7 @@ function tokenizeWords(s) {
 function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
 async function revealAll() {
-    await sleep(800);
+    await sleep(1000);
 
     for (let i = 0; i < lines.length; i++) {
         const line = lines[i];
