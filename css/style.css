@@ -232,6 +232,7 @@ img.logo {
     max-width: calc(100vw - 24px);
     width: auto;
     max-height: calc(100vh - 24px);
+    min-width: 320px;
     overflow: auto;
     -webkit-overflow-scrolling: touch;
     border-radius: 12px;
