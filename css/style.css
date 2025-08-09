@@ -6,6 +6,7 @@
     --highlight: #8410b518;
     --card-bg: #fcfcfc;
     --card-brd: #e0e0e0;
+    --gradient: linear-gradient(135deg, rgba(71, 71, 71, 1) 0%, rgba(91, 91, 91, 1) 100%);
 }
 
 @font-face {
@@ -44,12 +45,39 @@ body {
 }
 
 body {
-  min-height: 100svh;
-  box-sizing: border-box;
-  padding: clamp(24px, 4vw, 64px);
-  display: grid;
-  place-items: start start;
-  overflow-x: hidden;
+    min-height: 100svh;
+    width: 100%;
+    box-sizing: border-box;
+    padding: clamp(4px, 2vw, 8px);
+    display: grid;
+    place-items: start start;
+    overflow-x: hidden;
+    color: var(--fg);
+    background: transparent;
+    position: relative;
+
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    pointer-events: none;
+    background: linear-gradient(135deg,
+            rgba(100, 33, 166, 1) 0%,
+            rgba(86, 65, 193, 1) 50%,
+            rgba(74, 95, 217, 1) 100%);
+    animation: gradient 30s linear infinite;
+    will-change: filter;
+    transform: translateZ(0);
+    /* helps Safari/GPU */
+}
+
+@media (prefers-reduced-motion: reduce) {
+    body::before {
+        animation: none;
+    }
 }
 
 a {
@@ -57,8 +85,16 @@ a {
 }
 
 .wrap {
-    width: min(850px, 100%);
+    /* width: max-content; */
     overflow: visible;
+    background-color: rgba(255, 255, 255, 0.98);
+    border-radius: 4px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, .15);
+    padding: clamp(24px, 4vw, 64px);
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+
 }
 
 img.smooth-appear {
@@ -77,9 +113,33 @@ img.logo {
         opacity: 0;
         transform: translateY(-.5em);
     }
+
     100% {
         opacity: 1;
         transform: translateY(.5em);
+    }
+}
+
+@keyframes gradient {
+    0% {
+        -webkit-filter: hue-rotate(0);
+        -moz-filter: hue-rotate(0);
+        -ms-filter: hue-rotate(0);
+        filter: hue-rotate(0);
+    }
+
+    50% {
+        -webkit-filter: hue-rotate(360deg);
+        -moz-filter: hue-rotate(360deg);
+        -ms-filter: hue-rotate(360deg);
+        filter: hue-rotate(360deg);
+    }
+
+    100% {
+        -webkit-filter: hue-rotate(0);
+        -moz-filter: hue-rotate(0);
+        -ms-filter: hue-rotate(0);
+        filter: hue-rotate(0);
     }
 }
 
@@ -96,6 +156,9 @@ img.logo {
     font-size: clamp(1.25rem, 2.2vw + 0.5rem, 1.75rem);
     font-weight: 450;
     letter-spacing: 0.01em;
+    animation: none;
+    background: none filter: none;
+    max-width: 960px;
 }
 
 .cursor {
@@ -112,7 +175,6 @@ img.logo {
     }
 }
 
-/* Highlight */
 .highlight {
     position: relative;
     color: var(--accent);
@@ -141,41 +203,40 @@ img.logo {
 }
 
 @media (hover: hover) and (pointer: fine) {
-  .highlight:hover .highlight-card,
-  .highlight:focus-visible .highlight-card {
+
+    .highlight:hover .highlight-card,
+    .highlight:focus-visible .highlight-card {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+    }
+}
+
+.highlight-card {
+    position: absolute;
+    left: 0;
+    bottom: 120%;
+    min-width: 360px;
+    max-width: min(420px, 92vw);
+    background: var(--card-bg);
+    color: var(--fg);
+    border: 1px solid var(--card-brd);
+    border-radius: 12px;
+    padding: 1rem;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, .15);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(6px);
+    transition: opacity .18s ease, transform .18s ease, visibility .18s;
+    z-index: 1000;
+    font-size: .95rem;
+    line-height: 1.45;
+}
+
+.highlight-card.open {
     opacity: 1;
     visibility: visible;
     transform: translateY(0);
-  }
-}
-
-/* Base card */
-.highlight-card {
-  position: absolute;
-  left: 0;
-  bottom: 120%;
-  min-width: 360px;
-  max-width: min(420px, 92vw);
-  background: var(--card-bg);
-  color: var(--fg);
-  border: 1px solid var(--card-brd);
-  border-radius: 12px;
-  padding: 1rem;
-  box-shadow: 0 12px 30px rgba(0,0,0,.15);
-  opacity: 0;
-  visibility: hidden;
-  transform: translateY(6px);
-  transition: opacity .18s ease, transform .18s ease, visibility .18s;
-  z-index: 1000;
-  font-size: .95rem;
-  line-height: 1.45;
-}
-
-/* JS toggles this on any device */
-.highlight-card.open {
-  opacity: 1;
-  visibility: visible;
-  transform: translateY(0);
 }
 
 .highlight:hover .highlight-card,
@@ -212,43 +273,43 @@ img.logo {
     line-height: 1.3;
 }
 
-@media (max-width:640px){
+@media (max-width:640px) {
     img.logo {
         width: 64px;
         margin-bottom: 1.5em;
     }
 }
 
-/* Mobile: turn the card into a centered “sheet” that never overflows */
 @media (max-width: 640px) {
-  .highlight { position: static; }
+    .highlight {
+        position: static;
+    }
 
-  .highlight-card {
-    position: fixed;
-    top: 1.5em;
-    right: 5%;
-    left: 5%;
-    bottom: auto;
-    max-width: calc(100vw - 24px);
-    width: auto;
-    max-height: calc(100vh - 24px);
-    min-width: 320px;
-    overflow: auto;
-    -webkit-overflow-scrolling: touch;
-    border-radius: 12px;
-  }
+    .highlight-card {
+        position: fixed;
+        top: 1.5em;
+        right: 5%;
+        left: 5%;
+        bottom: auto;
+        max-width: calc(100vw - 24px);
+        width: auto;
+        max-height: calc(100vh - 24px);
+        min-width: 320px;
+        overflow: auto;
+        -webkit-overflow-scrolling: touch;
+        border-radius: 12px;
+    }
 }
 
-/* Optional: a little dim background when a card is open on mobile */
 @media (max-width: 640px) {
-  body.card-open::after {
-    content: "";
-    position: fixed;
-    inset: 0;
-    background: rgba(0,0,0,.15);
-    pointer-events: none;
-    z-index: 999; /* just under the card */
-  }
+    body.card-open::after {
+        content: "";
+        position: fixed;
+        inset: 0;
+        background: rgba(0, 0, 0, .15);
+        pointer-events: none;
+        z-index: 999;
+    }
 }
 
 @media (prefers-reduced-motion: reduce) {
