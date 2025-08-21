@@ -1,9 +1,18 @@
 const lines = [
     [
-        { type: 'text', text: "👋 Hi, we're Science & Design, Inc., a 501(c)(3) product development non-profit based in the US that makes free and " },
+        { type: 'text', text: "👋 Hi, we're Science & Design, Inc., a " },
         {
             type: 'hl',
-            text: "open-source software",
+            text: "501(c)(3) product development non-profit",
+            card: {
+                title: "IRS Determination Letter",
+                img: "./img/letter.png",
+            }
+        },
+        { type: 'text', text: " based in the US that makes " },
+        {
+            type: 'hl',
+            text: " free and open-source software",
             card: {
                 title: "Our Github Repo",
                 url: "https://github.com/scidsg"
