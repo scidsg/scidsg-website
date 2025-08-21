@@ -29,8 +29,8 @@ const lines = [
                 title: "Hush Line",
                 url: "https://hushline.app",
                 text: "End-to-end encrypted tip lines for organizations and individuals.",
-                img: "./img/hushline.webp",
-                alt: "Hush Line interface screenshot"
+                img: "./img/hushline.png",
+                alt: "Hush Line interface screenshots with the Personal Server hardware device."
             }
         },
         { type: 'text', text: ". Our platform offers end-to-end encrypted, anonymous tip lines for lawyers, journalists, educators, and more. We're trusted by professionals at organizations such as Whistleblower Partners, LLP, Whistleblowers of America, NPR, LA Times, Bloomberg, HuffPost, ABC News, and BBC." },
