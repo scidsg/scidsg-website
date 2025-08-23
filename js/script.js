@@ -59,7 +59,7 @@ const lines = [
                 title: "Glenn Sorrentino",
                 url: "https://www.linkedin.com/in/glennsorrentino/",
                 text: "Executive Director, Science & Design, Inc.",
-                img: "./img/glenn.png",
+                img: "./img/glenn.gif",
                 alt: "Glenn Sorrentino, Executive Director of Science & Design, Inc."
             }
         },
